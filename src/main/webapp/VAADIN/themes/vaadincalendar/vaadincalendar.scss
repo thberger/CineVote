@@ -78,8 +78,12 @@ $v-app-background-color: transparentize(rgba(0, 0, 0, 0.5), 0.1);
       color: rgba(240, 240, 240, 0.7);
     }
 
+    .v-has-caption {
+      width: 100%;
+    }
+
     .v-textfield, .v-textarea {
-      width: 140%;
+      width: 100%;
       color: rgba(240, 240, 240, 0.9);
     }
   }
