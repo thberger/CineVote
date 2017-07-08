@@ -9,6 +9,6 @@ import lombok.Data;
 @Data
 public class CinemaEvent extends BasicEvent {
 
-    String location;
-    String url;
+    private String location;
+    private String url;
 }

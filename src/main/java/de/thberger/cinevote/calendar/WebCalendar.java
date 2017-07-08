@@ -1,5 +1,6 @@
 package de.thberger.cinevote.calendar;
 
+import lombok.extern.slf4j.Slf4j;
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
@@ -20,17 +21,18 @@ import java.util.stream.Collectors;
 /**
  * @author thb
  */
-public class WebCalendar {
+@Slf4j
+class WebCalendar {
 
     private final Calendar calendar;
     private final SimpleDateFormat dateFormat;
 
-    public WebCalendar(String webcalUrl) throws IOException, ParserException {
+    WebCalendar(String webcalUrl) throws IOException, ParserException {
         calendar = readRemoteCalendar(webcalUrl);
         dateFormat = new SimpleDateFormat("yyyyMMdd'T'HHmmss");
     }
 
-    public Calendar readRemoteCalendar(String webcalUrl) throws IOException, ParserException {
+    private Calendar readRemoteCalendar(String webcalUrl) throws IOException, ParserException {
         InputStreamReader in = getCalendarAsStream(webcalUrl);
         BufferedReader reader = new BufferedReader(in);
         CalendarBuilder builder = new CalendarBuilder();
@@ -47,7 +49,7 @@ public class WebCalendar {
         }
     }
 
-    public List<CinemaEvent> getEvents() {
+    List<CinemaEvent> getEvents() {
         return calendar.getComponents().stream()
                 .map(this::createEventFromCalendarComponent)
                 .collect(Collectors.toList());
@@ -67,16 +69,15 @@ public class WebCalendar {
     }
 
     private Date parseDate(String source) {
-        //20170516T213000
         try {
             if (source != null) {
                 return dateFormat.parse(source);
             } else {
-                System.err.println("No date provided!");
+                log.warn("No date provided!");
                 return null;
             }
         } catch (ParseException e) {
-            System.err.println("Failed to parse date: " + source);
+            log.warn("Failed to parse date: " + source);
             return null;
         }
     }

@@ -118,7 +118,6 @@ public class CineVoteUI extends UI {
         Calendar calendar = new Calendar();
         calendar.setEventProvider(calendarEventProvider);
         calendar.setCaptionAsHtml(true);
-        //calendar.setFirstDayOfWeek(MONDAY);
         calendar.setWidth("100%");
         calendar.setHeight("100%");
         calendar.setFirstVisibleHourOfDay(19);

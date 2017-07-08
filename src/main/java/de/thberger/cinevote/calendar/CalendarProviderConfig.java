@@ -2,6 +2,7 @@ package de.thberger.cinevote.calendar;
 
 import de.thberger.cinevote.AppConfig;
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import net.fortuna.ical4j.data.ParserException;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -13,6 +14,7 @@ import java.io.IOException;
  */
 @Configuration
 @AllArgsConstructor
+@Slf4j
 public class CalendarProviderConfig {
 
     private AppConfig appConfig;
@@ -31,7 +33,7 @@ public class CalendarProviderConfig {
         try {
             return new WebCalendar(webcalUrl);
         } catch (IOException | ParserException e) {
-            e.printStackTrace();
+            log.error("Error importing calendar from URL " + webcalUrl, e);
             return null;
         }
     }
