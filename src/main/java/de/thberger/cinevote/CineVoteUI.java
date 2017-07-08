@@ -11,13 +11,11 @@ import de.thberger.cinevote.calendar.WebCalendarEventProvider;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import javax.annotation.PostConstruct;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
 import static de.thberger.cinevote.DateHelpers.getFirstDayOfWeek;
-import static de.thberger.cinevote.DateHelpers.getLastDayOfWeek;
 import static de.thberger.cinevote.DateHelpers.getNowPlusDays;
 
 
@@ -107,33 +105,11 @@ public class CineVoteUI extends UI {
         caption = new Label();
         caption.setStyleName("main-title");
         topBar.addComponent(caption);
-        //topBar.addComponent(createMonthButton());
-        //topBar.addComponent(createWeekButton());
         return topBar;
     }
 
-    private Button createWeekButton() {
-        Button buttonWeek = new Button("Woche");
-        buttonWeek.setStyleName("viewSwitch");
-        buttonWeek.addClickListener((Button.ClickListener) event -> showWeek());
-        return buttonWeek;
-    }
-
-    private void showWeek() {
-        setTitle("Diese Woche");
-        calendar.setStartDate(getFirstDayOfWeek());
-        calendar.setEndDate(getLastDayOfWeek());
-    }
-
-    private Button createMonthButton() {
-        Button buttonMonth = new Button("Monat");
-        buttonMonth.setStyleName("viewSwitch");
-        buttonMonth.addClickListener((Button.ClickListener) event -> showMonth());
-        return buttonMonth;
-    }
-
     private void showMonth() {
-        setTitle("4 Wochen");
+        setTitle("Monatsansicht");
         calendar.setStartDate(getFirstDayOfWeek());
         calendar.setEndDate(getNowPlusDays(27));
     }
