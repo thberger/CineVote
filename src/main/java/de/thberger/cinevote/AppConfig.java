@@ -16,9 +16,13 @@ public class AppConfig {
 
     @Getter @Setter
     public static class WebCalendarConfig {
+        boolean enabled;
         String name;
         String url;
         String style;
-        boolean enabled;
+        boolean authenticated;
+        String username;
+        String password;
+        String collection;
     }
 }

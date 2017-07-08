@@ -158,16 +158,18 @@ $v-app-background-color: transparentize(rgba(0, 0, 0, 0.5), 0.1);
     color: black;
   }
 
-  // CALENDER THEME 1
+  // CALENDER THEMES
 
   .v-calendar-event-theme1 {
     background-color: lightblue;
   }
 
-  // CALENDER THEME 2
-
   .v-calendar-event-theme2 {
     background-color: lightcoral;
+  }
+
+  .v-calendar-event-theme3 {
+    background-color: burlywood;
   }
 
 }

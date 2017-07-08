@@ -86,7 +86,13 @@
 			<version>${ical4j.version}</version>
 		</dependency>
 
-		<dependency>
+        <dependency>
+            <groupId>org.mnode.ical4j</groupId>
+            <artifactId>ical4j-connector</artifactId>
+            <version>0.9.4.3</version>
+        </dependency>
+
+        <dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>

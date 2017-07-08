@@ -23,17 +23,17 @@ public class CalendarProviderConfig {
     WebCalendarEventProvider webCalendarEventProvider() {
         WebCalendarEventProvider eventProvider = new WebCalendarEventProvider();
         for (AppConfig.WebCalendarConfig w : appConfig.getWebCalendars()) {
-            WebCalendar webCalendar = readCalendar(w.getUrl());
+            WebCalendar webCalendar = readCalendar(w);
             eventProvider.addWebCalendar(webCalendar, w.getStyle());
         }
         return eventProvider;
     }
 
-    private WebCalendar readCalendar(String webcalUrl) {
+    private WebCalendar readCalendar(AppConfig.WebCalendarConfig webCalendarConfig) {
         try {
-            return new WebCalendar(webcalUrl);
+            return new WebCalendar(webCalendarConfig);
         } catch (IOException | ParserException e) {
-            log.error("Error importing calendar from URL " + webcalUrl, e);
+            log.error("Error importing calendar from URL " + webCalendarConfig, e);
             return null;
         }
     }

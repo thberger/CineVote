@@ -1,11 +1,13 @@
 package de.thberger.cinevote.calendar;
 
+import de.thberger.cinevote.AppConfig;
 import lombok.extern.slf4j.Slf4j;
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
 import net.fortuna.ical4j.model.Property;
 import net.fortuna.ical4j.model.component.CalendarComponent;
+import org.apache.commons.codec.binary.Base64;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -26,29 +28,40 @@ import java.util.stream.Collectors;
 @Slf4j
 class WebCalendar {
 
+    private static final String DEFAULT_DATA_PATTERN = "yyyyMMdd'T'HHmmss";
     private final Calendar calendar;
     private final SimpleDateFormat dateFormat;
 
-    WebCalendar(String webcalUrl) throws IOException, ParserException {
-        calendar = readRemoteCalendar(webcalUrl);
-        dateFormat = new SimpleDateFormat("yyyyMMdd'T'HHmmss");
+    WebCalendar(AppConfig.WebCalendarConfig config) throws IOException, ParserException {
+        calendar = readRemoteCalendar(config);
+        dateFormat = new SimpleDateFormat(DEFAULT_DATA_PATTERN);
     }
 
-    private Calendar readRemoteCalendar(String webcalUrl) throws IOException, ParserException {
-        InputStreamReader in = getCalendarAsStream(webcalUrl);
+    private Calendar readRemoteCalendar(AppConfig.WebCalendarConfig config) throws IOException, ParserException {
+        InputStreamReader in = getCalendarAsStream(config);
         BufferedReader reader = new BufferedReader(in);
         CalendarBuilder builder = new CalendarBuilder();
         return builder.build(reader);
     }
 
-    private InputStreamReader getCalendarAsStream(String webcalUrl) {
+    private InputStreamReader getCalendarAsStream(AppConfig.WebCalendarConfig config) {
         try {
-            URL calendarURL = new URL(webcalUrl.replace("webcal", "http"));
-            URLConnection connection = calendarURL.openConnection();
+            URLConnection connection = getUrlConnection(config);
             return new InputStreamReader(connection.getInputStream());
         } catch (IOException e) {
-            throw new IllegalArgumentException("Invalid calendar URL", e);
+            throw new RuntimeException("Cannot read remote calender with URL " + config.getUrl(), e);
         }
+    }
+
+    private URLConnection getUrlConnection(AppConfig.WebCalendarConfig config) throws IOException {
+        URL url = new URL(config.getUrl().replace("webcal", "http"));
+        URLConnection connection = url.openConnection();
+        if (config.isAuthenticated()) {
+            String userpass = config.getUsername() + ":" + config.getPassword();
+            String basicAuth = "Basic " + new String(new Base64().encode(userpass.getBytes()));
+            connection.setRequestProperty("Authorization", basicAuth);
+        }
+        return connection;
     }
 
     List<CinemaEvent> getEvents() {
