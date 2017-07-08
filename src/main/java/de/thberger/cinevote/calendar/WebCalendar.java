@@ -19,7 +19,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * @author thb
+ * Creates a ical4j {@link Calendar} instance from a webcal resource by
+ * mapping all fields. The events can be fetched as stream of {@link CinemaEvent}s
+ * which are compatible to Vaadin calendar.
  */
 @Slf4j
 class WebCalendar {
@@ -69,27 +71,22 @@ class WebCalendar {
     }
 
     private Date parseDate(String source) {
+        Date date = null;
         try {
             if (source != null) {
-                return dateFormat.parse(source);
+                date = dateFormat.parse(source);
             } else {
                 log.warn("No date provided!");
-                return null;
             }
         } catch (ParseException e) {
             log.warn("Failed to parse date: " + source);
-            return null;
         }
+        return date;
     }
 
     private String getValue(CalendarComponent comp, String name) {
         Property prop = comp.getProperty(name);
-        if (prop != null) {
-            return prop.getValue();
-        } else {
-            return null;
-        }
+        return (prop != null) ? prop.getValue() : null;
     }
-
 
 }

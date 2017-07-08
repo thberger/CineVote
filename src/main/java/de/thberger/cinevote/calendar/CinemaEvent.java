@@ -4,7 +4,8 @@ import com.vaadin.ui.components.calendar.event.BasicEvent;
 import lombok.Data;
 
 /**
- * @author thb
+ * Extends Vaadin's {@link BasicEvent} by two properties that are relevant
+ * for the cinema shows.
  */
 @Data
 public class CinemaEvent extends BasicEvent {
