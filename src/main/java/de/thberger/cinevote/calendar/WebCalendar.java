@@ -1,4 +1,4 @@
-package de.thberger.cinevote;
+package de.thberger.cinevote.calendar;
 
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;

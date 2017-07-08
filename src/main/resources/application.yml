@@ -1,1 +1,12 @@
 server.port: 9998
+
+cinevote:
+  webCalendars:
+    -
+      url: webcal://piffl-medien.de/flk/kalender/kinokalender_friedrichshain.ics
+      name: Freiluftkino Friedrichshain
+      style: theme1
+    -
+      url: webcal://piffl-medien.de/flk/kalender/kinokalender_kreuzberg.ics
+      name: Freiluftkino Kreuzberg
+      style: theme2

@@ -6,8 +6,12 @@ import com.vaadin.server.VaadinRequest;
 import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.ui.*;
 import com.vaadin.ui.components.calendar.CalendarComponentEvents;
+import de.thberger.cinevote.calendar.CinemaEvent;
+import de.thberger.cinevote.calendar.WebCalendarEventProvider;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.annotation.PostConstruct;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
@@ -15,7 +19,6 @@ import java.util.Locale;
 import static de.thberger.cinevote.DateHelpers.getFirstDayOfWeek;
 import static de.thberger.cinevote.DateHelpers.getLastDayOfWeek;
 import static de.thberger.cinevote.DateHelpers.getNowPlusDays;
-import static java.util.Calendar.MONDAY;
 
 
 @SuppressWarnings("serial")
@@ -24,7 +27,6 @@ import static java.util.Calendar.MONDAY;
 public class CineVoteUI extends UI {
 
     private final SimpleDateFormat sf = new SimpleDateFormat("EEE, d. MMMMM HH:mm");
-    private Kinokalender kinokalender = new Kinokalender();
     private Calendar calendar;
     private WebCalendarEventProvider calendarEventProvider;
     private Label caption;
@@ -35,12 +37,15 @@ public class CineVoteUI extends UI {
     private TextField movieEnd;
     private Link movieUrl;
 
+    @Autowired
+    public void setCalendarEventProvider(WebCalendarEventProvider eventProvider) {
+        calendarEventProvider = eventProvider;
+    }
+
     @Override
     protected void init(VaadinRequest request) {
         this.setLocale(Locale.GERMANY);
-        calendarEventProvider = new WebCalendarEventProvider();
         setupUiComponents();
-        updateCalendars();
         showMonth();
     }
 
@@ -190,12 +195,6 @@ public class CineVoteUI extends UI {
         String title = "Programm Freiluftkinos - " + subTitle;
         caption.setValue(title);
         super.getPage().setTitle(title);
-    }
-
-    private void updateCalendars() {
-        calendarEventProvider.clearCalendars();
-        calendarEventProvider.addWebCalendar(kinokalender.fHain(), "theme1");
-        calendarEventProvider.addWebCalendar(kinokalender.kberg(), "theme2");
     }
 
 }

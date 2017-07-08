@@ -1,4 +1,4 @@
-package de.thberger.cinevote;
+package de.thberger.cinevote.calendar;
 
 import com.vaadin.ui.components.calendar.event.BasicEvent;
 import lombok.Data;
