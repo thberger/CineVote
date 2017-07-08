@@ -39,17 +39,18 @@ the event entries in the calendar. Have a look into `src/main/webapp/VAADIN/them
     
 ## FAQ
 
-### My IDE shows compile errors:
+### My IDE has compile errors
 
 The application uses Project [Lombok](https://projectlombok.org/) to automatically add Getters, Setters, Equals and others methods
  to the byte code. Your IDE must be enabled to process the Lombok annotations.
  See [here](https://stackoverflow.com/questions/9424364/cant-compile-project-when-im-using-lombok-under-intellij-idea) for IDEA instructions.
  
+For Maven you don't have to do anything. The project should compile out of the box.
 
-### Why is this still Vaadin 7?
+### Why is this still Vaadin 7
 
 The Vaadin Calender component is not available in Vaadin 8 yet.
 
-#### Where is the voting function?
+### I can't find the voting function
 
 Will be implemented soon. Pull requests are welcome.
