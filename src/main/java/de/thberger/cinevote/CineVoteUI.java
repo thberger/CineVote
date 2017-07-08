@@ -1,5 +1,6 @@
 package de.thberger.cinevote;
 
+import com.google.gwt.thirdparty.guava.common.base.Strings;
 import com.vaadin.annotations.Theme;
 import com.vaadin.server.ExternalResource;
 import com.vaadin.server.VaadinRequest;
@@ -24,7 +25,8 @@ import static de.thberger.cinevote.DateHelpers.getNowPlusDays;
 @SpringUI
 public class CineVoteUI extends UI {
 
-    private final SimpleDateFormat sf = new SimpleDateFormat("EEE, d. MMMMM HH:mm");
+    private static final String GERMAN_DATE_TIME_FORMAT = "EEE, d. MMMMM '-' HH:mm 'Uhr'";
+    private final SimpleDateFormat sf = new SimpleDateFormat(GERMAN_DATE_TIME_FORMAT);
     private Calendar calendar;
     private WebCalendarEventProvider calendarEventProvider;
     private Label caption;
@@ -149,10 +151,11 @@ public class CineVoteUI extends UI {
 
     private String getDescription(CinemaEvent cinemaEvent) {
         String caption = cinemaEvent.getCaption().toUpperCase() + " ";
-        if (cinemaEvent.getDescription().startsWith(caption)) {
-            return cinemaEvent.getDescription().replaceFirst(caption, "");
+        String description = Strings.nullToEmpty(cinemaEvent.getDescription());
+        if (description.startsWith(caption)) {
+            return description.replaceFirst(caption, "");
         } else {
-            return cinemaEvent.getDescription();
+            return description;
         }
     }
 
@@ -162,7 +165,7 @@ public class CineVoteUI extends UI {
 
     private void setReadOnlyField(AbstractTextField field, String newValue) {
         field.setReadOnly(false);
-        field.setValue(newValue);
+        field.setValue(Strings.nullToEmpty(newValue));
         field.setReadOnly(true);
     }
 

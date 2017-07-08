@@ -13,17 +13,17 @@ public class WebCalendarEventProvider extends BasicEventProvider {
         this.webCalendars = new LinkedList<>();
     }
 
-    public void addWebCalendar(WebCalendar webCalendar, String styleName) {
+    void addWebCalendar(WebCalendar webCalendar, String styleName) {
         webCalendars.add(webCalendar);
         webCalendar.getEvents().forEach(e ->  addEvent(e, styleName));
     }
 
-    public void clearCalendars() {
-        webCalendars.clear();
-    }
-
-    public void addEvent(CinemaEvent event, String styleName) {
+    private void addEvent(CinemaEvent event, String styleName) {
         event.setStyleName(styleName);
         super.addEvent(event);
+    }
+
+    public void clearCalendars() {
+        webCalendars.clear();
     }
 }
