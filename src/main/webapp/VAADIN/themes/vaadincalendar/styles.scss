@@ -1,0 +1,9 @@
+@import "addons";
+@import "vaadincalendar";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in vaadincalendar.scss */
+.vaadincalendar {
+  @include addons;
+  @include vaadincalendar;
+}

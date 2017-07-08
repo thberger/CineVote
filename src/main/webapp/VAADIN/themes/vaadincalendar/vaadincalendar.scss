@@ -1,0 +1,169 @@
+// Global variable overrides. Must be declared before importing Valo.
+
+// Defines the plaintext font size, weight and family. Font size affects general component sizing.
+//$v-font-size: 16px;
+//$v-font-weight: 300;
+//$v-font-family: "Open Sans", sans-serif;
+
+// Defines the border used by all components.
+//$v-border: 1px solid (v-shade 0.7);
+//$v-border-radius: 4px;
+
+// Affects the color of some component elements, e.g Button, Panel title, etc
+//$v-background-color: hsl(210, 0%, 98%);
+// Affects the color of content areas, e.g  Panel and Window content, TextField input etc
+$v-app-background-color: transparentize(rgba(0, 0, 0, 0.5), 0.1);
+
+// Affects the visual appearance of all components
+//$v-gradient: v-linear 8%;
+//$v-bevel-depth: 30%;
+//$v-shadow-opacity: 5%;
+
+// Defines colors for indicating status (focus, success, failure)
+//$v-focus-color: valo-focus-color(); // Calculates a suitable color automatically
+//$v-friendly-color: #2c9720;
+//$v-error-indicator-color: #ed473b;
+
+// For more information, see: https://vaadin.com/book/-/page/themes.valo.html
+// Example variants can be copy/pasted from https://vaadin.com/wiki/-/wiki/Main/Valo+Examples
+
+@import "../valo/valo.scss";
+
+.v-generated-body {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-title {
+  font-size: 1.5em;
+  color: rgba(230, 230, 230, 0.9);
+}
+
+.topBar {
+  margin-bottom: 30px;
+}
+
+.v-slot-viewSwitch {
+  float: right;
+}
+
+@mixin vaadincalendar {
+  @include valo;
+
+  .v-panel-caption-detailPanel {
+    color: #ffffff;
+    background: rgba(100, 100, 100, 0.6) none;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    border-bottom-width: 0;
+    border-radius: 0 0 0 0;
+  }
+
+  .v-link-movieUrl a {
+    color: rgba(240, 240, 240, 0.9);
+    margin-left: 5px;
+  }
+
+  .v-app, .v-app-loading {
+    color: black;
+  }
+
+  .v-panel-detailPanel {
+
+    .v-captiontext {
+      color: rgba(240, 240, 240, 0.7);
+    }
+
+    .v-textfield, .v-textarea {
+      width: 140%;
+      color: rgba(240, 240, 240, 0.9);
+    }
+  }
+
+  .v-caption {
+    margin-left: 0;
+    color: rgba(100, 100, 100, 0.6);
+  }
+
+  .v-calendar-day-number {
+    margin: 0 5px 5px 0;
+    color: #000;
+  }
+
+  .v-calendar-header-day {
+    background-color: rgba(99,99,99,0.09)
+  }
+
+  .v-calendar-header-month {
+    color: #ffffff;
+    background-color: rgba(100, 100, 100, 0.6);
+  }
+
+  .v-calendar-month-sizedheight .v-calendar-month-day {
+    background-color: rgba(240, 240, 240, 0.9);
+  }
+
+  .v-calendar-month-sizedheight .v-calendar-month-day-today {
+    background-color: rgba(240, 240, 240, 1.0);
+
+    .v-calendar-day-number {
+      border-top: 3px solid white;
+      font-weight: 800;
+      color: black;
+    }
+  }
+
+  .v-calendar-day-number:hover {
+    color: black;
+    font-weight: 800;
+  }
+
+  .v-calendar-month-day {
+    height: 130px;
+    margin-top: 1px;
+    margin-left: 1px;
+    font-weight: 400;
+  }
+
+  .v-calendar-week-wrapper .v-calendar-event {
+    color: black;
+    background-color: rgba(240, 240, 240, 0.9);
+
+    .v-calendar-event-content {
+      display: none;
+    }
+
+  }
+
+  .v-calendar-week-number {
+    display: none;
+  }
+
+  // Do not show circle
+  .v-calendar-event-month::before {
+    content: '';
+  }
+
+  .v-calendar-event-month {
+    margin-left: 3px;
+    margin-right: 3px;
+    color: black;
+  }
+
+  // CALENDER THEME 1
+
+  .v-calendar-event-theme1 {
+    background-color: lightblue;
+  }
+
+  // CALENDER THEME 2
+
+  .v-calendar-event-theme2 {
+    background-color: lightcoral;
+  }
+
+}
