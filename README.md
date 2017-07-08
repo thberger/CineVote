@@ -1,4 +1,4 @@
-# CineCal
+# CineVote
 
 Calendar application to schedule cinema visits with your friends. 
 It imports the calender events from multiple remote iCal streams.
