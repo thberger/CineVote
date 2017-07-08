@@ -3,7 +3,7 @@
 Calendar application to schedule cinema visits with your friends. 
 It imports the calender events from multiple remote iCal streams.
 
-
+![Screenshot](docs/screenshot.png?raw=true "Screenshot")
 
 ## Build and Run
     mvn spring-boot:run
