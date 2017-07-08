@@ -25,7 +25,6 @@
 		<vaadin.spring.version>1.2.0</vaadin.spring.version>
 		<vaadin.version>7.4.1</vaadin.version>
 		<ical4j.version>2.0.0</ical4j.version>
-		<lombok.version>1.16.12</lombok.version>
 	</properties>
 
 	<dependencies>
@@ -90,7 +89,6 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>${lombok.version}</version>
 		</dependency>
 
         <!-- Test dependencies -->
