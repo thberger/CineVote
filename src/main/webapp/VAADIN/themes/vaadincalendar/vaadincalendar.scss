@@ -165,11 +165,15 @@ $v-app-background-color: transparentize(rgba(0, 0, 0, 0.5), 0.1);
   }
 
   .v-calendar-event-theme2 {
-    background-color: lightcoral;
+    background-color: rgba(240, 128, 128, 0.54);
   }
 
   .v-calendar-event-theme3 {
     background-color: burlywood;
+  }
+
+  .v-calendar-event-theme4 {
+    background-color: rgba(168, 213, 155, 0.59);
   }
 
 }
