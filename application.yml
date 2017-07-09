@@ -1,0 +1,21 @@
+# Contains all cinema calenders. This configuration will be merged
+# with the default configuration located in the JAR resources.
+
+cinevote:
+  webCalendars:
+    -
+      url: webcal://piffl-medien.de/flk/kalender/kinokalender_friedrichshain.ics
+      name: Freiluftkino Friedrichshain
+      style: theme1
+    -
+      url: webcal://piffl-medien.de/flk/kalender/kinokalender_kreuzberg.ics
+      name: Freiluftkino Kreuzberg
+      style: theme2
+    -
+      url: https://posteo.de/calendars/ics/syw283vawr6norq8t1kkn8q0rntrgvgi
+      name: Sommerkino Kulturforum
+      style: theme3
+    -
+      url: https://posteo.de/calendars/ics/syw283vawr6norq8t1kkn8q0rntrgvgi
+      name: Freiluftkino Hasenheide
+      style: theme4

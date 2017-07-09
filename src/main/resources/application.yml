@@ -1,16 +1,5 @@
-server.port: 9998
+# This file is shipped with the JAR and serves as basis configuration.
+# It is recommended to create an application.yml file and place it next to
+# the JAR which contains the settings for productive mode with all calendars.
 
-cinevote:
-  webCalendars:
-    -
-      url: webcal://piffl-medien.de/flk/kalender/kinokalender_friedrichshain.ics
-      name: Freiluftkino Friedrichshain
-      style: theme1
-    -
-      url: webcal://piffl-medien.de/flk/kalender/kinokalender_kreuzberg.ics
-      name: Freiluftkino Kreuzberg
-      style: theme2
-    -
-      url: https://posteo.de/calendars/ics/syw283vawr6norq8t1kkn8q0rntrgvgi
-      name: Sommerkino Kulturforum
-      style: theme3
+server.port: 9998
