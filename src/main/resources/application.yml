@@ -1,4 +1,4 @@
-# This file is shipped with the JAR and serves as basis configuration.
+# This file is shipped with the JAR and serves as base configuration.
 # It is recommended to create an application.yml file and place it next to
 # the JAR which contains the settings for productive mode with all calendars.
 
