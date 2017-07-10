@@ -5,6 +5,11 @@ It imports the calender events from multiple remote iCal streams.
 
 ![Screenshot](docs/screenshot.png?raw=true "Screenshot")
 
+## Prerequisites
+- Install Java JDK 1.7+
+- Install maven https://maven.apache.org/install.html
+    
+
 ## Build and Run
     mvn spring-boot:run
     
