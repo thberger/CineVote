@@ -1,4 +1,4 @@
-package de.thberger.cinevote;
+package de.thberger.cinevote.helpers;
 
 import java.util.Calendar;
 import java.util.Date;
@@ -8,9 +8,15 @@ import static java.util.Calendar.*;
 /**
  * @author thb
  */
-class DateHelpers {
+public class DateHelpers {
 
-    static Date getDayInOneMonth() {
+    public static Date getDayInFourWeeks() {
+        Calendar cal = Calendar.getInstance();
+        cal.add(DAY_OF_WEEK, 27);
+        return cal.getTime();
+    }
+
+    public static Date getDayInOneMonth() {
         Calendar cal = Calendar.getInstance();
         cal.add(MONTH, 1);
         return cal.getTime();
@@ -23,13 +29,13 @@ class DateHelpers {
         return cal.getTime();
     }
 
-    static Date getFirstDayOfWeek() {
+    public static Date getFirstDayOfWeek() {
         Calendar cal = Calendar.getInstance();
         cal.set(DAY_OF_WEEK, cal.getFirstDayOfWeek());
         return cal.getTime();
     }
 
-    static Date getNowPlusDays(int amount) {
+    public static Date getNowPlusDays(int amount) {
         Calendar cal = Calendar.getInstance();
         cal.add(DAY_OF_WEEK, amount);
         return cal.getTime();

@@ -56,11 +56,15 @@ class WebCalendar {
         URL url = new URL(config.getUrl().replace("webcal", "http"));
         URLConnection connection = url.openConnection();
         if (config.isAuthenticated()) {
-            String userPass = config.getUsername() + ":" + config.getPassword();
-            String basicAuth = "Basic " + new String(new Base64().encode(userPass.getBytes()));
-            connection.setRequestProperty("Authorization", basicAuth);
+            setBasicAuth(config, connection);
         }
         return connection;
+    }
+
+    private void setBasicAuth(AppConfig.WebCalendarConfig config, URLConnection connection) {
+        String userPass = config.getUsername() + ":" + config.getPassword();
+        String basicAuth = "Basic " + new String(new Base64().encode(userPass.getBytes()));
+        connection.setRequestProperty("Authorization", basicAuth);
     }
 
     List<CinemaEvent> getEvents() {
