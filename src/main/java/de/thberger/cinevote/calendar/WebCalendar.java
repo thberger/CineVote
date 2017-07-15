@@ -5,8 +5,11 @@ import lombok.extern.slf4j.Slf4j;
 import net.fortuna.ical4j.data.CalendarBuilder;
 import net.fortuna.ical4j.data.ParserException;
 import net.fortuna.ical4j.model.Calendar;
+import net.fortuna.ical4j.model.Content;
 import net.fortuna.ical4j.model.Property;
+import net.fortuna.ical4j.model.TimeZone;
 import net.fortuna.ical4j.model.component.CalendarComponent;
+import net.fortuna.ical4j.model.property.DateProperty;
 import org.apache.commons.codec.binary.Base64;
 
 import java.io.BufferedReader;
@@ -14,10 +17,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.time.ZoneId;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 /**
@@ -28,13 +30,11 @@ import java.util.stream.Collectors;
 @Slf4j
 class WebCalendar {
 
-    private static final String DEFAULT_DATA_PATTERN = "yyyyMMdd'T'HHmmss";
-    private final Calendar calendar;
-    private final SimpleDateFormat dateFormat;
+    private final Calendar iCalCalendar;
 
     WebCalendar(AppConfig.WebCalendarConfig config) throws IOException, ParserException {
-        calendar = readRemoteCalendar(config);
-        dateFormat = new SimpleDateFormat(DEFAULT_DATA_PATTERN);
+        iCalCalendar = readRemoteCalendar(config);
+        getDescription();
     }
 
     private Calendar readRemoteCalendar(AppConfig.WebCalendarConfig config) throws IOException, ParserException {
@@ -57,49 +57,57 @@ class WebCalendar {
         URL url = new URL(config.getUrl().replace("webcal", "http"));
         URLConnection connection = url.openConnection();
         if (config.isAuthenticated()) {
-            String userpass = config.getUsername() + ":" + config.getPassword();
-            String basicAuth = "Basic " + new String(new Base64().encode(userpass.getBytes()));
+            String userPass = config.getUsername() + ":" + config.getPassword();
+            String basicAuth = "Basic " + new String(new Base64().encode(userPass.getBytes()));
             connection.setRequestProperty("Authorization", basicAuth);
         }
         return connection;
     }
 
     List<CinemaEvent> getEvents() {
-        return calendar.getComponents().stream()
+        return iCalCalendar.getComponents().stream()
+                .filter(c -> c.getName().equals("VEVENT"))
                 .map(this::createEventFromCalendarComponent)
                 .collect(Collectors.toList());
     }
 
+    public String getDescription() {
+        Optional<Property> description = Optional.ofNullable(iCalCalendar.getProperty("X-WR-CALDESC"));
+        return description.map(Content::getValue).orElse(null);
+    }
+
     private CinemaEvent createEventFromCalendarComponent(CalendarComponent comp) {
         CinemaEvent calendarEvent = new CinemaEvent();
-        calendarEvent.setCaption(getValue(comp, "SUMMARY"));
-        calendarEvent.setLocation(getValue(comp, "LOCATION"));
-        calendarEvent.setUrl(getValue(comp, "URL"));
-        calendarEvent.setDescription(getValue(comp, "DESCRIPTION"));
-        String dtstart = getValue(comp, "DTSTART");
-        calendarEvent.setStart(parseDate(dtstart));
-        String dtend = getValue(comp, "DTEND");
-        calendarEvent.setEnd(parseDate(dtend));
+        try {
+            calendarEvent.setCaption(getValue(comp, "SUMMARY"));
+            calendarEvent.setLocation(getValue(comp, "LOCATION"));
+            calendarEvent.setUrl(getValue(comp, "URL"));
+            calendarEvent.setDescription(getValue(comp, "DESCRIPTION"));
+
+            DateProperty eventStart = getDateProperty(comp, "DTSTART");
+            calendarEvent.setStart(eventStart.getDate());
+            calendarEvent.setTimeZone(getTimeZone(eventStart));
+
+            DateProperty eventEnd = getDateProperty(comp, "DTEND");
+            calendarEvent.setEnd(eventEnd.getDate());
+        } catch (Exception e) {
+            log.error("Failed to create cinema event from event component", e);
+        }
         return calendarEvent;
     }
 
-    private Date parseDate(String source) {
-        Date date = null;
-        try {
-            if (source != null) {
-                date = dateFormat.parse(source);
-            } else {
-                log.warn("No date provided!");
-            }
-        } catch (ParseException e) {
-            log.warn("Failed to parse date: " + source);
-        }
-        return date;
+    private ZoneId getTimeZone(DateProperty dateProperty) {
+        Optional<TimeZone> eventZoneId = Optional.ofNullable(dateProperty.getTimeZone());
+        return eventZoneId.map(t -> ZoneId.of(t.getID())).orElse(ZoneId.systemDefault());
+    }
+
+    private DateProperty getDateProperty(CalendarComponent comp, String name) {
+        return (DateProperty) comp.getProperty(name);
     }
 
     private String getValue(CalendarComponent comp, String name) {
-        Property prop = comp.getProperty(name);
-        return (prop != null) ? prop.getValue() : null;
+        Optional<Property> prop = Optional.ofNullable(comp.getProperty(name));
+        return prop.map(Content::getValue).orElse(null);
     }
 
 }
