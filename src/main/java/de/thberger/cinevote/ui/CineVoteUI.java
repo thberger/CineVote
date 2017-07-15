@@ -57,7 +57,7 @@ public class CineVoteUI extends UI {
         detailPanel = new MovieDetailsPanel();
         h.addComponent(calendar);
         h.addComponent(detailPanel);
-        h.setExpandRatio(calendar, 4);
+        h.setExpandRatio(calendar, 3.5f);
         h.setExpandRatio(detailPanel, 1);
         return h;
     }
