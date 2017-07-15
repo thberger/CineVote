@@ -34,7 +34,6 @@ class WebCalendar {
 
     WebCalendar(AppConfig.WebCalendarConfig config) throws IOException, ParserException {
         iCalCalendar = readRemoteCalendar(config);
-        getDescription();
     }
 
     private Calendar readRemoteCalendar(AppConfig.WebCalendarConfig config) throws IOException, ParserException {
@@ -69,11 +68,6 @@ class WebCalendar {
                 .filter(c -> c.getName().equals("VEVENT"))
                 .map(this::createEventFromCalendarComponent)
                 .collect(Collectors.toList());
-    }
-
-    public String getDescription() {
-        Optional<Property> description = Optional.ofNullable(iCalCalendar.getProperty("X-WR-CALDESC"));
-        return description.map(Content::getValue).orElse(null);
     }
 
     private CinemaEvent createEventFromCalendarComponent(CalendarComponent comp) {
