@@ -19,9 +19,7 @@ import java.util.Date;
 @SpringComponent
 class MovieDetailsPanel extends Panel {
 
-    private AppConfig appConfig;
-
-    private SimpleDateFormat sf;
+    private SimpleDateFormat dateFormat;
 
     private TextField movieTitle;
     private TextField movieLocation;
@@ -32,7 +30,7 @@ class MovieDetailsPanel extends Panel {
 
     @Autowired
     public void setAppConfig(AppConfig appConfig) {
-        this.appConfig = appConfig;
+        this.dateFormat = new SimpleDateFormat(appConfig.getDateFormat());
     }
 
     @PostConstruct
@@ -41,7 +39,6 @@ class MovieDetailsPanel extends Panel {
         setStyleName("detailPanel");
         setContent(createFieldsForm());
         setSizeFull();
-        sf = new SimpleDateFormat(appConfig.getDateFormat());
     }
 
     private VerticalLayout createFieldsForm() {
@@ -93,7 +90,7 @@ class MovieDetailsPanel extends Panel {
     }
 
     private String formatted(Date date) {
-        return sf.format(date);
+        return dateFormat.format(date);
     }
 
     private void setReadOnlyField(AbstractTextField field, String newValue) {
