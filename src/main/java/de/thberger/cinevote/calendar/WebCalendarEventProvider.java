@@ -3,6 +3,7 @@ package de.thberger.cinevote.calendar;
 import com.vaadin.ui.components.calendar.event.BasicEventProvider;
 import com.vaadin.ui.components.calendar.event.CalendarEvent;
 import de.thberger.cinevote.AppConfig;
+import de.thberger.cinevote.ui.UserSession;
 import lombok.extern.slf4j.Slf4j;
 import net.fortuna.ical4j.data.ParserException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,7 +20,6 @@ public class WebCalendarEventProvider extends BasicEventProvider {
 
     private final Map<String, WebCalendar> webCalendars = new HashMap<>();
     private AppConfig appConfig;
-    private CinemaEvent selectedEvent;
 
     @Autowired
     public WebCalendarEventProvider(AppConfig appConfig) {
@@ -78,7 +78,7 @@ public class WebCalendarEventProvider extends BasicEventProvider {
 
     private void checkForSelected(CalendarEvent ev) {
         CinemaEvent ev1 = (CinemaEvent) ev;
-        String style = (ev1.equals(selectedEvent)) ? "selected" : "";
+        String style = (ev1.equals(UserSession.getSelectedItem())) ? "selected" : "";
         String calStyle = ev1.getParent().getConfig().getStyle();
         ev1.setStyleName(calStyle + " " + style);
     }
@@ -112,14 +112,6 @@ public class WebCalendarEventProvider extends BasicEventProvider {
         eventList.stream()
                 .filter(e -> ((CinemaEvent) e).getParent().equals(calendar))
                 .forEach(calendarEventConsumer);
-    }
-
-    public CinemaEvent getSelectedEvent() {
-        return selectedEvent;
-    }
-
-    public void setSelectedEvent(CinemaEvent selectedEvent) {
-        this.selectedEvent = selectedEvent;
     }
 
     public void update() {
