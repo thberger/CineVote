@@ -34,7 +34,7 @@ public class CineVoteUI extends UI {
     protected void init(VaadinRequest request) {
         this.setLocale(Locale.GERMANY);
         setupUiComponents();
-        setView(View.Month);
+        setView(View.Next_Weeks);
     }
 
     private void setupUiComponents() {

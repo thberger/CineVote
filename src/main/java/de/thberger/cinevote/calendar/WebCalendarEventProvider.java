@@ -19,6 +19,7 @@ public class WebCalendarEventProvider extends BasicEventProvider {
 
     private final Map<String, WebCalendar> webCalendars = new HashMap<>();
     private AppConfig appConfig;
+    private CinemaEvent selectedEvent;
 
     @Autowired
     public WebCalendarEventProvider(AppConfig appConfig) {
@@ -63,24 +64,35 @@ public class WebCalendarEventProvider extends BasicEventProvider {
         ArrayList<CalendarEvent> activeEvents = new ArrayList<>();
 
         for (CalendarEvent ev : eventList) {
-
             CinemaEvent event = (CinemaEvent) ev;
-
-            long from = startDate.getTime();
-            long to = endDate.getTime();
-
-            if (event.isVisible() && ev.getStart() != null && ev.getEnd() != null) {
-                long f = ev.getStart().getTime();
-                long t = ev.getEnd().getTime();
-
-                if ((f <= to && f >= from) || (t >= from && t <= to)
-                        || (f <= from && t >= to)) {
+            if (event.isVisible()) {
+                if (isInRange(ev, startDate, endDate)) {
                     activeEvents.add(ev);
+                    checkForSelected(ev);
                 }
             }
         }
 
         return activeEvents;
+    }
+
+    private void checkForSelected(CalendarEvent ev) {
+        CinemaEvent ev1 = (CinemaEvent) ev;
+        String style = (ev1.equals(selectedEvent)) ? "selected" : "";
+        String calStyle = ev1.getParent().getConfig().getStyle();
+        ev1.setStyleName(calStyle + " " + style);
+    }
+
+    private boolean isInRange(CalendarEvent ev, Date startDate, Date endDate) {
+        long from = startDate.getTime();
+        long to = endDate.getTime();
+        if (ev.getStart() != null && ev.getEnd() != null) {
+            long f = ev.getStart().getTime();
+            long t = ev.getEnd().getTime();
+            return (f <= to && f >= from) || (t >= from && t <= to)
+                    || (f <= from && t >= to);
+        }
+        return false;
     }
 
     public void clearCalendars() {
@@ -100,5 +112,17 @@ public class WebCalendarEventProvider extends BasicEventProvider {
         eventList.stream()
                 .filter(e -> ((CinemaEvent) e).getParent().equals(calendar))
                 .forEach(calendarEventConsumer);
+    }
+
+    public CinemaEvent getSelectedEvent() {
+        return selectedEvent;
+    }
+
+    public void setSelectedEvent(CinemaEvent selectedEvent) {
+        this.selectedEvent = selectedEvent;
+    }
+
+    public void update() {
+        fireEventSetChange();
     }
 }

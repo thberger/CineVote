@@ -23,3 +23,9 @@ cinevote:
       name: Freiluftkino Hasenheide
       shortName: Hasenheise
       style: theme4
+    -
+      url: webcal://piffl-medien.de/flk/kalender/kinokalender_rehberge.ics
+      name: Freiluftkino Rehberge
+      shortName: Rehberge
+      style: theme5
+

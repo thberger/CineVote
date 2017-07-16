@@ -20,6 +20,7 @@ $cinecal-theme1-background: lightblue;
 $cinecal-theme2-background: rgba(240, 128, 128, 0.54);
 $cinecal-theme3-background: burlywood;
 $cinecal-theme4-background: rgba(168, 213, 155, 0.59);
+$cinecal-theme5-background: rgba(168, 134, 155, 0.59);
 
 // Affects the visual appearance of all components
 //$v-gradient: v-linear 8%;
@@ -139,7 +140,7 @@ $cinecal-theme4-background: rgba(168, 213, 155, 0.59);
   }
 
   .v-calendar-month-day {
-    height: 130px;
+    height: 150px;
     margin-top: 1px;
     margin-left: 1px;
     font-weight: 400;
@@ -170,6 +171,11 @@ $cinecal-theme4-background: rgba(168, 213, 155, 0.59);
     color: black;
   }
 
+  .v-calendar-event-month.selected {
+    border: 1px solid black;
+    font-weight: 800;
+  }
+
   // CALENDER THEMES
 
   .v-calendar-event-theme1 {
@@ -186,6 +192,10 @@ $cinecal-theme4-background: rgba(168, 213, 155, 0.59);
 
   .v-calendar-event-theme4 {
     background-color: $cinecal-theme4-background;
+  }
+
+  .v-calendar-event-theme5 {
+    background-color: $cinecal-theme5-background;
   }
 
   // SELECTION BAR
@@ -209,21 +219,24 @@ $cinecal-theme4-background: rgba(168, 213, 155, 0.59);
       border-radius: 4px;
     }
 
-    .v-checkbox-theme4 > label {
-      background-color: $cinecal-theme4-background;
-    }
-
-    .v-checkbox-theme3 > label {
-      background-color: $cinecal-theme3-background;
-    }
-
-    .v-checkbox-theme2 > label {
-      background-color: $cinecal-theme2-background;
-    }
-
     .v-checkbox-theme1 > label {
       background-color: $cinecal-theme1-background;
     }
+    .v-checkbox-theme2 > label {
+      background-color: $cinecal-theme2-background;
+    }
+    .v-checkbox-theme3 > label {
+      background-color: $cinecal-theme3-background;
+    }
+    .v-checkbox-theme4 > label {
+      background-color: $cinecal-theme4-background;
+    }
+    .v-checkbox-theme5 > label {
+      background-color: $cinecal-theme5-background;
+    }
+
+
+
 
   }
 

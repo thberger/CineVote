@@ -16,6 +16,12 @@ public class DateHelpers {
         return cal.getTime();
     }
 
+    public static Date getDayInWeeks(int numberOfWeeks) {
+        Calendar cal = Calendar.getInstance();
+        cal.add(WEEK_OF_MONTH, numberOfWeeks);
+        return cal.getTime();
+    }
+
     public static Date getDayInOneMonth() {
         Calendar cal = Calendar.getInstance();
         cal.add(MONTH, 1);

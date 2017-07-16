@@ -43,7 +43,11 @@ public class CineCalendar extends Calendar {
 
 
     private CalendarComponentEvents.EventClickHandler eventClickHandler() {
-        return (CalendarComponentEvents.EventClickHandler) event ->
-                detailsPanel.update((CinemaEvent) event.getCalendarEvent());
+        return (CalendarComponentEvents.EventClickHandler) event -> {
+            CinemaEvent calendarEvent = (CinemaEvent) event.getCalendarEvent();
+            calendarEventProvider.setSelectedEvent(calendarEvent);
+            detailsPanel.update(calendarEvent);
+            calendarEventProvider.update();
+        };
     }
 }

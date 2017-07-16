@@ -5,7 +5,7 @@ import lombok.Getter;
 
 import java.util.Date;
 
-import static de.thberger.cinevote.helpers.DateHelpers.getDayInFourWeeks;
+import static de.thberger.cinevote.helpers.DateHelpers.getDayInWeeks;
 import static de.thberger.cinevote.helpers.DateHelpers.getFirstDayOfWeek;
 
 /**
@@ -14,7 +14,7 @@ import static de.thberger.cinevote.helpers.DateHelpers.getFirstDayOfWeek;
 @Getter
 @AllArgsConstructor
 public enum View {
-    Month("Monatsansicht", getFirstDayOfWeek(), getDayInFourWeeks());
+    Next_Weeks("Nächste Wochen", getFirstDayOfWeek(), getDayInWeeks(3));
 
     private String title;
     private Date startDate;
