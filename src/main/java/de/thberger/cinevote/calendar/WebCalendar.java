@@ -28,11 +28,15 @@ import java.util.stream.Collectors;
  * which are compatible to Vaadin calendar.
  */
 @Slf4j
-class WebCalendar {
+public class WebCalendar {
 
     private final Calendar iCalCalendar;
 
+    private final AppConfig.WebCalendarConfig config;
+    private String shortName;
+
     WebCalendar(AppConfig.WebCalendarConfig config) throws IOException, ParserException {
+        this.config = config;
         iCalCalendar = readRemoteCalendar(config);
     }
 
@@ -67,7 +71,7 @@ class WebCalendar {
         connection.setRequestProperty("Authorization", basicAuth);
     }
 
-    List<CinemaEvent> getEvents() {
+    List<CinemaEvent> createEvents() {
         return iCalCalendar.getComponents().stream()
                 .filter(c -> c.getName().equals("VEVENT"))
                 .map(this::createEventFromCalendarComponent)
@@ -88,6 +92,9 @@ class WebCalendar {
 
             DateProperty eventEnd = getDateProperty(comp, "DTEND");
             calendarEvent.setEnd(eventEnd.getDate());
+            calendarEvent.setParent(this);
+            calendarEvent.setVisible(getConfig().isVisible());
+
         } catch (Exception e) {
             log.error("Failed to create cinema event from event component", e);
         }
@@ -108,4 +115,11 @@ class WebCalendar {
         return prop.map(Content::getValue).orElse(null);
     }
 
+    public AppConfig.WebCalendarConfig getConfig() {
+        return config;
+    }
+
+    public String getId() {
+        return config.getShortName();
+    }
 }

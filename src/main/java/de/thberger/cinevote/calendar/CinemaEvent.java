@@ -21,4 +21,7 @@ public class CinemaEvent extends BasicEvent {
     private String location;
     private String url;
     private ZoneId timeZone;
+    private boolean visible;
+    private WebCalendar parent;
+
 }

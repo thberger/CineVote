@@ -18,8 +18,10 @@ public class AppConfig {
 
     @Getter @Setter
     public static class WebCalendarConfig {
-        boolean enabled;
+        boolean enabled = true;
+        boolean visible = true;
         String name;
+        String shortName;
         String url;
         String style;
         boolean authenticated;

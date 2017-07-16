@@ -41,6 +41,7 @@ public class CineCalendar extends Calendar {
         setEndDate(view.getEndDate());
     }
 
+
     private CalendarComponentEvents.EventClickHandler eventClickHandler() {
         return (CalendarComponentEvents.EventClickHandler) event ->
                 detailsPanel.update((CinemaEvent) event.getCalendarEvent());

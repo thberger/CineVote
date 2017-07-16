@@ -2,6 +2,7 @@ package de.thberger.cinevote.ui;
 
 import com.google.gwt.thirdparty.guava.common.base.Strings;
 import com.vaadin.server.ExternalResource;
+import com.vaadin.server.FontAwesome;
 import com.vaadin.spring.annotation.SpringComponent;
 import com.vaadin.ui.*;
 import de.thberger.cinevote.AppConfig;
@@ -49,15 +50,25 @@ class MovieDetailsPanel extends Panel {
         v.setWidth("100%");
         movieTitle = new TextField("Titel");
         movieTitle.setReadOnly(true);
+        movieTitle.setIcon(FontAwesome.FILM);
+
         movieLocation = new TextField("Kino");
         movieLocation.setReadOnly(true);
-        movieStart = new TextField("Beginn");
+        movieLocation.setIcon(FontAwesome.LOCATION_ARROW);
+
+        movieStart = new TextField("Filmbeginn");
         movieStart.setReadOnly(true);
-        movieEnd = new TextField("Ende");
+        movieStart.setIcon(FontAwesome.CALENDAR);
+
+        movieEnd = new TextField("Filmende");
         movieEnd.setReadOnly(true);
+        movieEnd.setIcon(FontAwesome.CALENDAR);
+
         movieDescription = new TextArea("Beschreibung");
         movieDescription.setRows(10);
         movieDescription.setReadOnly(true);
+        movieDescription.setIcon(FontAwesome.FILE_TEXT_O);
+
         movieUrl = new Link();
         movieUrl.setStyleName("movieUrl");
         v.addComponents(movieTitle, movieLocation, movieStart, movieEnd, movieDescription, movieUrl);

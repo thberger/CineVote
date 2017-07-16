@@ -19,13 +19,15 @@ public class CineVoteUI extends UI {
 
     private CineCalendar calendar;
     private MovieDetailsPanel detailPanel;
+    private SelectionBar selectionBar;
 
     private Label caption;
 
     @Autowired
-    public CineVoteUI(CineCalendar calendar, MovieDetailsPanel detailPanel) {
+    public CineVoteUI(CineCalendar calendar, MovieDetailsPanel detailPanel, SelectionBar selectionBar) {
         this.calendar = calendar;
         this.detailPanel = detailPanel;
+        this.selectionBar = selectionBar;
     }
 
     @Override
@@ -40,19 +42,20 @@ public class CineVoteUI extends UI {
         vLayout.setMargin(true);
         setContent(vLayout);
 
-        HorizontalLayout topBar = createTopBar();
-        vLayout.addComponent(topBar);
+        vLayout.addComponent(createTopBar());
         vLayout.addComponent(createCalendarBar());
-
     }
 
     private HorizontalLayout createCalendarBar() {
         HorizontalLayout h = new HorizontalLayout();
         h.setSizeFull();
         h.setSpacing(true);
-        h.addComponent(calendar);
+        VerticalLayout l = new VerticalLayout();
+        l.addComponent(calendar);
+        l.addComponent(selectionBar);
+        h.addComponent(l);
         h.addComponent(detailPanel);
-        h.setExpandRatio(calendar, 3.5f);
+        h.setExpandRatio(l, 3.5f);
         h.setExpandRatio(detailPanel, 1);
         return h;
     }
