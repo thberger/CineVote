@@ -9,6 +9,7 @@ import de.thberger.cinevote.AppConfig;
 import de.thberger.cinevote.calendar.CinemaEvent;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.context.annotation.SessionScope;
 
 import javax.annotation.PostConstruct;
 import java.text.SimpleDateFormat;
@@ -18,6 +19,7 @@ import java.util.Date;
  * @author thb
  */
 @SpringComponent
+@SessionScope
 class MovieDetailsPanel extends Panel {
 
     private SimpleDateFormat dateFormat;

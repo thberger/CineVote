@@ -7,6 +7,7 @@ import de.thberger.cinevote.AppConfig;
 import de.thberger.cinevote.calendar.CinemaEvent;
 import de.thberger.cinevote.calendar.WebCalendarEventProvider;
 import lombok.AllArgsConstructor;
+import org.springframework.web.context.annotation.SessionScope;
 
 import javax.annotation.PostConstruct;
 
@@ -14,6 +15,7 @@ import javax.annotation.PostConstruct;
  * @author thb
  */
 @SpringComponent
+@SessionScope
 @AllArgsConstructor
 public class CineCalendar extends Calendar {
 

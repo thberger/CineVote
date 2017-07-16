@@ -10,6 +10,7 @@ import de.thberger.cinevote.calendar.WebCalendar;
 import de.thberger.cinevote.calendar.WebCalendarEventProvider;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.web.context.annotation.SessionScope;
 
 import javax.annotation.PostConstruct;
 
@@ -17,6 +18,7 @@ import javax.annotation.PostConstruct;
  * @author thb
  */
 @SpringComponent
+@SessionScope
 @AllArgsConstructor
 @Slf4j
 public class SelectionBar extends HorizontalLayout {
