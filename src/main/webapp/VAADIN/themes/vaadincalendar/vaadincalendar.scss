@@ -108,16 +108,21 @@ $v-app-background-color: transparentize(rgba(0, 0, 0, 0.5), 0.1);
   }
 
   .v-calendar-month-sizedheight .v-calendar-month-day {
-    background-color: rgba(240, 240, 240, 0.9);
+    background-color: rgba(230, 230, 230, 0.95);
   }
 
   .v-calendar-month-sizedheight .v-calendar-month-day-today {
-    background-color: rgba(240, 240, 240, 1.0);
+    background-color: rgba(250, 250, 250, 1.0);
 
     .v-calendar-day-number {
       border-top: 3px solid white;
       font-weight: 800;
       color: black;
+
+      :before {
+        content: "Heute";
+      }
+
     }
   }
 

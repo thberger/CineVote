@@ -3,3 +3,10 @@
 # the JAR which contains the settings for productive mode with all calendars.
 
 server.port: 9998
+
+cinevote:
+  dateFormat: "EEE, d. MMMMM '-' HH:mm 'Uhr'"
+
+  dayView:
+    firstVisibleHourOfDay: 19
+    lastVisibleHourOfDay: 23

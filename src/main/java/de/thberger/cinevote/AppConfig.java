@@ -13,6 +13,8 @@ import java.util.List;
 public class AppConfig {
 
     private List<WebCalendarConfig> webCalendars;
+    private String dateFormat;
+    private DayViewConfig dayView;
 
     @Getter @Setter
     public static class WebCalendarConfig {
@@ -24,5 +26,12 @@ public class AppConfig {
         String username;
         String password;
         String collection;
+    }
+
+    @Getter
+    @Setter
+    public static class DayViewConfig {
+        int firstVisibleHourOfDay;
+        int lastVisibleHourOfDay;
     }
 }

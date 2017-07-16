@@ -3,16 +3,13 @@ package de.thberger.cinevote.ui;
 import com.vaadin.annotations.Theme;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.spring.annotation.SpringUI;
-import com.vaadin.ui.*;
-import com.vaadin.ui.components.calendar.CalendarComponentEvents;
-import de.thberger.cinevote.calendar.CinemaEvent;
-import de.thberger.cinevote.calendar.WebCalendarEventProvider;
+import com.vaadin.ui.HorizontalLayout;
+import com.vaadin.ui.Label;
+import com.vaadin.ui.UI;
+import com.vaadin.ui.VerticalLayout;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Locale;
-
-import static de.thberger.cinevote.helpers.DateHelpers.getDayInFourWeeks;
-import static de.thberger.cinevote.helpers.DateHelpers.getFirstDayOfWeek;
 
 
 @SuppressWarnings("serial")
@@ -20,22 +17,22 @@ import static de.thberger.cinevote.helpers.DateHelpers.getFirstDayOfWeek;
 @SpringUI
 public class CineVoteUI extends UI {
 
-
-    private Calendar calendar;
-    private WebCalendarEventProvider calendarEventProvider;
-    private Label caption;
+    private CineCalendar calendar;
     private MovieDetailsPanel detailPanel;
 
+    private Label caption;
+
     @Autowired
-    public void setCalendarEventProvider(WebCalendarEventProvider eventProvider) {
-        calendarEventProvider = eventProvider;
+    public CineVoteUI(CineCalendar calendar, MovieDetailsPanel detailPanel) {
+        this.calendar = calendar;
+        this.detailPanel = detailPanel;
     }
 
     @Override
     protected void init(VaadinRequest request) {
         this.setLocale(Locale.GERMANY);
         setupUiComponents();
-        showMonth();
+        setView(View.Month);
     }
 
     private void setupUiComponents() {
@@ -53,8 +50,6 @@ public class CineVoteUI extends UI {
         HorizontalLayout h = new HorizontalLayout();
         h.setSizeFull();
         h.setSpacing(true);
-        calendar = createCalendarWidget();
-        detailPanel = new MovieDetailsPanel();
         h.addComponent(calendar);
         h.addComponent(detailPanel);
         h.setExpandRatio(calendar, 3.5f);
@@ -72,33 +67,13 @@ public class CineVoteUI extends UI {
         return topBar;
     }
 
-    private void showMonth() {
-        setTitle("Monatsansicht");
-        calendar.setStartDate(getFirstDayOfWeek());
-        calendar.setEndDate(getDayInFourWeeks());
+    private void setView(View view) {
+        setTitle(view);
+        calendar.switchView(view);
     }
 
-    private Calendar createCalendarWidget() {
-        Calendar calendar = new Calendar();
-        calendar.setEventProvider(calendarEventProvider);
-        calendar.setCaptionAsHtml(true);
-        calendar.setWidth("100%");
-        calendar.setHeight("100%");
-        calendar.setFirstVisibleHourOfDay(19);
-        calendar.setLastVisibleHourOfDay(24);
-        calendar.setHandler(eventClickHander());
-        calendar.setHandler((CalendarComponentEvents.DateClickHandler) event -> {
-        });
-        return calendar;
-    }
-
-    private CalendarComponentEvents.EventClickHandler eventClickHander() {
-        return (CalendarComponentEvents.EventClickHandler) event
-                -> detailPanel.update((CinemaEvent) event.getCalendarEvent());
-    }
-
-    private void setTitle(final String subTitle) {
-        String title = "Programm Freiluftkinos - " + subTitle;
+    private void setTitle(View view) {
+        String title = "Programm Freiluftkinos - " + view.getTitle();
         caption.setValue(title);
         super.getPage().setTitle(title);
     }

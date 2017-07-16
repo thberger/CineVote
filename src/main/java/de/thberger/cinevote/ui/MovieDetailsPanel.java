@@ -2,20 +2,26 @@ package de.thberger.cinevote.ui;
 
 import com.google.gwt.thirdparty.guava.common.base.Strings;
 import com.vaadin.server.ExternalResource;
+import com.vaadin.spring.annotation.SpringComponent;
 import com.vaadin.ui.*;
+import de.thberger.cinevote.AppConfig;
 import de.thberger.cinevote.calendar.CinemaEvent;
 import org.apache.commons.lang3.StringUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.annotation.PostConstruct;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
  * @author thb
  */
+@SpringComponent
 class MovieDetailsPanel extends Panel {
 
-    private static final String GERMAN_DATE_TIME_FORMAT = "EEE, d. MMMMM '-' HH:mm 'Uhr'";
-    private final SimpleDateFormat sf = new SimpleDateFormat(GERMAN_DATE_TIME_FORMAT);
+    private AppConfig appConfig;
+
+    private SimpleDateFormat sf;
 
     private TextField movieTitle;
     private TextField movieLocation;
@@ -24,11 +30,18 @@ class MovieDetailsPanel extends Panel {
     private TextField movieEnd;
     private Link movieUrl;
 
-    MovieDetailsPanel() {
+    @Autowired
+    public void setAppConfig(AppConfig appConfig) {
+        this.appConfig = appConfig;
+    }
+
+    @PostConstruct
+    public void init() {
         setCaption("Filminfos");
         setStyleName("detailPanel");
         setContent(createFieldsForm());
         setSizeFull();
+        sf = new SimpleDateFormat(appConfig.getDateFormat());
     }
 
     private VerticalLayout createFieldsForm() {
