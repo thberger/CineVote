@@ -12,7 +12,7 @@ import java.time.ZoneId;
  * Extends Vaadin's {@link BasicEvent} by two properties that are relevant
  * for the cinema shows.
  */
-@EqualsAndHashCode(callSuper = true)
+@EqualsAndHashCode(callSuper = false)
 @ToString
 @Getter
 @Setter
