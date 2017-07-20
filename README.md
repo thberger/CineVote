@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/thberger/CineVote.svg?branch=master)](https://travis-ci.org/thberger/CineVote)
+[![Coverage Status](https://coveralls.io/repos/github/thberger/CineVote/badge.svg?branch=master)](https://coveralls.io/github/thberger/CineVote?branch=master)
 
 # CineVote
 
