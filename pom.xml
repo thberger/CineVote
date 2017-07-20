@@ -25,7 +25,9 @@
 		<vaadin.spring.version>1.2.0</vaadin.spring.version>
 		<vaadin.version>7.4.1</vaadin.version>
 		<ical4j.version>2.0.0</ical4j.version>
-	</properties>
+        <jacoco-plugin.version>0.7.6.201602180812</jacoco-plugin.version>
+        <coveralls-plugin.version>4.3.0</coveralls-plugin.version>
+    </properties>
 
 	<dependencies>
 
@@ -120,11 +122,33 @@
 
 		<plugins>
 
+            <!-- Spring Boot Plugin: Make fat jar -->
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
+
+            <plugin>
+                <groupId>org.eluder.coveralls</groupId>
+                <artifactId>coveralls-maven-plugin</artifactId>
+                <version>${coveralls-plugin.version}</version>
+            </plugin>
+
+            <plugin>
+                <groupId>org.jacoco</groupId>
+                <artifactId>jacoco-maven-plugin</artifactId>
+                <version>${jacoco-plugin.version}</version>
+                <executions>
+                    <execution>
+                        <id>prepare-agent</id>
+                        <goals>
+                            <goal>prepare-agent</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
 	</build>
 
 
