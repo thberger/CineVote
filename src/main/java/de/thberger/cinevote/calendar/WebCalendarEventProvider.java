@@ -78,7 +78,7 @@ public class WebCalendarEventProvider extends BasicEventProvider {
 
     private void checkForSelected(CalendarEvent ev) {
         CinemaEvent ev1 = (CinemaEvent) ev;
-        String style = (ev1.equals(UserSession.getSelectedItem())) ? "selected" : "";
+        String style = (ev1.equals(UserSession.getSelectedEvent())) ? "selected" : "";
         String calStyle = ev1.getParent().getConfig().getStyle();
         ev1.setStyleName(calStyle + " " + style);
     }

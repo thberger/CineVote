@@ -33,7 +33,6 @@ public class WebCalendar {
     private final Calendar iCalCalendar;
 
     private final AppConfig.WebCalendarConfig config;
-    private String shortName;
 
     WebCalendar(AppConfig.WebCalendarConfig config) throws IOException, ParserException {
         this.config = config;

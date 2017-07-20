@@ -1,0 +1,1768 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:Freiluftkino Friedrichshain
+PRODID:-//Apple Inc.//iCal 4.0.1//EN
+X-WR-CALDESC:Aktuelle Programminformationen Freiluftkino Friedrichshain
+X-WR-RELCALID:C109634B-1AE4-4DFA-9E61-FRIEDRICHSHAIN8C8
+X-APPLE-CALENDAR-COLOR:#990000
+X-WR-TIMEZONE:Europe/Berlin
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:GMT+02:00
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:GMT+01:00
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170517T232800
+UID:Jahrhundertfrauen@20170517T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:JAHRHUNDERTFRAUEN 
+ Kalifornien\, Ende der 70er Jahre – eine wilde\, inspirierende Zeit der kulturellen Umbrüche\, Freiheit liegt in der Luft. Dorothea Fields (Annette Bening)\, eine energische und selbstbewusste Frau Mitte 50\, erzieht ihren Sohn Jamie (Lucas Jade Zumann) ohne den Vater\, aber mit der Unterstützung von zwei jungen Frauen: Abbie (Greta Gerwig)\, die freigeistige und kreative Mitbewohnerin\, und Jamies beste Freundin Julie (Elle Fanning). Familie halt und die hat einige Prüfungen zu bestehen. 
+ [ 1:58 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://jahrhundertfrauen-film.de
+SEQUENCE:0
+SUMMARY:Jahrhundertfrauen
+DTSTART;TZID=Europe/Berlin:20170517T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170518T230800
+UID:Die andere Seite der Hoffnung@20170518T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DIE ANDERE SEITE DER HOFFNUNG 
+ Wikström ist ein fliegender Händler für Männerhemden und Krawatten. In der Mitte des Lebens angekommen\, verlässt er seine Frau\, gibt seinen Job auf\, profiliert sich kurzfristig als Poker-Spieler und kauft ein heruntergewirtschaftetes Restaurant in einer abgelegenen Gasse von Helsinki. Im Innenhof seines Restaurants findet er Khaled\, als blinder Passagier aus Syrien gekommen und aktuell auf der Flucht vor der drohenden Abschiebung. Vielleicht sieht er etwas von sich selbst in diesem ramponierten\, angeschlagenen Mann. Jedenfalls stellt er Khaled als Putzkraft und Tellerwäscher an. Für einen Moment zeigt uns das Leben seine sonnigere Seite\, aber schon bald greift das Schicksal ein\, dem das "Kaurismäki-Personal" auf ganz eigene Weise begegnet. »Mit Mut\, Zuversicht und viel Humor« ZDF HEUTE JOURNAL 
+ [ 1:38 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.die-andere-seite-der-hoffnung.de
+SEQUENCE:0
+SUMMARY:Die andere Seite der Hoffnung
+DTSTART;TZID=Europe/Berlin:20170518T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170519T234800
+UID:Manchester by the Sea@20170519T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MANCHESTER BY THE SEA 
+ Lee Chandler (Casey Affleck) ist ein schweigsamer Einzelgänger\, der als Hausmeister in Boston arbeitet. Bis ein Anruf sein Leben schlagartig verändert. Der Tod seine Bruders zwingt Lee in seine Heimat\, die Hafenstadt Manchester-by-the-Sea\, zurückkehren\, um sich um seinen Neffen zu kümmern. Der widerspenstige Teenager ist nur eine der Herausforderungen\, denen sich Lee zu stellen hat. "Manchester by the Sea" ist einer dieser Filme\, die man ein zweites Mal sehen will und zwar mit jemandem\, der ihn noch nicht gesehen hat\, allein schon um sich zu erinnern\, wie es sich beim ersten Mal angefühlt hat." Matt Zoller Seitz\, RogerEbert.com 
+ [ 2:18 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.manchester-by-the-sea.de
+SEQUENCE:0
+SUMMARY:Manchester by the Sea
+DTSTART;TZID=Europe/Berlin:20170519T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170520T233700
+UID:La La Land@20170520T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LA LA LAND 
+ Die leidenschaftliche Schauspielerin Mia (Emma Stone) und der charismatische Jazzmusiker Sebastian (Ryan Gosling) suchen das große Glück in Los Angeles. Sie halten sich mit Nebenjobs über Wasser. Als sich ihre Wege zufällig kreuzen\, verlieben sie sich Hals über Kopf ineinander\, schmieden Pläne für ihre Zukunft auf der Bühne und genießen den Zauber der jungen Liebe in "La La Land" – der Stadt der Träume ... 
+ [ 2:07 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.lalaland-film.de
+SEQUENCE:0
+SUMMARY:La La Land
+DTSTART;TZID=Europe/Berlin:20170520T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170521T230300
+UID:Tschick @20170521T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:TSCHICK  
+ Während die Mutter in der Entzugsklinik und der Vater mit seiner Assistentin auf "Geschäftsreise" ist\, verbringt der 14-jährige Außenseiter Maik Klingenberg (Tristan Göbel) die großen Ferien allein am Pool der elterlichen Villa.  Doch dann kreuzt Tschick auf.  Tschick (Anand Batbileg) stammt aus dem tiefsten Russland\, kommt aus einem der Hochhäuser in Berlin-Marzahn – und hat einen geklauten Lada dabei. Damit beginnt eine Reise ohne Karte und Kompass durch die sommerglühende ostdeutsche Provinz.  Die Geschichte eines Sommers\, den wir alle einmal erleben wollen... . Der beste Sommer von allen eben! "Doch so einen Sommer gibt es nur einmal – auch davon erzählt der uneitle\, wunderschöne und berührende Film. 5 Filmrollen" RadioEins   
+ [ 1:33 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.tschick-film.de
+SEQUENCE:0
+SUMMARY:Tschick 
+DTSTART;TZID=Europe/Berlin:20170521T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170522T232100
+UID:A United Kingdom@20170522T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:A UNITED KINGDOM 
+ Im Jahr 1947 verliebte sich Seretse Khama\, König von Botswana\, in die Londoner Büroangestellte Ruth Williams. Ihre Heirat wird nicht nur von ihren beiden Familien\, sondern auch von den Regierungen Großbritanniens und Südafrikas abgelehnt. Doch Seretse und Ruth trotzten ihren Familien\, der Apartheid und dem Britischen Empire. "Eine wahre Liebesgeschichte für die Ewigkeit." (Daily Mail) glänzt mit zwei exzellenten Hauptdarstellern David Oyelowo ("Selma") und Rosamund Pike ("Gone Girl"). 
+ [ 1:51 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.aunitedkingdom.de
+SEQUENCE:0
+SUMMARY:A United Kingdom
+DTSTART;TZID=Europe/Berlin:20170522T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170523T232800
+UID:Der junge Karl Marx@20170523T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DER JUNGE KARL MARX 
+ Unterhaltsam und in seiner thematischen Fragestellung äußerst gegenwärtig\, widmet sich Regisseur Raoul Peck einer Frühphase des revolutionären Denkens: der Geburtsstunde des kommunistischen Manifests. So ist "Der junge Marx" auch das Porträt der engen und rebellischen Freundschaft von Karl Marx\, Jenny Marx und Friedrich Engels in ihrem unbedingten Willen\, die Welt aus den Angeln zu heben und zu verändern. 
+ [ 1:58 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.der-junge-karl-marx.de
+SEQUENCE:0
+SUMMARY:Der junge Karl Marx
+DTSTART;TZID=Europe/Berlin:20170523T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170524T230300
+UID:Kundschafter des Friedens@20170524T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:KUNDSCHAFTER DES FRIEDENS 
+ Als der ehemalige Erzfeind BND sie überraschend um Hilfe bittet\, ziert sich das legendäre Kundschafter-Team Gwisdek\, Hübchen\, Locke und Glatzeder nur der Form halber\, zumal sie  die Chance wittern\, eine offene Rechnung mit dem West-Agenten Kern zu begleichen. Nur widerwillig lässt sich die Rentner-Gruppe von der jungen BND-Agentin Paula nach Katschekistan begleiten. Doch dort ist nichts mehr wie es einmal war und die Mission droht\, im Chaos zu versinken. Zeit sich auf ihre ihre alten Fähigkeiten zu besinnen. "KUNDSCHAFTER DES FRIEDENS ist eine filmische Agentenoperette\, die mal ordentlich und voller Lust auf den Klischee-Pudding voller Stereotypen haut." Dresdner Kinokalender 
+ [ 1:33 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.kundschafterdesfriedens.de
+SEQUENCE:0
+SUMMARY:Kundschafter des Friedens
+DTSTART;TZID=Europe/Berlin:20170524T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170525T232800
+UID:Paterson @20170525T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:PATERSON  
+ Der Busfahrer Paterson (Adam Driver) heißt genauso wie der Ort\, in dem er lebt. Die Kleinstadt in New Jersey und ihre eigentümlichen Bewohner sind die Inspiration für seine Gedichte\, die er Tag für Tag in der Mittagspause auf der Parkbank verfasst. Die Welt seiner Frau Laura (Golshifteh Farahani) dagegen ist im ständigen Wandel. Fast täglich hat sie neue Träume\, jeder einzelne von ihnen ein anderes\, inspirierendes Projekt. Paterson liebt Laura und sie ihn. Er unterstützt ihre neugefundenen Ambitionen und sie bewundert seine Gabe für Poesie. "Eine Ode an das kleine\, gewöhnliche\, aber erfüllte Leben. Wenn man es\, wie hier im Kino\, einfach geschehen lässt\, neugierig und gelassen\, geht man am Ende sehr glücklich nach Hause." Berliner Zeitung 
+ [ 1:58 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.paterson-derfilm.de
+SEQUENCE:0
+SUMMARY:Paterson 
+DTSTART;TZID=Europe/Berlin:20170525T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170526T231300
+UID:Wilde Maus @20170526T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:WILDE MAUS  
+ Überraschend erhält Georg (Josef Hader) von seinem Chefredakteur die Kündigung. Der nicht uneitle Musikkritiker sinnt auf Rache\, während er seiner Frau weiter ein geregeltes Leben vorspielt. Dabei steht ihm sein ehemaliger Mitschüler Erich (Georg Friedrich) zur Seite\, dem Georg in seiner neu gewonnenen Freizeit hilft\, eine marode Achterbahn im Wiener Prater wieder in Gang zu setzen. Georgs nächtliche Rachefeldzüge gegen seinen ehemaligen Chef beginnen als kleine Sachbeschädigungen und steigern sich. Schnell gerät sein bürgerliches Leben\, sehr zur Freude von uns Kinozuschauern\, völlig aus dem Ruder... 
+ [ 1:43 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.wildemaus-derfilm.de
+SEQUENCE:0
+SUMMARY:Wilde Maus 
+DTSTART;TZID=Europe/Berlin:20170526T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170527T232100
+UID:Moonlight@20170527T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MOONLIGHT 
+ Die berührende Geschichte des jungen Chiron\, der in Miami fernab jeglichen Glamours aufwächst. Der Film begleitet entscheidende Momente in Chirons Leben von der Kindheit bis ins Erwachsenenalter\, in denen er sich selbst entdeckt\, für seinen Platz in der Welt kämpft\, seine große Liebe findet und wieder verliert. MOONLIGHT ist ein einzigartiges Stück Kino darüber\, wie die Suche nach einem Platz in der Welt\, unsere Umgebung\, die eigene Familie und insbesondere die erste Liebe uns unser Leben lang prägen. "Sehr zurecht mit drei Oscars geehrt. 5 Filmrollen" Radioeins 
+ [ 1:51 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://derbestefilmdesjahres.de
+SEQUENCE:0
+SUMMARY:Moonlight
+DTSTART;TZID=Europe/Berlin:20170527T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170528T232800
+UID:Lion: Der lange Weg nach Hause@20170528T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LION: DER LANGE WEG NACH HAUSE 
+ Wieder einmal eine Geschichte\, die zu unglaublich wirkt \, als dass sie wirklich geschehen sein könnte. Und doch: LION erzählt die wahre Lebensgeschichte des kleinen Saroo Brierley\, der sich mit nur fünf Jahren nach Kalkutta verliert\, von einem australischen Ehepaar adoptiert wird und 25 Jahre später getrieben von einer ungestümen Sehnsucht\, zu seiner Geburtsfamilie zurückfindet. Diese berührende Geschichte einer Suche nach den eigenen Wurzeln hat keine Scheu vor großem Gefühlskino\, gleitet aber niemals ins Sentimentale ab. "Die schönsten Geschichten schreibt bekanntermaßen immer noch das Leben. LION gelingt die Balance zwischen Rührung und Realismus in ehrlichen Bildern\, die sich wohltuend vom farbenprächtig bis kitschigen Indienklischee abheben." NDR Kultur 
+ [ 1:58 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.lion-film.de
+SEQUENCE:0
+SUMMARY:Lion: Der lange Weg nach Hause
+DTSTART;TZID=Europe/Berlin:20170528T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170529T231200
+UID:Hell or High Water@20170529T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:HELL OR HIGH WATER 
+ Zwei Brüder – der rechtschaffene\, geschiedene Toby (Chris Pine)\, Vater zweier Kinder\, und der jähzornige Tanner (Ben Foster)\, frisch entlassener Häftling – begehen gemeinsam mehrere Banküberfälle\, um zu verhindern\, dass die hochverschuldete Farm ihrer Familie an die Bank zurückfällt. Ihr Plan scheint aufzugehen\, bis sie ins Visier des kauzig-unerbittlichen Rangers Marcus Hamilton (Jeff Bridges) geraten und seines Kollegen geraten. Ausgang ungewiss und auf jeden Fall überraschend ..... 
+ [ 1:42 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.paramount.de/hell-or-high-water
+SEQUENCE:0
+SUMMARY:Hell or High Water
+DTSTART;TZID=Europe/Berlin:20170529T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170530T234000
+UID:Elle@20170530T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:ELLE 
+ Michèle wirkt wie eine Frau\, der nichts und niemand etwas anhaben kann. Unnahbar und präzise managt sie ihre Firma wie ihr Liebesleben. Als sie jedoch in ihrer Wohnung von einem Unbekannten angegriffen wird\, ändert sich ihr Leben schlagartig. Resolut spürt sie den Angreifer auf und verstrickt sich mit ihm in ein gefährliches Spiel aus Neugier\, Anziehung und Rache. "Verrückt und berauschend: Wie ein Seiltanz ohne Netz" RogerEberts.com "Isabelle Huppert ist eine Offenbarung." taz 
+ [ 2:10 h | FSK: ab 16 Jahren ]
+URL;VALUE=URI:http://elle.mfa-film.de
+SEQUENCE:0
+SUMMARY:Elle
+DTSTART;TZID=Europe/Berlin:20170530T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170531T231000
+UID:Jackie@20170531T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:JACKIE 
+ Sie ist eine First Lady wie aus dem Märchen: elegant\, kultiviert\, populär. Und schon zu Lebzeiten eine Legende. Als Präsidentengattin verwandelt sie das Weiße Haus in einen glamourösen Ort\, an dem sich die High Society trifft. Das ist schlagartig vorbei\, als Präsident John F. Kennedy am 22. November 1963 in Dallas erschossen wird. Jackie Kennedy (Natalie Portman) verliert alles. Pablo Larraíns Film "rekonstruiert" die Tage zwischen Attentat und Beerdigung\, in der Jackie sich entscheidet\, als First Lady die Legende zu schreiben\, als die wir die Kennedy heute noch im Kopf haben. 
+ [ 1:40 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://tobis.de/film/jackie/
+SEQUENCE:0
+SUMMARY:Jackie
+DTSTART;TZID=Europe/Berlin:20170531T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170601T230600
+UID:Café Society@20170601T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:CAFé SOCIETY 
+ Bobby Dorfman kommt aus der Bronx nach Hollywood\, verliebt sich\, kehrt nach New York zurück und schwelgt dort im glitzernden Nachtclub-Ambiente der High Society.  Die schillernde Existenz von Bobbys Bronx-Familie ist eine funkelnde Liebeserklärung an die Filmstars\, Salonlöwen\, Playboys\, Debütantinnen\, Politiker und Gangster\, die das überbordende Lebensgefühl und den Glamour jener Ära verkörperten. 
+ [ 1:36 h | FSK: ab 12 Jahren ]
+SEQUENCE:0
+SUMMARY:Café Society
+DTSTART;TZID=Europe/Berlin:20170601T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170602T233000
+UID:Captain Fantastic – Einmal Wildnis und zurück@20170602T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:CAPTAIN FANTASTIC – EINMAL WILDNIS UND ZURüCK 
+ Ben (Viggo Mortensen) lebt aus Überzeugung mit seinen sechs Kindern in der Einsamkeit der Berge im Nordwesten Amerikas. Er unterrichtet sie selbst und bringt ihnen nicht nur ein überdurchschnittliches Wissen bei\, sondern auch wie man jagt und in der Wildnis überlebt. Als seine Frau stirbt\, ist er gezwungen mitsamt der Sprösslinge seine selbst geschaffene Aussteigeridylle zu verlassen und der realen Welt entgegenzutreten. In ihrem alten\, klapprigen Bus macht sich die Familie auf den Weg quer durch die USA zur Beerdigung\, die bei den Großeltern stattfinden soll. Ihre Reise ist voller komischer wie berührender Momente\, die Bens Freiheitsideale und seine Vorstellungen von Erziehung nachhaltig infrage stellen… 
+ [ 2:00 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.captain-fantastic-film.de
+SEQUENCE:0
+SUMMARY:Captain Fantastic – Einmal Wildnis und zurück
+DTSTART;TZID=Europe/Berlin:20170602T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170603T233000
+UID:Die Blumen von gestern - Zu Gast: Lars Eidinger@20170603T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DIE BLUMEN VON GESTERN - ZU GAST: LARS EIDINGER 
+ Mitten in seine tiefsten Lebenskrise gerät der Holocaust-Forscher Toto (Lars Eidinger) an die französische Assistentin Zazie (Adèle Haenel)\, jüdischer Herkunft und mit ausgeprägter Teutonen-Phobie. Eine aberwitzige Geschichte über die Frage: Was passiert\, wenn der deutsche Völkermord von Leuten erforscht wird\, die emotional labil\, durch Herkunft und Lebensart auf unvereinbare Weise getrennt und dennoch ineinander verliebt sind? Adèle Haenel und Lars Eidinger spielen die beiden Chefneurotiker\, deren persönliches Unglück in der Familiengeschichte liegt. Chris Kraus hat eine herrlich respektlose\, aber niemals denunzierende Farce über die Spätfolgen des Holocausts geschrieben." programmkino.de 
+ [ 2:00 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://die-blumen-von-gestern.de
+SEQUENCE:0
+SUMMARY:Die Blumen von gestern - Zu Gast: Lars Eidinger
+DTSTART;TZID=Europe/Berlin:20170603T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170604T230900
+UID:El Olivo - Der Olivenbaum@20170604T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:EL OLIVO - DER OLIVENBAUM 
+ Seit die Familie den 2.000 Jahre alten Olivenbaum verkauft hat\, redet Almas Großvater nicht mehr. Mit Hilfe ihres Kollegen Rafa und des verpeilten Onkels Alcachofa (Javier Gutiérrez) will Alma (Anna Castillo) den Baum wieder zurückholen — doch der ziert längst als Symbol für Nachhaltigkeit das Atrium eines Düsseldorfer Energiekonzerns. 
+ [ 1:39 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.el-olivo-film.de/
+SEQUENCE:0
+SUMMARY:El Olivo - Der Olivenbaum
+DTSTART;TZID=Europe/Berlin:20170604T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170605T232600
+UID:Willkommen bei den Hartmanns @20170605T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:WILLKOMMEN BEI DEN HARTMANNS  
+ Angelika Hartmann (Senta Berger)\, frisch pensionierte Lehrerin. Ihr Mann (Heiner Lauterbach)\, Chefarzt einer Klinik\, versucht mit allen Mitteln\, den Alterungsprozess aufzuhalten. Sohn Philip (Florian David Fitz) driftet in Businesswelten zwischen Shanghai und München\, dabei bleibt die Beziehung zu seinem Sohn Basti (Marinus Hohmann) auf der Strecke\, Tochter Sophie (Palina Rojinski) weiß mit 31 immer noch nicht\, was sie will. Dies ungefähr die "Problemlage"\, mit der der Nigerianer Diallo Makabouri konfrontiert wird\, als Angelika beschließt durch die Aufnahme eines Geflüchteten ihrem Leben Sinn zu verschaffen. "Im großen Durcheinander des Klamauks macht es die Stärke der Komödie aus\, dass sie es mitunter tatsächlich schafft\, sowas wie deutsche Zeitgeschichte abzubilden - und einem Massenpublikum den Spiegel vorzuhalten." Der Spiegel 
+ [ 1:56 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://film.info/willkommenbeidenhartmanns/
+SEQUENCE:0
+SUMMARY:Willkommen bei den Hartmanns 
+DTSTART;TZID=Europe/Berlin:20170605T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170606T232700
+UID:Nocturnal Animals@20170606T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:NOCTURNAL ANIMALS 
+ Die Kunsthändlerin Susan Morrow (Amy Adams) erhält ein Roman-Manuskript mit dem Titel Nocturnal Animals\, geschrieben ausgerechnet von ihrem Ex-Ehemann Edward Sheffield (Jake Gyllenhaal)\, zu dem sie seit Jahren keinen Kontakt mehr hat.  Edward erzählt darin die Geschichte von Tony Hastings\, der mit seiner Familie durch Texas fährt und dort eines Nachts von einer Gang von der Straße abgedrängt wird. Er wird machtlos Tony dabei zusehen müssen\, wie seine Familie entführt wird und seine größten Ängste Wirklichkeit werden. Tom Ford montiert die Geschichte der Romanlektüre\, die des Romans und die der längst vergangenen Liebe von Susan und Ed zu einem starken\, packenden und puzzlehaften Thriller. 
+ [ 1:57 h | FSK: ab 16 Jahren ]
+SEQUENCE:0
+SUMMARY:Nocturnal Animals
+DTSTART;TZID=Europe/Berlin:20170606T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170607T233700
+UID:Hidden Figures – Unerkannte Heldinnen@20170607T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:HIDDEN FIGURES – UNERKANNTE HELDINNEN 
+ Ein im besten Sinne angenehmer und obendrein wichtiger "Wohlfühlfilm"\, der sein Scheinwerferlicht elegant auf drei vergessene afroamerikanische Mathematikerinnen und ihren bahnbrechenden Beitrag zur ersten Erdumrundung wirft. Einzigartig erzählt das Mut machende\, temporeiche\, historische Drama ihre außergewöhnliche Geschichte. 
+ [ 2:07 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.fox.de/hidden-figures
+SEQUENCE:0
+SUMMARY:Hidden Figures – Unerkannte Heldinnen
+DTSTART;TZID=Europe/Berlin:20170607T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170608T234800
+UID:Manchester by the Sea@20170608T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MANCHESTER BY THE SEA 
+ Lee Chandler (Casey Affleck) ist ein schweigsamer Einzelgänger\, der als Hausmeister in Boston arbeitet. Bis ein Anruf sein Leben schlagartig verändert. Der Tod seine Bruders zwingt Lee in seine Heimat\, die Hafenstadt Manchester-by-the-Sea\, zurückkehren\, um sich um seinen Neffen zu kümmern. Der widerspenstige Teenager ist nur eine der Herausforderungen\, denen sich Lee zu stellen hat. "Manchester by the Sea" ist einer dieser Filme\, die man ein zweites Mal sehen will und zwar mit jemandem\, der ihn noch nicht gesehen hat\, allein schon um sich zu erinnern\, wie es sich beim ersten Mal angefühlt hat." Matt Zoller Seitz\, RogerEbert.com 
+ [ 2:18 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.manchester-by-the-sea.de
+SEQUENCE:0
+SUMMARY:Manchester by the Sea
+DTSTART;TZID=Europe/Berlin:20170608T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170609T233000
+UID:Die Berliner Kurzfilmrolle 2017@20170609T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DIE BERLINER KURZFILMROLLE 2017 
+ Eine neue Auswahl an tollen\, bewegenden\, lustigen und ungewöhnlichen Kurzfilmen aus Berlin und Brandenburg! In Anwesenheit der FilmemacherInnen!       ETAGE X\, Regie: Francy Fabritz URBAN AUDIO SPECTRUM\, Regie: Marina Schnider PRINCESS\, Regie: Karsten Dahlem THE WILD BOAR/Das Wildschwein/Sauvage\, Regie: Bella Szederkenyi DRAGON CIRCLE - Porträt einer Berliner Metall Künstlergruppe\, Regie: Gertrud Schulte Westenberg #SELFIE\, Regie: David M. Lorenz AUTUMN\, Regie: Nicolaas Schmidt   und den Gewinner aus 2016:  KAPUTT (Broken - The Woman´s Prison at Hoheneck)\, Regie: Volker Schlecht\, Alexander Lahl   Abstimmung nur mit SMS-fähigem Handy! 
+ [ 2:00 h | FSK: ab 16 Jahren ]
+SEQUENCE:0
+SUMMARY:Die Berliner Kurzfilmrolle 2017
+DTSTART;TZID=Europe/Berlin:20170609T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170610T233300
+UID:Paula@20170610T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:PAULA 
+ Worpswede\, 1900. Schon bei ihrer ersten Begegnung spüren Paula Becker (Carla Juri) und Otto Modersohn (Albrecht Abraham Schuch) eine besondere Verbindung. Aus ihrer gemeinsamen Leidenschaft für die Malerei wird die große Liebe. Sie führen eine Ehe fernab von gängigen Mustern ihrer Zeit\, eine Beziehung in satten Farben\, reich an Konturen und mit Spuren von Kämpfen. Ebenso wie die Gemälde der jungen Frau\, die mutig nach dem Leben greift und die als Paula Modersohn-Becker in die Kunstgeschichte eingehen wird. "Ein fesselndes Künstlerporträt!" Elle 
+ [ 2:03 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.paula-film.de
+SEQUENCE:0
+SUMMARY:Paula
+DTSTART;TZID=Europe/Berlin:20170610T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170611T233700
+UID:La La Land@20170611T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LA LA LAND 
+ Die leidenschaftliche Schauspielerin Mia (Emma Stone) und der charismatische Jazzmusiker Sebastian (Ryan Gosling) suchen das große Glück in Los Angeles. Sie halten sich mit Nebenjobs über Wasser. Als sich ihre Wege zufällig kreuzen\, verlieben sie sich Hals über Kopf ineinander\, schmieden Pläne für ihre Zukunft auf der Bühne und genießen den Zauber der jungen Liebe in "La La Land" – der Stadt der Träume ... 
+ [ 2:07 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.lalaland-film.de
+SEQUENCE:0
+SUMMARY:La La Land
+DTSTART;TZID=Europe/Berlin:20170611T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170612T234100
+UID:Mit siebzehn @20170612T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MIT SIEBZEHN  
+ Ein Liebesfilm und eben auch viel mehr als das\, weil er wunderbar beiläufig vom heuten Frankreich zu erzählen vermag. Aber der Reihe nach: Als die Landärztin Marianne (Sandrine Kiberlain) den Sohn einer Patientin einlädt\, für eine Zeit bei ihr und ihrer Familie zu wohnen\, weiß sie nicht\, dass der neue Gast und ihr Sohn sich bereits in inniger Schulfeindschaft verbunden sind. Dass ein gestelltes Bein der Beginn großer Zuneigung sein kann\, erinnern die meisten noch aus den eigenen Schultagen .... 
+ [ 1:56 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.mitsiebzehn-derfilm.de
+SEQUENCE:0
+SUMMARY:Mit siebzehn 
+DTSTART;TZID=Europe/Berlin:20170612T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170613T233500
+UID:Florence Foster Jenkins@20170613T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:FLORENCE FOSTER JENKINS 
+ Florence Foster Jenkins\, die selbsternannte Operndiva und Millionenerbin macht im New York der 1920er Jahre unaufhaltsam Karriere: In ausgefallenen Kostümen und mit hemmungsloser Hingabe tritt sie vor einem stetig wachsenden Publikum auf - immer in dem Glauben\, eine große Künstlerin zu sein. Sie veröffentlicht Schallplatten\, wird von Fans verehrt und bricht 1944 mit ihrem legendären Auftritt in der Carnegie Hall alle Verkaufsrekorde. 
+ [ 1:50 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:https://www.constantin-film.de/kino/florence-foster-jenkins/
+SEQUENCE:0
+SUMMARY:Florence Foster Jenkins
+DTSTART;TZID=Europe/Berlin:20170613T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170614T233600
+UID:Moonlight@20170614T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MOONLIGHT 
+ Die berührende Geschichte des jungen Chiron\, der in Miami fernab jeglichen Glamours aufwächst. Der Film begleitet entscheidende Momente in Chirons Leben von der Kindheit bis ins Erwachsenenalter\, in denen er sich selbst entdeckt\, für seinen Platz in der Welt kämpft\, seine große Liebe findet und wieder verliert. MOONLIGHT ist ein einzigartiges Stück Kino darüber\, wie die Suche nach einem Platz in der Welt\, unsere Umgebung\, die eigene Familie und insbesondere die erste Liebe uns unser Leben lang prägen. "Sehr zurecht mit drei Oscars geehrt. 5 Filmrollen" Radioeins 
+ [ 1:51 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://derbestefilmdesjahres.de
+SEQUENCE:0
+SUMMARY:Moonlight
+DTSTART;TZID=Europe/Berlin:20170614T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170615T233300
+UID:Neruda@20170615T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:NERUDA 
+ Chile\, 1948. In einer flammenden Rede vor dem Kongress bezichtigt Senator Pablo Neruda (Luis Gnecco)\, weltberühmter Dichter\, Kommunist und Lebemann\, den Präsident Videla des Verrats – und wird umgehend seines Amtes enthoben. Zur Fahndung ausgeschrieben\, taucht er gemeinsam mit seiner Lebensgefährtin Delia del Carril unter\, mitten in der Arbeit an seiner epochalen Gedichtsammlung des "Canto General". Während die Kampfgedichte des Canto General in handgetippten Abschriften unter den Arbeitern und Bewohnern der Armenviertel kursieren\, heftet sich der melancholische Polizist Óscar Peluchonneau (Gael García Bernal) an die Fersen des verhassten roten Dichters\, dessen Faszination und Poesie er sich dennoch nicht entziehen kann.... 
+ [ 1:48 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.neruda-der-film.de
+SEQUENCE:0
+SUMMARY:Neruda
+DTSTART;TZID=Europe/Berlin:20170615T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170616T233600
+UID:Mein Blind Date mit dem Leben@20170616T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MEIN BLIND DATE MIT DEM LEBEN 
+ Eine aufregende Karriere im Luxus-Hotel - das ist der langgehegte Traum von Saliya (Kostja Ullmann). Doch für jemanden\, der fast blind ist\, könnte nichts unwahrscheinlicher sein: Aber seinen Traum aufzugeben\, kommt nicht in Frage\, und so schickt Saliya eine Bewerbung an ein 5-Sterne-Hotel - ohne sein Handicap zu erwähnen. Überraschenderweise funktioniert der Bluff aber tatsächlich und er bekommt eine Stelle in einem Luxus-Hotel in München. Niemand ahnt etwas von seinem Geheimnis\, nur sein Freund Max (Jacob Matschenz) erkennt bald\, was es mit Saliya auf sich hat und hilft ihm\, jede noch so schwierige Lage zu bewältigen. Wenn alle anderen Feierabend machen\, übt Saliya bis in die Nacht die für seine Kollegen einfachsten Handgriffe\, bis er sie "blind" beherrscht. Doch als er sich in Laura (Anna Maria Mühe) verliebt und durch sie in eine unvorhergesehene Situation gebracht wird\, scheint alles\, was er sich vorgenommen hat\, zusehends aus den Fugen zu geraten. 
+ [ 1:51 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.meinblinddatemitdemleben.de
+SEQUENCE:0
+SUMMARY:Mein Blind Date mit dem Leben
+DTSTART;TZID=Europe/Berlin:20170616T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170617T231800
+UID:Kundschafter des Friedens@20170617T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:KUNDSCHAFTER DES FRIEDENS 
+ Als der ehemalige Erzfeind BND sie überraschend um Hilfe bittet\, ziert sich das legendäre Kundschafter-Team Gwisdek\, Hübchen\, Locke und Glatzeder nur der Form halber\, zumal sie  die Chance wittern\, eine offene Rechnung mit dem West-Agenten Kern zu begleichen. Nur widerwillig lässt sich die Rentner-Gruppe von der jungen BND-Agentin Paula nach Katschekistan begleiten. Doch dort ist nichts mehr wie es einmal war und die Mission droht\, im Chaos zu versinken. Zeit sich auf ihre ihre alten Fähigkeiten zu besinnen. "KUNDSCHAFTER DES FRIEDENS ist eine filmische Agentenoperette\, die mal ordentlich und voller Lust auf den Klischee-Pudding voller Stereotypen haut." Dresdner Kinokalender 
+ [ 1:33 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.kundschafterdesfriedens.de
+SEQUENCE:0
+SUMMARY:Kundschafter des Friedens
+DTSTART;TZID=Europe/Berlin:20170617T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170618T233800
+UID:Frantz @20170618T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:FRANTZ  
+ Kurz nach dem Ersten Weltkrieg. Anna besucht jeden Tag das Grab ihres Verlobten Frantz\, der in Frankreich gefallen ist. Als eines Tages ein junger Franzose die kleine Stadt besucht um ebenfalls zu Trauern\, gerät nicht nur das Weltbild der jungen Anna ins Wanken. Der Anfang eines vielschichtigen\, bestechend gespielten und inszenierten Melodrams. "Wunderbar einfühlsam spielt Paula Bär diese verunsicherte\, traurige und immer stärker werdende junge Frau. Regisseur Francois Ozon bedient sich in dem Melodram klassischer Kino-Erzählweisen\, die dennoch lange und eindringlich nachwirkt." radioeins 
+ [ 1:53 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.frantz.x-verleih.de
+SEQUENCE:0
+SUMMARY:Frantz 
+DTSTART;TZID=Europe/Berlin:20170618T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170619T232500
+UID:Ich\, Daniel Blake @20170619T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:ICH\, DANIEL BLAKE  
+ Daniel Blake ist ein geradliniger Durchschnittsengländer\, der seine Steuern zahlt und das Leben so nimmt\, wie es kommt. Doch eines Tages macht ihm seine Gesundheit einen Strich durch die Rechnung\, und er ist auf staatliche Hilfe angewiesen. Auf dem Amt kreuzt sich sein Weg mit der alleinerziehenden Mutter Katie und ihren beiden Kindern. Sie raufen sich zu einer Schicksalsgemeinschaft zusammen und erfahren neben den ständigen Seitenhieben der Behörden auch viel Solidarität – von ehemaligen Kollegen\, von ehrenamtlichen Helfern der Tafel\, sogar von Daniels schrägem Nachbar.  Doch die bürokratischen Klippen des sogenannten Sozialstaates sind tückisch. Da wird Ohnmacht zur Wut – und so leicht geben Daniel und Katie ihre Träume und Hoffnungen nicht auf... 
+ [ 1:40 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.daniel-blake.de
+SEQUENCE:0
+SUMMARY:Ich\, Daniel Blake 
+DTSTART;TZID=Europe/Berlin:20170619T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170620T233000
+UID:Der Himmel wird warten@20170620T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DER HIMMEL WIRD WARTEN 
+ Catherine und Samir sind die stolzen Eltern der 17-jährigen Sonia\, sie sind eine glückliche Familie\, die gemeinsam den Alltag meistert. Gerade zurück aus den Sommerferien\, wird ihr Haus eines Nachts von der Polizei gestürmt und Sonia unter Arrest gestellt. Um ihrer Familie einen Platz im Paradies zu sichern\, hat sich Sonia dem Dschihad angeschlossen\, bereit für einen Anschlag in ihrem Heimatland. Catherine und Sylvie sind tief erschüttert davon\, wie fremd ihre Töchter ihnen so ganz im Stillen geworden sind. Doch sie sind bereit\, alles zu tun\, um sie wieder zurückzubekommen. "Regisseurin Marie-Castille Mention-Schaar gelingt es in diesem erstaunlichen Film\, sensibel die Gefühlslagen der jungen Frauen zu erkunden\, sie fragt nach Idealen und den Mechanismen der Verführung." Radioeins 
+ [ 1:45 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.der-himmel-wird-warten.de
+SEQUENCE:0
+SUMMARY:Der Himmel wird warten
+DTSTART;TZID=Europe/Berlin:20170620T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170621T232400
+UID:Monsieur Pierre geht online@20170621T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MONSIEUR PIERRE GEHT ONLINE 
+ Pierre (Pierre Richard) ist Witwer\, Griesgram und hasst Veränderungen aller Art. Um den alten Herrn zurück ins Leben zu schubsen\, verkuppelt seine Tochter Sylvie ihn mit Alex\, einem Freund ihrer Tochter. Alex soll Pierre mit der fabelhaften Welt des Internets vertraut machen. Das ungewohnte Lernduo tut sich mächtig schwer\, bis Pierre ausgerechnet über ein Datingportal stolpert. .. In der Hauptrolle flunkert sich Pierre Richard ("Der große Blonde mit dem schwarzen Schuh...") als hinreißender Charmeur und Cyrano der Datingcommunity durch halb Europa. "Die hinreißende Komödie der Irrungen macht gute Laune über alle Altersgrenzen hinweg." programmkino 
+ [ 1:39 h | FSK:  Jahren ]
+SEQUENCE:0
+SUMMARY:Monsieur Pierre geht online
+DTSTART;TZID=Europe/Berlin:20170621T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170622T233000
+UID:Lommbock@20170622T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LOMMBOCK 
+ Kai (Moritz Bleibtreu) betreibt in Würzburg den angeranzten Asia-Liefer-Service "Lommbock"\, während sein Kumpel Stefan (Lucas Gregorowicz) seit Jahren erfolgreich im drogenfreien Dubai lebt und nun für seine anstehende Hochzeit amtliche Papiere in Deutschland besorgen muss. Stefans Kurztrip in seine Heimatstadt wird durch Kai allerdings unfreiwillig verlängert und für die Freundschaft der beiden eine echte Herausforderung\, denn die Vergangenheit kickt mitunter sehr zeitverzögert. "Regisseur Christian Zübert hat einfach einen tiefenentspannten Unterhaltungsfilm hingelegt\, den man sich gerne ansieht." Deutschlandfunk 
+ [ 1:45 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:https://www.facebook.com/lommbock
+SEQUENCE:0
+SUMMARY:Lommbock
+DTSTART;TZID=Europe/Berlin:20170622T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170623T234100
+UID:Arrival @20170623T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:ARRIVAL  
+ Zwölf mysteriöse Raumschiffe landen zeitgleich in unterschiedlichen Regionen der Welt. Ihre Besatzung und deren Intension – ein Rätsel. Um globale Paranoia und einen potentiellen Krieg zu verhindern\, soll ein Elite-Team um die Linguistin Louise Banks (Amy Adams) und den Mathematiker Ian Donnelly (Jeremy Renner) im Auftrag des Militärs Kontakt herstellen. Doch das unermüdliche Streben nach Antworten gerät bald zum Rennen gegen die Zeit – die eigene und die der gesamten Menschheit.  "Der beste Science-Fiction-Film seit langem." Berliner-Zeitung 
+ [ 1:56 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.arrival-film.de/site/index.php
+SEQUENCE:0
+SUMMARY:Arrival 
+DTSTART;TZID=Europe/Berlin:20170623T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170624T234300
+UID:Paterson @20170624T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:PATERSON  
+ Der Busfahrer Paterson (Adam Driver) heißt genauso wie der Ort\, in dem er lebt. Die Kleinstadt in New Jersey und ihre eigentümlichen Bewohner sind die Inspiration für seine Gedichte\, die er Tag für Tag in der Mittagspause auf der Parkbank verfasst. Die Welt seiner Frau Laura (Golshifteh Farahani) dagegen ist im ständigen Wandel. Fast täglich hat sie neue Träume\, jeder einzelne von ihnen ein anderes\, inspirierendes Projekt. Paterson liebt Laura und sie ihn. Er unterstützt ihre neugefundenen Ambitionen und sie bewundert seine Gabe für Poesie. "Eine Ode an das kleine\, gewöhnliche\, aber erfüllte Leben. Wenn man es\, wie hier im Kino\, einfach geschehen lässt\, neugierig und gelassen\, geht man am Ende sehr glücklich nach Hause." Berliner Zeitung 
+ [ 1:58 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.paterson-derfilm.de
+SEQUENCE:0
+SUMMARY:Paterson 
+DTSTART;TZID=Europe/Berlin:20170624T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170625T232800
+UID:24 Wochen @20170625T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:24 WOCHEN  
+ Astrid (Julia Jentsch) und Markus (Bjarne Mädel) stehen mit beiden Beinen fest im Leben. Astrid lebt und liebt ihren Beruf als Kabarettistin\, ihr Mann und Manager Markus unterstützt sie besonnen und liebevoll. Doch als die beiden ihr zweites Kind erwarten\, wird ihr Leben aus der Bahn geworfen: Bei einer Routineuntersuchung erfahren sie\, dass das Baby schwer krank ist. Die Diagnose trifft sie wie das blinde Schicksal\, das sie auf sich nehmen müssen. Gemeinsam wollen sie lernen\, damit umzugehen. Doch während Heilungspläne\, Ratschläge und Prognosen auf sie niederprasseln\, stößt ihre Beziehung an ihre Grenzen. Die Suche nach der richtigen Antwort stellt alles in Frage: die Beziehung\, den Wunsch nach einem Kind\, ein Leben nach Plan. Je mehr Zeit vergeht\, desto klarer erkennen sie\, dass nichts und niemand ihnen die Entscheidung abnehmen kann\, die eine Entscheidung über Tod und Leben ist. 
+ [ 1:43 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.24wochen.de
+SEQUENCE:0
+SUMMARY:24 Wochen 
+DTSTART;TZID=Europe/Berlin:20170625T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170626T231800
+UID:I am not your Negro @20170626T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:I AM NOT YOUR NEGRO  
+ Im Juni 1979 beginnt der bedeutende US-Autor James Baldwin seinen letzten\, unvollendet gebliebenen Text "Remember This House". Mit persönlichen Erinnerungen an seine drei ermordeten Bürgerrechtler-Freunde Malcolm X\, Medgar Evers und Martin Luther King und Reflexionen der eigenen\, schmerzhaften Lebenserfahrung als Schwarzer schreibt er die Geschichte Amerikas neu. Raoul Peck entwickelt aus den 30 bislang unveröffentlichten Manuskriptseiten mit einer fulminanten Collage von Archivfotos\, Filmausschnitten und Nachrichten-Clips einen extrem klugen\, packenden und gegenwärtigen Film. 
+ [ 1:33 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.iamnotyournegrofilm.com
+SEQUENCE:0
+SUMMARY:I am not your Negro 
+DTSTART;TZID=Europe/Berlin:20170626T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170627T232200
+UID:Einfach das Ende der Welt @20170627T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:EINFACH DAS ENDE DER WELT  
+ Nach über zwölf Jahren kehrt Louis (Gaspard Ulliel) erstmals nach Hause zurück und versetzt damit seine Familie (Nathalie Baye\, Léa Seydoux\, Vincent Cassel und Marion Cotillard) in helle Aufregung. Doch die anfängliche Freude über die Heimkehr des verlorenen Sohnes und Bruders schlägt schnell um: Alte Wunden brechen auf und erhitzen die Gemüter. Wird es Louis gelingen das auszusprechen\, wofür er gekommen ist?  "Es gibt kaum einen anderen Regisseur\, der so viel Kino\, erzählerische Leidenschaft und Frechheit im Blut hat wie Dolan." Alexander Soyez\, rbb-Inforadio. 
+ [ 1:37 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.einfachdasendederwelt-film.de
+SEQUENCE:0
+SUMMARY:Einfach das Ende der Welt 
+DTSTART;TZID=Europe/Berlin:20170627T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170628T233200
+UID:Ghost in the Shell@20170628T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:GHOST IN THE SHELL 
+ In der nahen Zukunft hat die Menschheit gewaltige technologische Fortschritte gemacht\, aber dennoch ist Major (Scarlett Johansson) die erste ihrer Art: Sie wurde nach einem schrecklichen Unfall in einen Cyborg mit übermenschlichen Fähigkeiten verwandelt\, eine perfekte Waffe im Kampf gegen gefährliche Kriminelle überall auf der Welt. Und so ist Major auch am besten geeignet\, gemeinsam mit ihrer Elite-Einsatztruppe Sektion 9 den skrupellosen Cyber-Terroristen Kuze (Michael Pitt) aufzuhalten\, dem es gelungen ist\, sich in den Verstand von Menschen zu hacken und diese zu kontrollieren. Doch während der Jagd auf Kuze macht sie eine furchtbare Entdeckung: Die Wissenschaftler\, die ihr angeblich das Leben gerettet haben\, haben ihr in Wahrheit ihr Leben weggenommen.... 
+ [ 1:47 h | FSK: ab 16 Jahren ]
+SEQUENCE:0
+SUMMARY:Ghost in the Shell
+DTSTART;TZID=Europe/Berlin:20170628T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170629T232500
+UID:Jackie@20170629T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:JACKIE 
+ Sie ist eine First Lady wie aus dem Märchen: elegant\, kultiviert\, populär. Und schon zu Lebzeiten eine Legende. Als Präsidentengattin verwandelt sie das Weiße Haus in einen glamourösen Ort\, an dem sich die High Society trifft. Das ist schlagartig vorbei\, als Präsident John F. Kennedy am 22. November 1963 in Dallas erschossen wird. Jackie Kennedy (Natalie Portman) verliert alles. Pablo Larraíns Film "rekonstruiert" die Tage zwischen Attentat und Beerdigung\, in der Jackie sich entscheidet\, als First Lady die Legende zu schreiben\, als die wir die Kennedy heute noch im Kopf haben. 
+ [ 1:40 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://tobis.de/film/jackie/
+SEQUENCE:0
+SUMMARY:Jackie
+DTSTART;TZID=Europe/Berlin:20170629T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170630T232900
+UID:Get out@20170630T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:GET OUT 
+ Der ultimative Horror-Satire-Erfolg aus den USA hat auch uns gepackt. Traditionell ist der Antrittsbesuch bei den Schwiegereltern in spe ja eher schwierig. Umso größer die Erleichterung bei Daniel: Der Empfang in der Familie seiner Freundin Rose gestaltet sich herzlich\, vielleicht eine Spur "zu herzlich". Doch dann häufen sich mehr und mehr bizarre Zwischenfälle und verwandeln ein unverfängliches Wochenende auf dem Land in einen wahren Alptraum für den Familien-Neuling.  
+ [ 1:44 h | FSK: ab 16 Jahren ]
+URL;VALUE=URI:http://www.getout-film.de
+SEQUENCE:0
+SUMMARY:Get out
+DTSTART;TZID=Europe/Berlin:20170630T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170701T233200
+UID:SMS für Dich@20170701T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:SMS FüR DICH 
+ Clara (Karoline Herfurth) kommt einfach nicht über den Verlust ihrer großen Liebe Ben hinweg\, der vor zwei Jahren bei einem Autounfall gestorben ist. Selbst ihrer forschen Mitbewohnerin Katja (Nora Tschirner) gelingt es nur mühsam\, ihre Freundin zurück ins Leben zu manövrieren. Stattdessen schreibt Clara voller Wehmut SMS an Bens alte Handynummer ohne zu ahnen\, dass die Nummer gerade neu vergeben wurde. So landen ihre liebevollen\, romantischen Erinnerungen direkt im Display des Sportjournalisten Mark (Friedrich Mücke). Verblüfft und zugleich berührt liest dieser die SMS-gewordene Sehnsucht und schlittert in seiner Verwirrung bei seiner Freundin Fiona (Friederike Kempter) von einem Fettnapf in den nächsten. Trotzdem: Er muss die mysteriöse Unbekannte unbedingt finden und spannt auch seinen besten Freund David (Frederick Lau) in die Suche ein. 
+ [ 1:47 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://film.info/smsfuerdich/
+SEQUENCE:0
+SUMMARY:SMS für Dich
+DTSTART;TZID=Europe/Berlin:20170701T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170702T232300
+UID:Die andere Seite der Hoffnung@20170702T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DIE ANDERE SEITE DER HOFFNUNG 
+ Wikström ist ein fliegender Händler für Männerhemden und Krawatten. In der Mitte des Lebens angekommen\, verlässt er seine Frau\, gibt seinen Job auf\, profiliert sich kurzfristig als Poker-Spieler und kauft ein heruntergewirtschaftetes Restaurant in einer abgelegenen Gasse von Helsinki. Im Innenhof seines Restaurants findet er Khaled\, als blinder Passagier aus Syrien gekommen und aktuell auf der Flucht vor der drohenden Abschiebung. Vielleicht sieht er etwas von sich selbst in diesem ramponierten\, angeschlagenen Mann. Jedenfalls stellt er Khaled als Putzkraft und Tellerwäscher an. Für einen Moment zeigt uns das Leben seine sonnigere Seite\, aber schon bald greift das Schicksal ein\, dem das "Kaurismäki-Personal" auf ganz eigene Weise begegnet. »Mit Mut\, Zuversicht und viel Humor« ZDF HEUTE JOURNAL 
+ [ 1:38 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.die-andere-seite-der-hoffnung.de
+SEQUENCE:0
+SUMMARY:Die andere Seite der Hoffnung
+DTSTART;TZID=Europe/Berlin:20170702T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170703T235000
+UID:The Salesman@20170703T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:THE SALESMAN 
+ Das Ehepaar Rana und Emad muss umziehen. Ein Bekannter stellt dem jungen Paar seine leerstehende Wohnung zur Verfügung\, ein seltener Glücksfall im heutigen Teheran. Als Rana im Badezimmer von einem Unbekannten überfallen wird\, weigert sie sich die Polizei einzuschalten oder auch nur über den Vorfall zu sprechen. Also macht sich Emad selbst auf die Suche nach dem Täter.... "Mit diesem makellosen\, ebenso ergreifenden wie nachdenklich stimmenden Psycho-Thriller hat  Asghar Farhadi sich seinen Platz im exklusiven Club der grandiosen Filmkünstler souverän behauptet." programmkino 
+ [ 2:05 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.24-bilder.de/filmdetail.php?id=679
+SEQUENCE:0
+SUMMARY:The Salesman
+DTSTART;TZID=Europe/Berlin:20170703T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170704T234000
+UID:Die Mitte der Welt@20170704T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DIE MITTE DER WELT 
+ Phil (Louis Hofmann) ist 17 und auf der Suche. So wenig er über seine Vergangenheit und vor allem seinen Vater weiß\, so chaotisch ist seine Gegenwart: Mit seiner Mutter Glass (Sabine Timoteo)\, die mal wieder einen neuen Liebhaber hat. Mit seiner Zwillingsschwester Dianne (Ada Philine Stappenbeck)\, die sich immer mehr in ihre eigene Welt zurückzieht. Zwischen beiden herrscht eine rätselhafte Eiszeit\, die auch Tereza (Inka Friedrich) und Pascal (Nina Proll)\, die auch zu Phils Patchworkfamilie gehören\, nicht erklären können.Gut\, dass wenigstens auf seine beste Freundin Kat (Svenja Jung) Verlass ist\, mit der er gechillt abhängen und rumalbern kann. Ein fast normaler Sommer bis Nicholas (Jannik Schümann) in Phils Schulklasse "erscheint". 
+ [ 1:55 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://mitte-der-welt-film.de
+SEQUENCE:0
+SUMMARY:Die Mitte der Welt
+DTSTART;TZID=Europe/Berlin:20170704T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170705T224900
+UID:Nosferatu\, eine Symphonie des Grauens@20170705T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:NOSFERATU\, EINE SYMPHONIE DES GRAUENS 
+ Stummfilmklassiker von Friedrich Wilhelm Murnau nach Bram Stokers Schauerroman "Dracula": Der junge Thomas Hutter begibt sich zu Beginn des 19. Jahrhunderts im Auftrag eines Maklers in die Karpaten\, um mit Graf Orlok über den Kauf eines Hauses in Hutters Heimatstadt Wisborg zu verhandeln. Orlok erweist sich als der Vampir Nosferatu. Durch ein Bild von Hutters schöner Frau Ellen in Bann geschlagen\, reist das Ungeheuer auf einem Schiff\, dessen Mannschaft er tötet\, nach Wisborg. Mit Nosferatu ziehen die Ratten\, Boten der Pest. Ellen erkennt\, dass es nur einen Weg gibt\, das Sterben zu beenden: Sie muss sich dem Vampir freiwillig opfern ... 
+ [ 1:04 h | FSK: ab 12 Jahren ]
+SEQUENCE:0
+SUMMARY:Nosferatu\, eine Symphonie des Grauens
+DTSTART;TZID=Europe/Berlin:20170705T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170706T234300
+UID:Plötzlich Papa@20170706T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:PLöTZLICH PAPA 
+ Samuel genießt sein Single-Leben in Südfrankreich in vollen Zügen: Er schippert reiche Touristen übers Meer\, ein Partytyp\, der nichts anbrennen lässt. Sommer\, Sonne\, Sex\, das könnte endlos so weitergehen\, wenn ihm nicht plötzlich die junge Britin Kristin ein drei Monate altes Baby in die Arme drücken würde\, um sich im nächsten Moment aus dem Staub zu machen. Um Gloria\, das Ergebnis eines One-Night-Stands\, schnell wieder loszuwerden\, macht sich der frisch gebackene Papa auf nach London\, doch die Lady ist wie vom Erdboden verschwunden. 
+ [ 1:58 h | FSK:  Jahren ]
+URL;VALUE=URI:http://tobis.de/film/ploetzlich-papa
+SEQUENCE:0
+SUMMARY:Plötzlich Papa
+DTSTART;TZID=Europe/Berlin:20170706T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170707T233600
+UID:Moonlight@20170707T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MOONLIGHT 
+ Die berührende Geschichte des jungen Chiron\, der in Miami fernab jeglichen Glamours aufwächst. Der Film begleitet entscheidende Momente in Chirons Leben von der Kindheit bis ins Erwachsenenalter\, in denen er sich selbst entdeckt\, für seinen Platz in der Welt kämpft\, seine große Liebe findet und wieder verliert. MOONLIGHT ist ein einzigartiges Stück Kino darüber\, wie die Suche nach einem Platz in der Welt\, unsere Umgebung\, die eigene Familie und insbesondere die erste Liebe uns unser Leben lang prägen. "Sehr zurecht mit drei Oscars geehrt. 5 Filmrollen" Radioeins 
+ [ 1:51 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://derbestefilmdesjahres.de
+SEQUENCE:0
+SUMMARY:Moonlight
+DTSTART;TZID=Europe/Berlin:20170707T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170708T235200
+UID:La La Land@20170708T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LA LA LAND 
+ Die leidenschaftliche Schauspielerin Mia (Emma Stone) und der charismatische Jazzmusiker Sebastian (Ryan Gosling) suchen das große Glück in Los Angeles. Sie halten sich mit Nebenjobs über Wasser. Als sich ihre Wege zufällig kreuzen\, verlieben sie sich Hals über Kopf ineinander\, schmieden Pläne für ihre Zukunft auf der Bühne und genießen den Zauber der jungen Liebe in "La La Land" – der Stadt der Träume ... 
+ [ 2:07 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.lalaland-film.de
+SEQUENCE:0
+SUMMARY:La La Land
+DTSTART;TZID=Europe/Berlin:20170708T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170709T232800
+UID:Wilde Maus @20170709T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:WILDE MAUS  
+ Überraschend erhält Georg (Josef Hader) von seinem Chefredakteur die Kündigung. Der nicht uneitle Musikkritiker sinnt auf Rache\, während er seiner Frau weiter ein geregeltes Leben vorspielt. Dabei steht ihm sein ehemaliger Mitschüler Erich (Georg Friedrich) zur Seite\, dem Georg in seiner neu gewonnenen Freizeit hilft\, eine marode Achterbahn im Wiener Prater wieder in Gang zu setzen. Georgs nächtliche Rachefeldzüge gegen seinen ehemaligen Chef beginnen als kleine Sachbeschädigungen und steigern sich. Schnell gerät sein bürgerliches Leben\, sehr zur Freude von uns Kinozuschauern\, völlig aus dem Ruder... 
+ [ 1:43 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.wildemaus-derfilm.de
+SEQUENCE:0
+SUMMARY:Wilde Maus 
+DTSTART;TZID=Europe/Berlin:20170709T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170710T231800
+UID:Tschick @20170710T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:TSCHICK  
+ Während die Mutter in der Entzugsklinik und der Vater mit seiner Assistentin auf "Geschäftsreise" ist\, verbringt der 14-jährige Außenseiter Maik Klingenberg (Tristan Göbel) die großen Ferien allein am Pool der elterlichen Villa.  Doch dann kreuzt Tschick auf.  Tschick (Anand Batbileg) stammt aus dem tiefsten Russland\, kommt aus einem der Hochhäuser in Berlin-Marzahn – und hat einen geklauten Lada dabei. Damit beginnt eine Reise ohne Karte und Kompass durch die sommerglühende ostdeutsche Provinz.  Die Geschichte eines Sommers\, den wir alle einmal erleben wollen... . Der beste Sommer von allen eben! "Doch so einen Sommer gibt es nur einmal – auch davon erzählt der uneitle\, wunderschöne und berührende Film. 5 Filmrollen" RadioEins   
+ [ 1:33 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.tschick-film.de
+SEQUENCE:0
+SUMMARY:Tschick 
+DTSTART;TZID=Europe/Berlin:20170710T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170711T234800
+UID:Paula@20170711T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:PAULA 
+ Worpswede\, 1900. Schon bei ihrer ersten Begegnung spüren Paula Becker (Carla Juri) und Otto Modersohn (Albrecht Abraham Schuch) eine besondere Verbindung. Aus ihrer gemeinsamen Leidenschaft für die Malerei wird die große Liebe. Sie führen eine Ehe fernab von gängigen Mustern ihrer Zeit\, eine Beziehung in satten Farben\, reich an Konturen und mit Spuren von Kämpfen. Ebenso wie die Gemälde der jungen Frau\, die mutig nach dem Leben greift und die als Paula Modersohn-Becker in die Kunstgeschichte eingehen wird. "Ein fesselndes Künstlerporträt!" Elle 
+ [ 2:03 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.paula-film.de
+SEQUENCE:0
+SUMMARY:Paula
+DTSTART;TZID=Europe/Berlin:20170711T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170712T234300
+UID:Lion: Der lange Weg nach Hause@20170712T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LION: DER LANGE WEG NACH HAUSE 
+ Wieder einmal eine Geschichte\, die zu unglaublich wirkt \, als dass sie wirklich geschehen sein könnte. Und doch: LION erzählt die wahre Lebensgeschichte des kleinen Saroo Brierley\, der sich mit nur fünf Jahren nach Kalkutta verliert\, von einem australischen Ehepaar adoptiert wird und 25 Jahre später getrieben von einer ungestümen Sehnsucht\, zu seiner Geburtsfamilie zurückfindet. Diese berührende Geschichte einer Suche nach den eigenen Wurzeln hat keine Scheu vor großem Gefühlskino\, gleitet aber niemals ins Sentimentale ab. "Die schönsten Geschichten schreibt bekanntermaßen immer noch das Leben. LION gelingt die Balance zwischen Rührung und Realismus in ehrlichen Bildern\, die sich wohltuend vom farbenprächtig bis kitschigen Indienklischee abheben." NDR Kultur 
+ [ 1:58 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.lion-film.de
+SEQUENCE:0
+SUMMARY:Lion: Der lange Weg nach Hause
+DTSTART;TZID=Europe/Berlin:20170712T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170713T232400
+UID:El Olivo - Der Olivenbaum@20170713T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:EL OLIVO - DER OLIVENBAUM 
+ Seit die Familie den 2.000 Jahre alten Olivenbaum verkauft hat\, redet Almas Großvater nicht mehr. Mit Hilfe ihres Kollegen Rafa und des verpeilten Onkels Alcachofa (Javier Gutiérrez) will Alma (Anna Castillo) den Baum wieder zurückholen — doch der ziert längst als Symbol für Nachhaltigkeit das Atrium eines Düsseldorfer Energiekonzerns. 
+ [ 1:39 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.el-olivo-film.de/
+SEQUENCE:0
+SUMMARY:El Olivo - Der Olivenbaum
+DTSTART;TZID=Europe/Berlin:20170713T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170714T233000
+UID:Lommbock@20170714T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LOMMBOCK 
+ Kai (Moritz Bleibtreu) betreibt in Würzburg den angeranzten Asia-Liefer-Service "Lommbock"\, während sein Kumpel Stefan (Lucas Gregorowicz) seit Jahren erfolgreich im drogenfreien Dubai lebt und nun für seine anstehende Hochzeit amtliche Papiere in Deutschland besorgen muss. Stefans Kurztrip in seine Heimatstadt wird durch Kai allerdings unfreiwillig verlängert und für die Freundschaft der beiden eine echte Herausforderung\, denn die Vergangenheit kickt mitunter sehr zeitverzögert. "Regisseur Christian Zübert hat einfach einen tiefenentspannten Unterhaltungsfilm hingelegt\, den man sich gerne ansieht." Deutschlandfunk 
+ [ 1:45 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:https://www.facebook.com/lommbock
+SEQUENCE:0
+SUMMARY:Lommbock
+DTSTART;TZID=Europe/Berlin:20170714T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170715T234500
+UID:Captain Fantastic – Einmal Wildnis und zurück@20170715T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:CAPTAIN FANTASTIC – EINMAL WILDNIS UND ZURüCK 
+ Ben (Viggo Mortensen) lebt aus Überzeugung mit seinen sechs Kindern in der Einsamkeit der Berge im Nordwesten Amerikas. Er unterrichtet sie selbst und bringt ihnen nicht nur ein überdurchschnittliches Wissen bei\, sondern auch wie man jagt und in der Wildnis überlebt. Als seine Frau stirbt\, ist er gezwungen mitsamt der Sprösslinge seine selbst geschaffene Aussteigeridylle zu verlassen und der realen Welt entgegenzutreten. In ihrem alten\, klapprigen Bus macht sich die Familie auf den Weg quer durch die USA zur Beerdigung\, die bei den Großeltern stattfinden soll. Ihre Reise ist voller komischer wie berührender Momente\, die Bens Freiheitsideale und seine Vorstellungen von Erziehung nachhaltig infrage stellen… 
+ [ 2:00 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.captain-fantastic-film.de
+SEQUENCE:0
+SUMMARY:Captain Fantastic – Einmal Wildnis und zurück
+DTSTART;TZID=Europe/Berlin:20170715T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170716T234400
+UID:Einsamkeit und Sex und Mitleid@20170716T214500
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:EINSAMKEIT UND SEX UND MITLEID 
+ Eine herrlich provokante Komödie über die Schwierigkeiten\, eine glückliche Beziehung zu leben. Ein Schuhdiebstahl im ICE bildet den Auftakt dieses wilden Kaleidoskops von Beziehungen und Abhängigkeiten zwischen ganz unterschiedlichen Großstadtmenschen\, die in diesem Film lustvoll wie in einem Spinnennetz zappeln. 
+ [ 1:59 h | FSK:  Jahren ]
+URL;VALUE=URI:http://www.x-verleih.de/de/filmdatenbank/null/EINSAMKEIT-UND-SEX-UND-MITLEID
+SEQUENCE:0
+SUMMARY:Einsamkeit und Sex und Mitleid
+DTSTART;TZID=Europe/Berlin:20170716T214500
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170717T225400
+UID:Raving Iran @20170717T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:RAVING IRAN  
+ Arash und Anoosh arbeiten als DJs in Teherans Underground-Technoszene. Ohne Zukunftsaussichten und dem ewigen Versteckspiel müde\, planen sie unter gefährlichen Umständen einen letzten manischen Rave in der Wüste. Zurück in Teheran\, versuchen sie ihr illegales Musikalbum ohne offizielle Genehmigung unter die Leute zu bringen. Als Anoosh an einer Party verhaftet wird\, erlischt auch der letzte Funke Hoffnung. Doch dann erreicht sie ein Anruf aus Zürich von der größten Techno Party der Welt .... 
+ [ 1:24 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.ravingiran.com
+SEQUENCE:0
+SUMMARY:Raving Iran 
+DTSTART;TZID=Europe/Berlin:20170717T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170718T232700
+UID:T2 Trainspotting @20170718T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:T2 TRAINSPOTTING  
+ Hat Renton (Ewan McGregor) wirklich eine Familie gegründet\, ein Auto und eine Waschmaschine gekauft\, wie er es am Ende von Trainspotting angekündigt hatte? Oder hat er die 16.000 Pfund um die er seine Freunde betrogen hat\, ganz anders durchgebracht? Fragen\, die sich auch 20 Jahre später noch stellen\, für deren Beantwortung aber kaum Zeit ist: Renton kehrt an den Ort zurück\, der einmal sein Zuhause war\, und schon überschlagen sich die Ereignisse.  "Die Darsteller sind brillant\, die Dialoge sind Weltklasse und manche Szenen für die Ewigkeit..." Stern 
+ [ 1:57 h | FSK: ab 16 Jahren ]
+URL;VALUE=URI:http://www.t2trainspotting.de/site/
+SEQUENCE:0
+SUMMARY:T2 Trainspotting 
+DTSTART;TZID=Europe/Berlin:20170718T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170719T231100
+UID:In Zeiten des abnehmenden Lichts@20170719T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:IN ZEITEN DES ABNEHMENDEN LICHTS 
+ Ostberlin\, im Frühherbst 1989. Wilhelm Powileit\, hochdekoriertes SED-Parteimitglied und Patriarch\, wird  90 Jahre alt. Ein Ehrentag\, zu dem die Familie ebenso gehört\, wie singende Pioniere zur erneuten Ordensverleihung an den greisen Jubilar. Und ein Familienfest\, das aus den Fugen geraten muss\, wie die Republik\, die eisern Mine zu ihrem 40. Jahrestag zu bewahren sucht. Drehbuch Wolfgang Kohlhaase. 
+ [ 1:41 h | FSK:  Jahren ]
+URL;VALUE=URI:http://www.x-verleih.de/filme/in-zeiten-des-abnehmenden-lichts/
+SEQUENCE:0
+SUMMARY:In Zeiten des abnehmenden Lichts
+DTSTART;TZID=Europe/Berlin:20170719T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170720T232600
+UID:Sommer Berlinale Wettbewerb: On Body and Soul@20170720T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:SOMMER BERLINALE WETTBEWERB: ON BODY AND SOUL 
+ Ausgerechnet ein Schlachthaus in Budapest wird zum Schauplatz einer seltsam schönen Liebesgeschichte. Mária tritt eine Stelle als Qualitätsprüferin an\, bei der Arbeit ist sie streng\, jedes Gramm Fett zu viel wird mit Punktabzug geahndet. Ohnehin scheint ihre Welt aus Zahlen und Daten zu bestehen. Dann trifft sie auf Endre. Verwundert entdecken die beiden ihre Seelenverwandtschaft\, sogar die gleichen Träume haben sie nachts. Vorsichtig versuchen sie\, diese in die Wirklichkeit zu überführen. 
+ [ 1:56 h | FSK:  Jahren ]
+URL;VALUE=URI:http://www.alamodefilm.de/kino/detail/koerper-und-seele.html
+SEQUENCE:0
+SUMMARY:Sommer Berlinale Wettbewerb: On Body and Soul
+DTSTART;TZID=Europe/Berlin:20170720T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170721T231400
+UID:Sommer Berlinale Panorama: God’s own Country@20170721T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:SOMMER BERLINALE PANORAMA: GOD’S OWN COUNTRY 
+ Auch Tag zwei der Sommer Berlinale gehört einem besonderen Liebesfilm: Johnny bewirtschaftet die Farm seines mürrischen Vaters im englischen Yorkshire. Die Kommunikation ist ländlich\, knapp und rau. Wie der gelegentliche Sex\, den sich Johnny im lokalen Pub sucht. Als Gheorghe aus Rumänien als Aushilfe für die Saison anheuert\, begegnet Johnny dem Fremden zunächst mit Misstrauen. Zunächst ... Eine der großen\, wunderbaren\, zarten und besonderen Filmentdeckungen dieses Berlinale. 
+ [ 1:44 h | FSK:  Jahren ]
+SEQUENCE:0
+SUMMARY:Sommer Berlinale Panorama: God’s own Country
+DTSTART;TZID=Europe/Berlin:20170721T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170722T230100
+UID:Sommer Berlinale FORUM: Casting@20170722T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:SOMMER BERLINALE FORUM: CASTING 
+ Was für eine Schauspielerinnenriege (Judith Engel\, Ursina Lardi\, Corinna Kirchhoff\, Andrea Sawatzki\, Marie-Lou Sellen\, Victoria Trauttmansdorff und Andreas Lust) und was für eine erfrischender\, besonderer\, lustiger und im Wechsel zwischen Casting\, Inszenierung und Film im Film vielschichtiger und überaschender Film. Kein Wunder\, dass Nicolas Wackerbarths Film vom Geheimtipp zum Publikumshit der diesjährigen Berlinale wurde. 
+ [ 1:31 h | FSK:  Jahren ]
+SEQUENCE:0
+SUMMARY:Sommer Berlinale FORUM: Casting
+DTSTART;TZID=Europe/Berlin:20170722T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170723T225400
+UID:Sommer Berlinale Generation 14plus:  Weirdos@20170723T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:SOMMER BERLINALE GENERATION 14PLUS:  WEIRDOS 
+ In lakonischen Schwarz-Weiß-Bildern erzählt Bruce McDonald die Geschichte der zwei jugendlichen Ausreißerinnen Kit und Alice. Am Vorabend des amerikanischen Bicentennials 1976 begleitet der Film die beiden  auf einer turbulenten Reise durch die atemberaubende Landschaft der kanadischen Ostküste\, getrieben vom Soundtrack dieser Tage. Kit sucht ein neues Leben in der Künstlerkommune seiner mondänen\, aber labilen Mutter\, Alice macht keinen Hehl aus ihren romantischen Sehnsüchten. Doch im Schein des knisternden Lagerfeuers einer Strandparty finden beide zu anderen Erkenntnissen 
+ [ 1:24 h | FSK:  Jahren ]
+SEQUENCE:0
+SUMMARY:Sommer Berlinale Generation 14plus:  Weirdos
+DTSTART;TZID=Europe/Berlin:20170723T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170724T230300
+UID:Kundschafter des Friedens@20170724T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:KUNDSCHAFTER DES FRIEDENS 
+ Als der ehemalige Erzfeind BND sie überraschend um Hilfe bittet\, ziert sich das legendäre Kundschafter-Team Gwisdek\, Hübchen\, Locke und Glatzeder nur der Form halber\, zumal sie  die Chance wittern\, eine offene Rechnung mit dem West-Agenten Kern zu begleichen. Nur widerwillig lässt sich die Rentner-Gruppe von der jungen BND-Agentin Paula nach Katschekistan begleiten. Doch dort ist nichts mehr wie es einmal war und die Mission droht\, im Chaos zu versinken. Zeit sich auf ihre ihre alten Fähigkeiten zu besinnen. "KUNDSCHAFTER DES FRIEDENS ist eine filmische Agentenoperette\, die mal ordentlich und voller Lust auf den Klischee-Pudding voller Stereotypen haut." Dresdner Kinokalender 
+ [ 1:33 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.kundschafterdesfriedens.de
+SEQUENCE:0
+SUMMARY:Kundschafter des Friedens
+DTSTART;TZID=Europe/Berlin:20170724T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170725T231800
+UID:Neruda@20170725T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:NERUDA 
+ Chile\, 1948. In einer flammenden Rede vor dem Kongress bezichtigt Senator Pablo Neruda (Luis Gnecco)\, weltberühmter Dichter\, Kommunist und Lebemann\, den Präsident Videla des Verrats – und wird umgehend seines Amtes enthoben. Zur Fahndung ausgeschrieben\, taucht er gemeinsam mit seiner Lebensgefährtin Delia del Carril unter\, mitten in der Arbeit an seiner epochalen Gedichtsammlung des "Canto General". Während die Kampfgedichte des Canto General in handgetippten Abschriften unter den Arbeitern und Bewohnern der Armenviertel kursieren\, heftet sich der melancholische Polizist Óscar Peluchonneau (Gael García Bernal) an die Fersen des verhassten roten Dichters\, dessen Faszination und Poesie er sich dennoch nicht entziehen kann.... 
+ [ 1:48 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.neruda-der-film.de
+SEQUENCE:0
+SUMMARY:Neruda
+DTSTART;TZID=Europe/Berlin:20170725T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170726T233000
+UID:The dinner@20170726T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:THE DINNER 
+ Paul (Steve Coogan) hat keine Lust auf das Dinner mit seinem Bruder Stan (Richard Gere)\, einem bekannten Politiker\, und seiner Schwägerin Barbara (Rebecca Hall). Doch seine Frau Claire (Laura Linney) besteht darauf\, dass er sie begleitet. In dem angesagten Restaurant kommen zwischen den exquisiten Speisen dunkle Familiengeheimnisse auf den Tisch. Die Söhne der beiden Paare sind\, bislang unentdeckt\, für ein schreckliches Verbrechen verantwortlich. Ihre Eltern müssen nun entscheiden\, wie sie mit der Situation umgehen. Es kommt zum Streit\, denn eine öffentliche Enthüllung würde das Leben für jeden Einzelnen von ihnen für immer verändern. 
+ [ 2:00 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:https://tobis.de/film/the-dinner
+SEQUENCE:0
+SUMMARY:The dinner
+DTSTART;TZID=Europe/Berlin:20170726T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170727T230300
+UID:European Outdoor Film Tour@20170727T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:EUROPEAN OUTDOOR FILM TOUR 
+ Ein Querschnitt explosiver\, atemberaubender und inspirierender Filme zu Sport- und Outdooraktivitäten stellt besonders die Athleten und deren herausragenden Leistungen in den Vordergrund.  • DOWN TO NOTHING: Alpine Expedition in Myanmar • FLOW: Mountainbike-Doku mit Harald Philipp auf der Suche nach dem Flow • LUNAG RI: Kletter-Portrait mit David lama und Conrad Anker in Nepal • LOCKED IN: Eine Reise ohne Rückfahrt: Kajak-Expedition in Papua neuguinea • WHEN WE WERE KNIGHTS: Bewegende Doku über die Freundschaft zweier Wingsuit-Base-Jumper • THE ADVENTURES OF THE DODO: Gute Laune beim Big-Wall-Klettern auf Baffin Island 
+ [ 1:33 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.eoft.eu
+SEQUENCE:0
+SUMMARY:European Outdoor Film Tour
+DTSTART;TZID=Europe/Berlin:20170727T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170728T231700
+UID:Beuys @20170728T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:BEUYS  
+ Beuys. Der Mann mit dem Hut\, dem Filz und der Fettecke. 30 Jahre nach seinem Tod erscheint er uns als Visionär\, der seiner Zeit voraus war. Geduldig versuchte er uns schon damals zu erklären\, dass "Geld keine Ware sein darf". Er wusste\, dass der Geldhandel die Demokratie unterwandern würde. Doch mehr als das. Beuys boxt\, parliert\, doziert und erklärt dem toten Hasen die Kunst. Wollen Sie eine Revolution ohne Lachen machen? fragt er grinsend. Sein erweiterter Kunstbegriff führte ihn mitten in den Kern auch heute relevanter gesellschaftlicher Debatten. »Ein ästhetisch avancierter\, formvollendet montierter\, mitreißender Film.« CICERO »Eine kraftvolle\, behutsame Annäherung an den Menschen Beuys\, seine Kunst und Ideenwelt ... Das Hauptverdienst von Andres Veiels schillerndem Werk dürfte sein\, dass man nach dem Film erkennt: So einer wie Joseph Beuys fehlt.« SÜDWESTPRESSE 
+ [ 1:47 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://beuys-der-film.de
+SEQUENCE:0
+SUMMARY:Beuys 
+DTSTART;TZID=Europe/Berlin:20170728T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170729T234800
+UID:Manchester by the Sea@20170729T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MANCHESTER BY THE SEA 
+ Lee Chandler (Casey Affleck) ist ein schweigsamer Einzelgänger\, der als Hausmeister in Boston arbeitet. Bis ein Anruf sein Leben schlagartig verändert. Der Tod seine Bruders zwingt Lee in seine Heimat\, die Hafenstadt Manchester-by-the-Sea\, zurückkehren\, um sich um seinen Neffen zu kümmern. Der widerspenstige Teenager ist nur eine der Herausforderungen\, denen sich Lee zu stellen hat. "Manchester by the Sea" ist einer dieser Filme\, die man ein zweites Mal sehen will und zwar mit jemandem\, der ihn noch nicht gesehen hat\, allein schon um sich zu erinnern\, wie es sich beim ersten Mal angefühlt hat." Matt Zoller Seitz\, RogerEbert.com 
+ [ 2:18 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.manchester-by-the-sea.de
+SEQUENCE:0
+SUMMARY:Manchester by the Sea
+DTSTART;TZID=Europe/Berlin:20170729T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170730T233700
+UID:La La Land@20170730T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LA LA LAND 
+ Die leidenschaftliche Schauspielerin Mia (Emma Stone) und der charismatische Jazzmusiker Sebastian (Ryan Gosling) suchen das große Glück in Los Angeles. Sie halten sich mit Nebenjobs über Wasser. Als sich ihre Wege zufällig kreuzen\, verlieben sie sich Hals über Kopf ineinander\, schmieden Pläne für ihre Zukunft auf der Bühne und genießen den Zauber der jungen Liebe in "La La Land" – der Stadt der Träume ... 
+ [ 2:07 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.lalaland-film.de
+SEQUENCE:0
+SUMMARY:La La Land
+DTSTART;TZID=Europe/Berlin:20170730T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170731T232800
+UID:Der junge Karl Marx@20170731T213000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DER JUNGE KARL MARX 
+ Unterhaltsam und in seiner thematischen Fragestellung äußerst gegenwärtig\, widmet sich Regisseur Raoul Peck einer Frühphase des revolutionären Denkens: der Geburtsstunde des kommunistischen Manifests. So ist "Der junge Marx" auch das Porträt der engen und rebellischen Freundschaft von Karl Marx\, Jenny Marx und Friedrich Engels in ihrem unbedingten Willen\, die Welt aus den Angeln zu heben und zu verändern. 
+ [ 1:58 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.der-junge-karl-marx.de
+SEQUENCE:0
+SUMMARY:Der junge Karl Marx
+DTSTART;TZID=Europe/Berlin:20170731T213000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170801T224400
+UID:Get out@20170801T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:GET OUT 
+ Der ultimative Horror-Satire-Erfolg aus den USA hat auch uns gepackt. Traditionell ist der Antrittsbesuch bei den Schwiegereltern in spe ja eher schwierig. Umso größer die Erleichterung bei Daniel: Der Empfang in der Familie seiner Freundin Rose gestaltet sich herzlich\, vielleicht eine Spur "zu herzlich". Doch dann häufen sich mehr und mehr bizarre Zwischenfälle und verwandeln ein unverfängliches Wochenende auf dem Land in einen wahren Alptraum für den Familien-Neuling.  
+ [ 1:44 h | FSK: ab 16 Jahren ]
+URL;VALUE=URI:http://www.getout-film.de
+SEQUENCE:0
+SUMMARY:Get out
+DTSTART;TZID=Europe/Berlin:20170801T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170802T225800
+UID:Paterson @20170802T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:PATERSON  
+ Der Busfahrer Paterson (Adam Driver) heißt genauso wie der Ort\, in dem er lebt. Die Kleinstadt in New Jersey und ihre eigentümlichen Bewohner sind die Inspiration für seine Gedichte\, die er Tag für Tag in der Mittagspause auf der Parkbank verfasst. Die Welt seiner Frau Laura (Golshifteh Farahani) dagegen ist im ständigen Wandel. Fast täglich hat sie neue Träume\, jeder einzelne von ihnen ein anderes\, inspirierendes Projekt. Paterson liebt Laura und sie ihn. Er unterstützt ihre neugefundenen Ambitionen und sie bewundert seine Gabe für Poesie. "Eine Ode an das kleine\, gewöhnliche\, aber erfüllte Leben. Wenn man es\, wie hier im Kino\, einfach geschehen lässt\, neugierig und gelassen\, geht man am Ende sehr glücklich nach Hause." Berliner Zeitung 
+ [ 1:58 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.paterson-derfilm.de
+SEQUENCE:0
+SUMMARY:Paterson 
+DTSTART;TZID=Europe/Berlin:20170802T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170803T225700
+UID:The Big Lebowski@20170803T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:THE BIG LEBOWSKI 
+ THE BIG LEBOWSKI ist über die Jahre natürlich regelmäßiger \,Gast’ unseres Freiluftkinos gewesen\, auch wenn die Filmkopien immer schlechter wurden. Damit ist jetzt Schluß: Inzwischen können wir den Film digital zeigen. Perfektes unzerkratztes Bild für einen\, der ein nicht ganz so perfektes Bild abgeben kann ... Leinwand frei für die beste Komödie der Coens. 
+ [ 1:57 h | FSK: ab 12 Jahren ]
+SEQUENCE:0
+SUMMARY:The Big Lebowski
+DTSTART;TZID=Europe/Berlin:20170803T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170804T225100
+UID:Moonlight@20170804T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MOONLIGHT 
+ Die berührende Geschichte des jungen Chiron\, der in Miami fernab jeglichen Glamours aufwächst. Der Film begleitet entscheidende Momente in Chirons Leben von der Kindheit bis ins Erwachsenenalter\, in denen er sich selbst entdeckt\, für seinen Platz in der Welt kämpft\, seine große Liebe findet und wieder verliert. MOONLIGHT ist ein einzigartiges Stück Kino darüber\, wie die Suche nach einem Platz in der Welt\, unsere Umgebung\, die eigene Familie und insbesondere die erste Liebe uns unser Leben lang prägen. "Sehr zurecht mit drei Oscars geehrt. 5 Filmrollen" Radioeins 
+ [ 1:51 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://derbestefilmdesjahres.de
+SEQUENCE:0
+SUMMARY:Moonlight
+DTSTART;TZID=Europe/Berlin:20170804T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170805T232000
+UID:Wonder Woman@20170805T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:WONDER WOMAN 
+ Wonder Woman aus dem DC-Universum ist eine rare weibliche Comic-Heldin\, der dieser sehenswerte Film gewidmet wurde. Die stärkste Waffe dieser Prinzessin Diana ist die Empathie. Sie liefert sich einen knallharten Kampf mit dem martialischen Gott Ares mitten in den Schlachten des 1. Weltkrieges. Wie in den Comics verschmelzen hier sehr reizvoll antike Mythen mit realen\, zeitgeschichtlichen Bezügen. "Gal Gadot spielt mit energiegeladener Körperlichkeit und viel Mitgefühl eine feministische und pazifistische Ikone\, die mit ungläubigem Erstaunen auf die Unvernunft der Menschheit schaut. Man müsste sie sofort zur Präsidentin einer Weltregierung wählen." (RadioEins)   
+ [ 2:20 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://wonderwomanfilm.net
+SEQUENCE:0
+SUMMARY:Wonder Woman
+DTSTART;TZID=Europe/Berlin:20170805T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170806T223500
+UID:Die Verführten@20170806T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DIE VERFüHRTEN 
+ Ein Mädchenpensionat in den Südstaaten\, 1864\, während des amerikanischen Bürgerkriegs.  Einen schwer verletzten Soldaten der Nordstaatenarmee hat es in die Nähe des Anwesens verschlagen. Der Eindringling stellt die Frauen vor einen Konflikt. Soll man ihn bei den eigenen Soldaten melden\, womöglich seinen Tod in Kauf nehmen? Oder ihn versorgen\, gar verstecken? Der feindliche Soldat wird aufgenommen und gepflegt. Für einen angeblichen Todfeind sieht er nicht nur sehr gut aus\, er hat auch Charme. Schon nach wenigen Tagen fühlen sich alle Frauen und Mädchen auf unterschiedliche Weise von ihm angezogen... "Intelligentes\, subtiles Arthouse-Kino\, von unwirklicher Schönheit und einigem Humor." programmkino 
+ [ 1:35 h | FSK: ab 12 Jahren ]
+SEQUENCE:0
+SUMMARY:Die Verführten
+DTSTART;TZID=Europe/Berlin:20170806T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170807T225600
+UID:Berlin Syndrom @20170807T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:BERLIN SYNDROM  
+ Die australische Backpackerin Clare (Teresa Palmer) zieht mit dem Fotoapparat durch Friedrichshain-Kreuzberg\, besonders die alten DDR-Bauten haben es ihr angetan. Als sie den sympathischen Englischlehrer Andi (Max Riemelt) kennenlernt\, verstehen sich die beiden sofort. Er zeigt ihr Schrebergärten und den Kiez. Was als Romanze beginnt\, nimmt eine unerwartet finstere Wendung: Am nächsten Morgen\, Andi ist schon in der Schule\, will Clare seine Wohnung in einem ansonsten leerstehenden Altbau verlassen und merkt\, dass sie eingeschlossen ist. Zunächst glaubt sie an ein Versehen. Doch Andi hat nicht vor\, sie jemals wieder gehen zu lassen..... "Ein perfekt gestalteter Entführungsthriller\, der mit seinen ambivalenten Charakteren punktet und seine ausgeklügelte Dramaturgie spannungsvoll ausspielt." kino-zeit 
+ [ 1:56 h | FSK: ab 16 Jahren ]
+SEQUENCE:0
+SUMMARY:Berlin Syndrom 
+DTSTART;TZID=Europe/Berlin:20170807T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170808T223700
+UID:Mein wunderbares Westberlin@20170808T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MEIN WUNDERBARES WESTBERLIN 
+ Die Erinnerungen an das schwule Westberlin der 60er sind eine Rückblick auf eine Szene\, die sie sich unentwegt ihren Platz erkämpfen musste. Aus der Konfrontation mit massiver gesellschaftlicher Repression erwächst in den 1970ern ein schwules Selbstbewusstsein: Die "Homosexuelle Aktion Westberlin" setzt sich für eine Streichung des § 175 und die Überwindung des Patriarchats ein. In Ruinen entstehen neue Wohn- und Lebensformen wie Männerkommunen oder das Tuntenhaus. Klappensex\, Ost-West-Beziehungen\, Lederbars\, Drag-Aktionen in der U-Bahn. 
+ [ 1:37 h | FSK:  Jahren ]
+URL;VALUE=URI:http://www.mein-wunderbares-west-berlin.de
+SEQUENCE:0
+SUMMARY:Mein wunderbares Westberlin
+DTSTART;TZID=Europe/Berlin:20170808T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170809T234200
+UID:Toni Erdmann@20170809T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:TONI ERDMANN 
+ Musiklehrer Winfried (Peter Simonischek) beschließt seine Tochter Ines (Sandra Hüller) bei ihrem großem Outsourcing-Projekt in Rumänien zu besuchen. Doch statt sich anzukündigen\, überrascht er sie mit Scherzgebiss und Sonnenbrille in der Lobby ihrer Firma. Ines bemüht sich\, gute Miene zum bösen Spiel zu machen und schleppt ihren Vater in seinen alten Jeans mit zu Businessempfängen und Massageterminen. Der Besuch führt jedoch nicht zu einer Annäherung. Winfried nervt seine Tochter mit lauen Witzen und unterschwelliger Kritik an ihrem leistungsorientierten Leben zwischen Meetings\, Hotelbars und unzähligen E-Mails. Es kommt zum Eklat zwischen den beiden. Doch statt\, wie angekündigt\, Bukarest zu verlassen\, überrascht Winfried Ines mit einer radikalen Verwandlung in Toni Erdmann\, sein schillerndes Alter Ego. 
+ [ 2:42 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://tonierdmann-derfilm.de
+SEQUENCE:0
+SUMMARY:Toni Erdmann
+DTSTART;TZID=Europe/Berlin:20170809T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170810T224200
+UID:Achtung Berlin Festival: DIE HANNAS@20170810T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:ACHTUNG BERLIN FESTIVAL: DIE HANNAS 
+ Anna und Hans gehören zusammen. Ihre Freunde nennen sie deshalb einfach Die Hannas: ein ausgeglichenes Langzeitpaar in seinen ›eingeschlafenen‹ Dreißigern mit einer ausgeprägten Kochobsession\, um die sich ihre Beziehung rankt. Doch dann treffen die beiden Kim und Nico\, zwei gelinde gesagt wilde Schwestern.... "Ein Film über dieses seltsame Ding namens Liebe\, die durch den Magen geht\, bis ins wilde Herz hinein.« Filmfest München 
+ [ 1:42 h | FSK:  Jahren ]
+URL;VALUE=URI:http://wfilm.de/die-hannas/
+SEQUENCE:0
+SUMMARY:Achtung Berlin Festival: DIE HANNAS
+DTSTART;TZID=Europe/Berlin:20170810T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170811T224300
+UID:Wilde Maus @20170811T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:WILDE MAUS  
+ Überraschend erhält Georg (Josef Hader) von seinem Chefredakteur die Kündigung. Der nicht uneitle Musikkritiker sinnt auf Rache\, während er seiner Frau weiter ein geregeltes Leben vorspielt. Dabei steht ihm sein ehemaliger Mitschüler Erich (Georg Friedrich) zur Seite\, dem Georg in seiner neu gewonnenen Freizeit hilft\, eine marode Achterbahn im Wiener Prater wieder in Gang zu setzen. Georgs nächtliche Rachefeldzüge gegen seinen ehemaligen Chef beginnen als kleine Sachbeschädigungen und steigern sich. Schnell gerät sein bürgerliches Leben\, sehr zur Freude von uns Kinozuschauern\, völlig aus dem Ruder... 
+ [ 1:43 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.wildemaus-derfilm.de
+SEQUENCE:0
+SUMMARY:Wilde Maus 
+DTSTART;TZID=Europe/Berlin:20170811T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170812T180000
+UID:Lesbischwules Parkfest 2017@20170812T150000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LESBISCHWULES PARKFEST 2017 
+ Das große\, traditionelle Lesbisch-Schwule Parkfest ist der Höhepunkt der Sommersaison. Offen für alle\, bei freiem Eintritt\, informieren bei einem bunten Bühnenprogramm alle Berliner und Brandenburger Vereine und Gruppen\, die sich mit lesbisch-schwulen Themen auseinandersetzen über ihre Arbeit. 
+ [ 3:00 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.parkfest-friedrichshain.de
+SEQUENCE:0
+SUMMARY:Lesbischwules Parkfest 2017
+DTSTART;TZID=Europe/Berlin:20170812T150000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170813T223400
+UID:Axolotl Overkill@20170813T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:AXOLOTL OVERKILL 
+ Mifti (Jasna Fritzi Bauer) ist 16\, sieht aus wie 12\, verhält sich wie Mitte 30 und lebt seit dem Tod ihrer Mutter mit ihren Halbgeschwistern in einer Berliner WG. Ihr Vater hält Terrorismus für einen zeitgemäßen Karrierezweig und interessiert sich eher für Kunst als für Menschen\; zur Schule gehen macht in diesem Setting weniger Sinn als sein Leben zwischen Parties\, Drogen\, Affären und Küchentischpolemiken zu verbringen.... "Genauso gestochen provokant und intellektuell schlagfertig\, aber zugleich auch leichter zugänglich und viel humorvoller – mit der Verfilmung hat Helene Hegemann ihren Roman noch übertroffen." filmstarts 
+ [ 1:34 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:https://www.constantin-film.de/kino/axolotl-overkill/
+SEQUENCE:0
+SUMMARY:Axolotl Overkill
+DTSTART;TZID=Europe/Berlin:20170813T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170814T224100
+UID:In Zeiten des abnehmenden Lichts@20170814T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:IN ZEITEN DES ABNEHMENDEN LICHTS 
+ Ostberlin\, im Frühherbst 1989. Wilhelm Powileit\, hochdekoriertes SED-Parteimitglied und Patriarch\, wird  90 Jahre alt. Ein Ehrentag\, zu dem die Familie ebenso gehört\, wie singende Pioniere zur erneuten Ordensverleihung an den greisen Jubilar. Und ein Familienfest\, das aus den Fugen geraten muss\, wie die Republik\, die eisern Mine zu ihrem 40. Jahrestag zu bewahren sucht. Drehbuch Wolfgang Kohlhaase. 
+ [ 1:41 h | FSK:  Jahren ]
+URL;VALUE=URI:http://www.x-verleih.de/filme/in-zeiten-des-abnehmenden-lichts/
+SEQUENCE:0
+SUMMARY:In Zeiten des abnehmenden Lichts
+DTSTART;TZID=Europe/Berlin:20170814T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170815T230700
+UID:Hidden Figures – Unerkannte Heldinnen@20170815T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:HIDDEN FIGURES – UNERKANNTE HELDINNEN 
+ Ein im besten Sinne angenehmer und obendrein wichtiger "Wohlfühlfilm"\, der sein Scheinwerferlicht elegant auf drei vergessene afroamerikanische Mathematikerinnen und ihren bahnbrechenden Beitrag zur ersten Erdumrundung wirft. Einzigartig erzählt das Mut machende\, temporeiche\, historische Drama ihre außergewöhnliche Geschichte. 
+ [ 2:07 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.fox.de/hidden-figures
+SEQUENCE:0
+SUMMARY:Hidden Figures – Unerkannte Heldinnen
+DTSTART;TZID=Europe/Berlin:20170815T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170816T224700
+UID:Beuys @20170816T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:BEUYS  
+ Beuys. Der Mann mit dem Hut\, dem Filz und der Fettecke. 30 Jahre nach seinem Tod erscheint er uns als Visionär\, der seiner Zeit voraus war. Geduldig versuchte er uns schon damals zu erklären\, dass "Geld keine Ware sein darf". Er wusste\, dass der Geldhandel die Demokratie unterwandern würde. Doch mehr als das. Beuys boxt\, parliert\, doziert und erklärt dem toten Hasen die Kunst. Wollen Sie eine Revolution ohne Lachen machen? fragt er grinsend. Sein erweiterter Kunstbegriff führte ihn mitten in den Kern auch heute relevanter gesellschaftlicher Debatten. »Ein ästhetisch avancierter\, formvollendet montierter\, mitreißender Film.« CICERO »Eine kraftvolle\, behutsame Annäherung an den Menschen Beuys\, seine Kunst und Ideenwelt ... Das Hauptverdienst von Andres Veiels schillerndem Werk dürfte sein\, dass man nach dem Film erkennt: So einer wie Joseph Beuys fehlt.« SÜDWESTPRESSE 
+ [ 1:47 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://beuys-der-film.de
+SEQUENCE:0
+SUMMARY:Beuys 
+DTSTART;TZID=Europe/Berlin:20170816T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170817T223300
+UID:Tschick @20170817T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:TSCHICK  
+ Während die Mutter in der Entzugsklinik und der Vater mit seiner Assistentin auf "Geschäftsreise" ist\, verbringt der 14-jährige Außenseiter Maik Klingenberg (Tristan Göbel) die großen Ferien allein am Pool der elterlichen Villa.  Doch dann kreuzt Tschick auf.  Tschick (Anand Batbileg) stammt aus dem tiefsten Russland\, kommt aus einem der Hochhäuser in Berlin-Marzahn – und hat einen geklauten Lada dabei. Damit beginnt eine Reise ohne Karte und Kompass durch die sommerglühende ostdeutsche Provinz.  Die Geschichte eines Sommers\, den wir alle einmal erleben wollen... . Der beste Sommer von allen eben! "Doch so einen Sommer gibt es nur einmal – auch davon erzählt der uneitle\, wunderschöne und berührende Film. 5 Filmrollen" RadioEins   
+ [ 1:33 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.tschick-film.de
+SEQUENCE:0
+SUMMARY:Tschick 
+DTSTART;TZID=Europe/Berlin:20170817T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170818T231800
+UID:Manchester by the Sea@20170818T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MANCHESTER BY THE SEA 
+ Lee Chandler (Casey Affleck) ist ein schweigsamer Einzelgänger\, der als Hausmeister in Boston arbeitet. Bis ein Anruf sein Leben schlagartig verändert. Der Tod seine Bruders zwingt Lee in seine Heimat\, die Hafenstadt Manchester-by-the-Sea\, zurückkehren\, um sich um seinen Neffen zu kümmern. Der widerspenstige Teenager ist nur eine der Herausforderungen\, denen sich Lee zu stellen hat. "Manchester by the Sea" ist einer dieser Filme\, die man ein zweites Mal sehen will und zwar mit jemandem\, der ihn noch nicht gesehen hat\, allein schon um sich zu erinnern\, wie es sich beim ersten Mal angefühlt hat." Matt Zoller Seitz\, RogerEbert.com 
+ [ 2:18 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.manchester-by-the-sea.de
+SEQUENCE:0
+SUMMARY:Manchester by the Sea
+DTSTART;TZID=Europe/Berlin:20170818T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170819T223000
+UID:ICH - EINFACH UNVERBESSERLICH 3@20170819T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:ICH - EINFACH UNVERBESSERLICH 3 
+ Endlich sind sie zurück: das neueste Abenteuer von Gru\, Lucy und ihren drei Adoptivtöchtern Margo\, Edith und Agnes - und nicht zu vergessen\, den berühmt-berüchtigten Minions. Im nunmehr dritten Teil bekommt es Gru mit seinem bisher unbekannten Zwillingsbruder Dru zu tun. Blöd nur\, dass der nicht nur besser aussieht und mehr Haare hat\, sondern auch erfolgreicher ist als Gru. Die beiden Zwillingsbrüder könnten unterschiedlicher nicht sein\, doch als Superschurke Balthazar Bratt mit Vokuhila\, großen Schulterpolstern und einem teuflischen Plan auftaucht\, müssen Gru und Dru sich zusammen raufen… 
+ [ 1:30 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.ich-einfach-unverbesserlich-3.de
+SEQUENCE:0
+SUMMARY:ICH - EINFACH UNVERBESSERLICH 3
+DTSTART;TZID=Europe/Berlin:20170819T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170820T230000
+UID:Die Blumen von gestern@20170820T210000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:DIE BLUMEN VON GESTERN 
+ Mitten in seine tiefsten Lebenskrise gerät der Holocaust-Forscher Toto (Lars Eidinger) an die französische Assistentin Zazie (Adèle Haenel)\, jüdischer Herkunft und mit ausgeprägter Teutonen-Phobie. Eine aberwitzige Geschichte über die Frage: Was passiert\, wenn der deutsche Völkermord von Leuten erforscht wird\, die emotional labil\, durch Herkunft und Lebensart auf unvereinbare Weise getrennt und dennoch ineinander verliebt sind? Adèle Haenel und Lars Eidinger spielen die beiden Chefneurotiker\, deren persönliches Unglück in der Familiengeschichte liegt. Chris Kraus hat eine herrlich respektlose\, aber niemals denunzierende Farce über die Spätfolgen des Holocausts geschrieben." programmkino.de 
+ [ 2:00 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://die-blumen-von-gestern.de
+SEQUENCE:0
+SUMMARY:Die Blumen von gestern
+DTSTART;TZID=Europe/Berlin:20170820T210000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170821T220300
+UID:I am not your Negro @20170821T203000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:I AM NOT YOUR NEGRO  
+ Im Juni 1979 beginnt der bedeutende US-Autor James Baldwin seinen letzten\, unvollendet gebliebenen Text "Remember This House". Mit persönlichen Erinnerungen an seine drei ermordeten Bürgerrechtler-Freunde Malcolm X\, Medgar Evers und Martin Luther King und Reflexionen der eigenen\, schmerzhaften Lebenserfahrung als Schwarzer schreibt er die Geschichte Amerikas neu. Raoul Peck entwickelt aus den 30 bislang unveröffentlichten Manuskriptseiten mit einer fulminanten Collage von Archivfotos\, Filmausschnitten und Nachrichten-Clips einen extrem klugen\, packenden und gegenwärtigen Film. 
+ [ 1:33 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.iamnotyournegrofilm.com
+SEQUENCE:0
+SUMMARY:I am not your Negro 
+DTSTART;TZID=Europe/Berlin:20170821T203000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170822T222700
+UID:T2 Trainspotting @20170822T203000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:T2 TRAINSPOTTING  
+ Hat Renton (Ewan McGregor) wirklich eine Familie gegründet\, ein Auto und eine Waschmaschine gekauft\, wie er es am Ende von Trainspotting angekündigt hatte? Oder hat er die 16.000 Pfund um die er seine Freunde betrogen hat\, ganz anders durchgebracht? Fragen\, die sich auch 20 Jahre später noch stellen\, für deren Beantwortung aber kaum Zeit ist: Renton kehrt an den Ort zurück\, der einmal sein Zuhause war\, und schon überschlagen sich die Ereignisse.  "Die Darsteller sind brillant\, die Dialoge sind Weltklasse und manche Szenen für die Ewigkeit..." Stern 
+ [ 1:57 h | FSK: ab 16 Jahren ]
+URL;VALUE=URI:http://www.t2trainspotting.de/site/
+SEQUENCE:0
+SUMMARY:T2 Trainspotting 
+DTSTART;TZID=Europe/Berlin:20170822T203000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170823T220000
+UID:Preview: WESTERN@20170823T203000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:PREVIEW: WESTERN 
+ Eine Gruppe deutscher Bauarbeiter macht sich auf den Weg auf eine Auslandsbaustelle in der bulgarischen Provinz. Das fremde Land und die raue\, wenig erschlossene Landschaft wecken die Abenteuerlust bei den Männern. Gleichzeitig sind sie mit ihren eigenen Vorurteilen und ihrem Misstrauen konfrontiert. Das nahe gelegene Dorf wird für zwei der Männer zur Bühne für einen Konkurrenzkampf um die Anerkennung und die Gunst der Dorfbewohner. "Das Beobachten" 
+ [ 1:30 h | FSK:  Jahren ]
+SEQUENCE:0
+SUMMARY:Preview: WESTERN
+DTSTART;TZID=Europe/Berlin:20170823T203000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170824T231300
+UID:American Honey@20170824T203000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:AMERICAN HONEY 
+ Star (Sasha Lane)\, gerade 18\,  schließt sich einer fahrenden Truppe von Zeitschriften-Werbern (Shia LaBeouf u.a.) an\, um im Minibus mit ihnen durch den Mittleren Westen der USA zu driften und dabei ihre ganz persönlichen Version des "Amerikanischen Traums" zu verfolgen. Andrea Arnolds Film bewegt sich irgendwo zwischen "Easy Rider" und Gus van Sant. Ein aufregendes\, flimmerndes Stück Kino. 
+ [ 2:43 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.americanhoney-film.de
+SEQUENCE:0
+SUMMARY:American Honey
+DTSTART;TZID=Europe/Berlin:20170824T203000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170825T223000
+UID:Captain Fantastic – Einmal Wildnis und zurück@20170825T203000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:CAPTAIN FANTASTIC – EINMAL WILDNIS UND ZURüCK 
+ Ben (Viggo Mortensen) lebt aus Überzeugung mit seinen sechs Kindern in der Einsamkeit der Berge im Nordwesten Amerikas. Er unterrichtet sie selbst und bringt ihnen nicht nur ein überdurchschnittliches Wissen bei\, sondern auch wie man jagt und in der Wildnis überlebt. Als seine Frau stirbt\, ist er gezwungen mitsamt der Sprösslinge seine selbst geschaffene Aussteigeridylle zu verlassen und der realen Welt entgegenzutreten. In ihrem alten\, klapprigen Bus macht sich die Familie auf den Weg quer durch die USA zur Beerdigung\, die bei den Großeltern stattfinden soll. Ihre Reise ist voller komischer wie berührender Momente\, die Bens Freiheitsideale und seine Vorstellungen von Erziehung nachhaltig infrage stellen… 
+ [ 2:00 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.captain-fantastic-film.de
+SEQUENCE:0
+SUMMARY:Captain Fantastic – Einmal Wildnis und zurück
+DTSTART;TZID=Europe/Berlin:20170825T203000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170826T222600
+UID:Willkommen bei den Hartmanns @20170826T203000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:WILLKOMMEN BEI DEN HARTMANNS  
+ Angelika Hartmann (Senta Berger)\, frisch pensionierte Lehrerin. Ihr Mann (Heiner Lauterbach)\, Chefarzt einer Klinik\, versucht mit allen Mitteln\, den Alterungsprozess aufzuhalten. Sohn Philip (Florian David Fitz) driftet in Businesswelten zwischen Shanghai und München\, dabei bleibt die Beziehung zu seinem Sohn Basti (Marinus Hohmann) auf der Strecke\, Tochter Sophie (Palina Rojinski) weiß mit 31 immer noch nicht\, was sie will. Dies ungefähr die "Problemlage"\, mit der der Nigerianer Diallo Makabouri konfrontiert wird\, als Angelika beschließt durch die Aufnahme eines Geflüchteten ihrem Leben Sinn zu verschaffen. "Im großen Durcheinander des Klamauks macht es die Stärke der Komödie aus\, dass sie es mitunter tatsächlich schafft\, sowas wie deutsche Zeitgeschichte abzubilden - und einem Massenpublikum den Spiegel vorzuhalten." Der Spiegel 
+ [ 1:56 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://film.info/willkommenbeidenhartmanns/
+SEQUENCE:0
+SUMMARY:Willkommen bei den Hartmanns 
+DTSTART;TZID=Europe/Berlin:20170826T203000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170827T222800
+UID:Paterson @20170827T203000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:PATERSON  
+ Der Busfahrer Paterson (Adam Driver) heißt genauso wie der Ort\, in dem er lebt. Die Kleinstadt in New Jersey und ihre eigentümlichen Bewohner sind die Inspiration für seine Gedichte\, die er Tag für Tag in der Mittagspause auf der Parkbank verfasst. Die Welt seiner Frau Laura (Golshifteh Farahani) dagegen ist im ständigen Wandel. Fast täglich hat sie neue Träume\, jeder einzelne von ihnen ein anderes\, inspirierendes Projekt. Paterson liebt Laura und sie ihn. Er unterstützt ihre neugefundenen Ambitionen und sie bewundert seine Gabe für Poesie. "Eine Ode an das kleine\, gewöhnliche\, aber erfüllte Leben. Wenn man es\, wie hier im Kino\, einfach geschehen lässt\, neugierig und gelassen\, geht man am Ende sehr glücklich nach Hause." Berliner Zeitung 
+ [ 1:58 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.paterson-derfilm.de
+SEQUENCE:0
+SUMMARY:Paterson 
+DTSTART;TZID=Europe/Berlin:20170827T203000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170828T221200
+UID:Hell or High Water@20170828T203000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:HELL OR HIGH WATER 
+ Zwei Brüder – der rechtschaffene\, geschiedene Toby (Chris Pine)\, Vater zweier Kinder\, und der jähzornige Tanner (Ben Foster)\, frisch entlassener Häftling – begehen gemeinsam mehrere Banküberfälle\, um zu verhindern\, dass die hochverschuldete Farm ihrer Familie an die Bank zurückfällt. Ihr Plan scheint aufzugehen\, bis sie ins Visier des kauzig-unerbittlichen Rangers Marcus Hamilton (Jeff Bridges) geraten und seines Kollegen geraten. Ausgang ungewiss und auf jeden Fall überraschend ..... 
+ [ 1:42 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.paramount.de/hell-or-high-water
+SEQUENCE:0
+SUMMARY:Hell or High Water
+DTSTART;TZID=Europe/Berlin:20170828T203000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170829T223400
+UID:Loving@20170829T203000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LOVING 
+ Richard und Mildred sind ein Paar. Eine Ehe zwischen schwarz und weiß in Virginia nicht nur undenkbar\, sondern verboten.  Das Paar reist dafür in das liberalere Washington. Sie sind entschlossen\, sich und der Welt Ihre Liebe zu zeigen. Eine Liebe\, die die USA verwandeln wird\, auch wenn die beiden vor allem sich treu bleiben. "Erfreulich unaufgeregter Historienfilm. Statt als pathosschwangeres Gerichtsdrama inszeniert Nichols das bedeutsame Geschehen als intimes Porträt zweier Menschen\, die Geschichte schreiben\, weil sie sich einfach nur lieben wollen – und trifft damit den Kern der Sache." epd-film 
+ [ 2:04 h | FSK: ab 6 Jahren ]
+URL;VALUE=URI:http://www.loving-film.de
+SEQUENCE:0
+SUMMARY:Loving
+DTSTART;TZID=Europe/Berlin:20170829T203000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170830T211100
+UID:The Party@20170830T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:THE PARTY 
+ Janet (Kristin Scott Thomas) ist gerade zur Ministerin ernannt worden Da soll mit ihrem Mann Bill (Timothy Spall) und ein paar engen Freunden (Bruno Ganz\, Patricia Clarkson\, Cillian Murphy\, Emily Mortimer)  gefeiert werden. Die Gäste treffen in ihrem Londoner Haus ein. Die Party kann beginnen.... "Es war die mit Abstand beste Party der Berlinale: In 71 höchst kurzweiligen Minuten zündet Sally Potter ein cineastisches Feuerwerk vom Feinsten (und das in Schwarz-Weiß!)" Programmkino 
+ [ 1:11 h | FSK:  Jahren ]
+URL;VALUE=URI:http://www.weltkino.de/film/kino/the_party
+SEQUENCE:0
+SUMMARY:The Party
+DTSTART;TZID=Europe/Berlin:20170830T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170831T215800
+UID:Lion: Der lange Weg nach Hause@20170831T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LION: DER LANGE WEG NACH HAUSE 
+ Wieder einmal eine Geschichte\, die zu unglaublich wirkt \, als dass sie wirklich geschehen sein könnte. Und doch: LION erzählt die wahre Lebensgeschichte des kleinen Saroo Brierley\, der sich mit nur fünf Jahren nach Kalkutta verliert\, von einem australischen Ehepaar adoptiert wird und 25 Jahre später getrieben von einer ungestümen Sehnsucht\, zu seiner Geburtsfamilie zurückfindet. Diese berührende Geschichte einer Suche nach den eigenen Wurzeln hat keine Scheu vor großem Gefühlskino\, gleitet aber niemals ins Sentimentale ab. "Die schönsten Geschichten schreibt bekanntermaßen immer noch das Leben. LION gelingt die Balance zwischen Rührung und Realismus in ehrlichen Bildern\, die sich wohltuend vom farbenprächtig bis kitschigen Indienklischee abheben." NDR Kultur 
+ [ 1:58 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.lion-film.de
+SEQUENCE:0
+SUMMARY:Lion: Der lange Weg nach Hause
+DTSTART;TZID=Europe/Berlin:20170831T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170901T214400
+UID:Get out@20170901T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:GET OUT 
+ Der ultimative Horror-Satire-Erfolg aus den USA hat auch uns gepackt. Traditionell ist der Antrittsbesuch bei den Schwiegereltern in spe ja eher schwierig. Umso größer die Erleichterung bei Daniel: Der Empfang in der Familie seiner Freundin Rose gestaltet sich herzlich\, vielleicht eine Spur "zu herzlich". Doch dann häufen sich mehr und mehr bizarre Zwischenfälle und verwandeln ein unverfängliches Wochenende auf dem Land in einen wahren Alptraum für den Familien-Neuling.  
+ [ 1:44 h | FSK: ab 16 Jahren ]
+URL;VALUE=URI:http://www.getout-film.de
+SEQUENCE:0
+SUMMARY:Get out
+DTSTART;TZID=Europe/Berlin:20170901T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170902T210000
+UID:Kinderkino MondLichtFest@20170902T170000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:KINDERKINO MONDLICHTFEST 
+ Bis zum Einbruch der Dunkelheit lassen eine spannende Jubiläumstombola\, über 30 sommerliche Kreativangebote und Spielaktionen garantiert keine Langeweile aufkommen: Steinwerkstatt\, Berlin-Collagen\, Seifenblasentheater\, Taschendruck\, Wettangeln\, Wasserbombentennis\, Breakdance- und Beatbox-Workshops\,  Street-Art\, einer Kletterstation und vieles mehr. Ein schillerndes Bühnenprogramm mit Beatbox\, Rap und Hip-Hop sorgt für musikalische Höhepunkte und eine Stuntcrew und Breakdancer stellen die Schwerkraft im wahrsten Sinne auf dem Kopf. Zukünftige Ermittler können im Spürnasen-Parcours das Decodieren von Geheimschriften und Spurensicherung erlernen und testen\, ob sie das Zeug zum Detektiv haben. Traditioneller Höhepunkt ist der alljährliche Hula-Hoop-Wettbewerb\, bei dem es tolle Preise zu gewinnen gibt. Nach Sonnenuntergang und einer aufregenden Feuershow von Feuerregen öffnet sich der Vorhang für das spannende Detektiv-Abenteuer Rico\, Oskar und der Diebstahlstein\, in dem die zwei Nachwuchs-Detektive ihren Kreuzberger Kiez verlassen um an der Ostsee skrupellose Steindiebe zu fassen. Als besonderes Highlight zum Jubiläum erlauben Überraschungsgäste aus dem Filmteam einen exklusiven Blick hinter die Kulissen. 
+ [ 4:00 h | FSK:  Jahren ]
+URL;VALUE=URI:http://www.kinderkinobuero.de/events/event-kinder-veranstaltung-kinderfest.php
+SEQUENCE:0
+SUMMARY:Kinderkino MondLichtFest
+DTSTART;TZID=Europe/Berlin:20170902T170000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170903T213900
+UID:Monsieur Pierre geht online@20170903T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MONSIEUR PIERRE GEHT ONLINE 
+ Pierre (Pierre Richard) ist Witwer\, Griesgram und hasst Veränderungen aller Art. Um den alten Herrn zurück ins Leben zu schubsen\, verkuppelt seine Tochter Sylvie ihn mit Alex\, einem Freund ihrer Tochter. Alex soll Pierre mit der fabelhaften Welt des Internets vertraut machen. Das ungewohnte Lernduo tut sich mächtig schwer\, bis Pierre ausgerechnet über ein Datingportal stolpert. .. In der Hauptrolle flunkert sich Pierre Richard ("Der große Blonde mit dem schwarzen Schuh...") als hinreißender Charmeur und Cyrano der Datingcommunity durch halb Europa. "Die hinreißende Komödie der Irrungen macht gute Laune über alle Altersgrenzen hinweg." programmkino 
+ [ 1:39 h | FSK:  Jahren ]
+SEQUENCE:0
+SUMMARY:Monsieur Pierre geht online
+DTSTART;TZID=Europe/Berlin:20170903T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170904T221800
+UID:Manchester by the Sea@20170904T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MANCHESTER BY THE SEA 
+ Lee Chandler (Casey Affleck) ist ein schweigsamer Einzelgänger\, der als Hausmeister in Boston arbeitet. Bis ein Anruf sein Leben schlagartig verändert. Der Tod seine Bruders zwingt Lee in seine Heimat\, die Hafenstadt Manchester-by-the-Sea\, zurückkehren\, um sich um seinen Neffen zu kümmern. Der widerspenstige Teenager ist nur eine der Herausforderungen\, denen sich Lee zu stellen hat. "Manchester by the Sea" ist einer dieser Filme\, die man ein zweites Mal sehen will und zwar mit jemandem\, der ihn noch nicht gesehen hat\, allein schon um sich zu erinnern\, wie es sich beim ersten Mal angefühlt hat." Matt Zoller Seitz\, RogerEbert.com 
+ [ 2:18 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.manchester-by-the-sea.de
+SEQUENCE:0
+SUMMARY:Manchester by the Sea
+DTSTART;TZID=Europe/Berlin:20170904T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170905T222000
+UID:Wonder Woman@20170905T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:WONDER WOMAN 
+ Wonder Woman aus dem DC-Universum ist eine rare weibliche Comic-Heldin\, der dieser sehenswerte Film gewidmet wurde. Die stärkste Waffe dieser Prinzessin Diana ist die Empathie. Sie liefert sich einen knallharten Kampf mit dem martialischen Gott Ares mitten in den Schlachten des 1. Weltkrieges. Wie in den Comics verschmelzen hier sehr reizvoll antike Mythen mit realen\, zeitgeschichtlichen Bezügen. "Gal Gadot spielt mit energiegeladener Körperlichkeit und viel Mitgefühl eine feministische und pazifistische Ikone\, die mit ungläubigem Erstaunen auf die Unvernunft der Menschheit schaut. Man müsste sie sofort zur Präsidentin einer Weltregierung wählen." (RadioEins)   
+ [ 2:20 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://wonderwomanfilm.net
+SEQUENCE:0
+SUMMARY:Wonder Woman
+DTSTART;TZID=Europe/Berlin:20170905T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170906T220700
+UID:La La Land@20170906T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:LA LA LAND 
+ Die leidenschaftliche Schauspielerin Mia (Emma Stone) und der charismatische Jazzmusiker Sebastian (Ryan Gosling) suchen das große Glück in Los Angeles. Sie halten sich mit Nebenjobs über Wasser. Als sich ihre Wege zufällig kreuzen\, verlieben sie sich Hals über Kopf ineinander\, schmieden Pläne für ihre Zukunft auf der Bühne und genießen den Zauber der jungen Liebe in "La La Land" – der Stadt der Träume ... 
+ [ 2:07 h | FSK: ab 0 Jahren ]
+URL;VALUE=URI:http://www.lalaland-film.de
+SEQUENCE:0
+SUMMARY:La La Land
+DTSTART;TZID=Europe/Berlin:20170906T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170907T214100
+UID:In Zeiten des abnehmenden Lichts@20170907T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:IN ZEITEN DES ABNEHMENDEN LICHTS 
+ Ostberlin\, im Frühherbst 1989. Wilhelm Powileit\, hochdekoriertes SED-Parteimitglied und Patriarch\, wird  90 Jahre alt. Ein Ehrentag\, zu dem die Familie ebenso gehört\, wie singende Pioniere zur erneuten Ordensverleihung an den greisen Jubilar. Und ein Familienfest\, das aus den Fugen geraten muss\, wie die Republik\, die eisern Mine zu ihrem 40. Jahrestag zu bewahren sucht. Drehbuch Wolfgang Kohlhaase. 
+ [ 1:41 h | FSK:  Jahren ]
+URL;VALUE=URI:http://www.x-verleih.de/filme/in-zeiten-des-abnehmenden-lichts/
+SEQUENCE:0
+SUMMARY:In Zeiten des abnehmenden Lichts
+DTSTART;TZID=Europe/Berlin:20170907T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170908T214300
+UID:Wilde Maus @20170908T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:WILDE MAUS  
+ Überraschend erhält Georg (Josef Hader) von seinem Chefredakteur die Kündigung. Der nicht uneitle Musikkritiker sinnt auf Rache\, während er seiner Frau weiter ein geregeltes Leben vorspielt. Dabei steht ihm sein ehemaliger Mitschüler Erich (Georg Friedrich) zur Seite\, dem Georg in seiner neu gewonnenen Freizeit hilft\, eine marode Achterbahn im Wiener Prater wieder in Gang zu setzen. Georgs nächtliche Rachefeldzüge gegen seinen ehemaligen Chef beginnen als kleine Sachbeschädigungen und steigern sich. Schnell gerät sein bürgerliches Leben\, sehr zur Freude von uns Kinozuschauern\, völlig aus dem Ruder... 
+ [ 1:43 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://www.wildemaus-derfilm.de
+SEQUENCE:0
+SUMMARY:Wilde Maus 
+DTSTART;TZID=Europe/Berlin:20170908T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170909T215100
+UID:Moonlight@20170909T200000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:MOONLIGHT 
+ Die berührende Geschichte des jungen Chiron\, der in Miami fernab jeglichen Glamours aufwächst. Der Film begleitet entscheidende Momente in Chirons Leben von der Kindheit bis ins Erwachsenenalter\, in denen er sich selbst entdeckt\, für seinen Platz in der Welt kämpft\, seine große Liebe findet und wieder verliert. MOONLIGHT ist ein einzigartiges Stück Kino darüber\, wie die Suche nach einem Platz in der Welt\, unsere Umgebung\, die eigene Familie und insbesondere die erste Liebe uns unser Leben lang prägen. "Sehr zurecht mit drei Oscars geehrt. 5 Filmrollen" Radioeins 
+ [ 1:51 h | FSK: ab 12 Jahren ]
+URL;VALUE=URI:http://derbestefilmdesjahres.de
+SEQUENCE:0
+SUMMARY:Moonlight
+DTSTART;TZID=Europe/Berlin:20170909T200000
+CREATED:20170720T130621Z
+END:VEVENT
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20170910T210700
+UID:Ernst Lubitsch: Sein oder Nichtsein@20170910T193000
+DTSTAMP:20170720T130621Z
+LOCATION:Freiluftkino Friedrichshain
+DESCRIPTION:ERNST LUBITSCH: SEIN ODER NICHTSEIN 
+ Warschau 1939. Eine Theatertruppe probt ein Anti-Nazi-Stück. Nach der Besetzung Polens wird das Stück vom Spielplan genommen\, aber die Schauspieler behalten ihre Kostüm-Uniformen. Die helfen ihnen später im Untergrund\, als sie einem Spitzel eine Falle stellen und ein sehr echt wirkendes "Gestapo-Hauptquartier" vorspielen. Ein aberwitziges Schauspiel zwischen Grauen und Gelächter nimmt sein Lauf. 
+ [ 1:37 h | FSK: ab 12 Jahren ]
+SEQUENCE:0
+SUMMARY:Ernst Lubitsch: Sein oder Nichtsein
+DTSTART;TZID=Europe/Berlin:20170910T193000
+CREATED:20170720T130621Z
+END:VEVENT
+END:VCALENDAR

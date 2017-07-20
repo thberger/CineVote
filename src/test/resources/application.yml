@@ -1,0 +1,3 @@
+logging:
+  level:
+    net.fortuna.ical4j: WARN
