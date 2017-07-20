@@ -19,7 +19,7 @@ public class UserSession {
         }
     }
 
-    public static CinemaEvent getSelectedItem() {
+    public static CinemaEvent getSelectedEvent() {
         try {
             VaadinSession.getCurrent().getLockInstance().lock();
             return (CinemaEvent) VaadinSession.getCurrent().getAttribute(SELECTED_ITEM);
