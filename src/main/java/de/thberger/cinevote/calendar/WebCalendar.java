@@ -51,7 +51,7 @@ public class WebCalendar {
             URLConnection connection = getUrlConnection(config);
             return new InputStreamReader(connection.getInputStream());
         } catch (IOException e) {
-            throw new RuntimeException("Cannot read remote calender with URL " + config.getUrl(), e);
+            throw new CalenderImportException("Cannot read remote calender with URL " + config.getUrl(), e);
         }
     }
 
