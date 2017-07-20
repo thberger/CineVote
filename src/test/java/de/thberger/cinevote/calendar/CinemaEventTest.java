@@ -13,23 +13,26 @@ public class CinemaEventTest {
     @Test
     public void equals() throws Exception {
         WebCalendar webCalendar = mock(WebCalendar.class);
-        CinemaEvent e1 = createEvent(webCalendar);
-        CinemaEvent e2 = createEvent(webCalendar);
+        Date start = getDate("2017-12-03T10:15:30.00Z");
+        Date end = getDate("2017-12-03T15:15:30.00Z");
+        CinemaEvent e1 = createEvent(webCalendar, start, end);
+        CinemaEvent e2 = createEvent(webCalendar, start, end);
         assertThat(e1).isEqualTo(e2);
 
-        e2.setLocation("Paris");
+        Date end2 = getDate("2017-12-03T15:15:31.00Z");
+        e2.setEnd(end2);
         assertThat(e1).isNotEqualTo(e2);
     }
 
-    private CinemaEvent createEvent(WebCalendar webCalendar) {
+    private CinemaEvent createEvent(WebCalendar webCalendar, Date startDate, Date endDate) {
         CinemaEvent event = new CinemaEvent();
         event.setCaption("Testevent");
         event.setVisible(true);
         event.setUrl("http://example.com");
         event.setLocation("Berlin");
         event.setDescription("Test event");
-        event.setStart(getDate("2017-12-03T10:15:30.00Z"));
-        event.setEnd(getDate("2017-12-03T15:15:30.00Z"));
+        event.setStart(startDate);
+        event.setEnd(endDate);
         event.setAllDay(false);
         event.setStyleName("theme1");
         event.setParent(webCalendar);
