@@ -1,21 +1,21 @@
 package de.thberger.cinevote.calendar;
 
-import com.vaadin.ui.components.calendar.event.BasicEvent;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+import org.vaadin.addon.calendar.item.BasicItem;
 
 import java.time.ZoneId;
 import java.util.Objects;
 
 /**
- * Extends Vaadin's {@link BasicEvent} by two properties that are relevant
+ * Extends Vaadin's {@link BasicItem} by two properties that are relevant
  * for the cinema shows.
  */
 @ToString
 @Getter
 @Setter
-public class CinemaEvent extends BasicEvent {
+public class CinemaEvent extends BasicItem {
 
     private String location;
     private String url;

@@ -1,22 +1,23 @@
 package de.thberger.cinevote.calendar;
 
-import com.vaadin.ui.components.calendar.event.BasicEventProvider;
-import com.vaadin.ui.components.calendar.event.CalendarEvent;
 import de.thberger.cinevote.AppConfig;
 import de.thberger.cinevote.ui.UserSession;
 import lombok.extern.slf4j.Slf4j;
 import net.fortuna.ical4j.data.ParserException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.vaadin.addon.calendar.item.BasicItemProvider;
+import org.vaadin.addon.calendar.item.CalendarItem;
 
 import javax.annotation.PostConstruct;
 import java.io.IOException;
+import java.time.ZonedDateTime;
 import java.util.*;
 import java.util.function.Consumer;
 
 @Service
 @Slf4j
-public class WebCalendarEventProvider extends BasicEventProvider {
+public class WebCalendarEventProvider extends BasicItemProvider<CinemaEvent> {
 
     private final Map<String, WebCalendar> webCalendars = new HashMap<>();
     private AppConfig appConfig;
@@ -56,41 +57,35 @@ public class WebCalendarEventProvider extends BasicEventProvider {
 
     private void addEvent(CinemaEvent event, String styleName) {
         event.setStyleName(styleName);
-        super.addEvent(event);
+        super.addItem(event);
     }
 
     @Override
-    public List<CalendarEvent> getEvents(Date startDate, Date endDate) {
-        ArrayList<CalendarEvent> activeEvents = new ArrayList<>();
-
-        for (CalendarEvent ev : eventList) {
-            CinemaEvent event = (CinemaEvent) ev;
+    public List<CinemaEvent> getItems(ZonedDateTime startDate, ZonedDateTime endDate) {
+        ArrayList<CinemaEvent> activeEvents = new ArrayList<>();
+        for (CinemaEvent event : itemList) {
             if (event.isVisible()) {
-                if (isInRange(ev, startDate, endDate)) {
-                    activeEvents.add(ev);
-                    checkForSelected(ev);
+                if (isInRange(event, startDate, endDate)) {
+                    activeEvents.add(event);
+                    checkForSelected(event);
                 }
             }
         }
-
         return activeEvents;
     }
 
-    private void checkForSelected(CalendarEvent ev) {
-        CinemaEvent ev1 = (CinemaEvent) ev;
-        String style = (ev1.equals(UserSession.getSelectedEvent())) ? "selected" : "";
-        String calStyle = ev1.getParent().getConfig().getStyle();
-        ev1.setStyleName(calStyle + " " + style);
+    private void checkForSelected(CinemaEvent ev) {
+        String style = (ev.equals(UserSession.getSelectedEvent())) ? "selected" : "";
+        String calStyle = ev.getParent().getConfig().getStyle();
+        ev.setStyleName(calStyle + " " + style);
     }
 
-    private boolean isInRange(CalendarEvent ev, Date startDate, Date endDate) {
-        long from = startDate.getTime();
-        long to = endDate.getTime();
+    private boolean isInRange(CalendarItem ev, ZonedDateTime from, ZonedDateTime to) {
         if (ev.getStart() != null && ev.getEnd() != null) {
-            long f = ev.getStart().getTime();
-            long t = ev.getEnd().getTime();
-            return (f <= to && f >= from) || (t >= from && t <= to)
-                    || (f <= from && t >= to);
+            ZonedDateTime f = ev.getStart();
+            ZonedDateTime t = ev.getEnd();
+            return (f.isBefore(to) && f.isAfter(from)) || (t.isAfter(from) && t.isBefore(to))
+                    || (f.isBefore(from) && t.isAfter(to));
         }
         return false;
     }
@@ -104,17 +99,17 @@ public class WebCalendarEventProvider extends BasicEventProvider {
     }
 
     public void setVisibility(WebCalendar calendar, boolean visible) {
-        updateEvents(calendar, e -> ((CinemaEvent) e).setVisible(visible));
-        fireEventSetChange();
+        updateEvents(calendar, e -> e.setVisible(visible));
+        fireItemSetChanged();
     }
 
-    private void updateEvents(WebCalendar calendar, Consumer<CalendarEvent> calendarEventConsumer) {
-        eventList.stream()
-                .filter(e -> ((CinemaEvent) e).getParent().equals(calendar))
+    private void updateEvents(WebCalendar calendar, Consumer<CinemaEvent> calendarEventConsumer) {
+        itemList.stream()
+                .filter(e -> e.getParent().equals(calendar))
                 .forEach(calendarEventConsumer);
     }
 
     public void update() {
-        fireEventSetChange();
+        fireItemSetChanged();
     }
 }

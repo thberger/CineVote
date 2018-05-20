@@ -1,13 +1,13 @@
 package de.thberger.cinevote.ui;
 
 import com.vaadin.spring.annotation.SpringComponent;
-import com.vaadin.ui.Calendar;
-import com.vaadin.ui.components.calendar.CalendarComponentEvents;
 import de.thberger.cinevote.AppConfig;
 import de.thberger.cinevote.calendar.CinemaEvent;
 import de.thberger.cinevote.calendar.WebCalendarEventProvider;
 import lombok.AllArgsConstructor;
 import org.springframework.web.context.annotation.SessionScope;
+import org.vaadin.addon.calendar.Calendar;
+import org.vaadin.addon.calendar.ui.CalendarComponentEvents;
 
 import javax.annotation.PostConstruct;
 
@@ -17,7 +17,7 @@ import javax.annotation.PostConstruct;
 @SpringComponent
 @SessionScope
 @AllArgsConstructor
-public class CineCalendar extends Calendar {
+public class CineCalendar extends Calendar<CinemaEvent> {
 
     private WebCalendarEventProvider calendarEventProvider;
 
@@ -27,15 +27,14 @@ public class CineCalendar extends Calendar {
 
     @PostConstruct
     public void init() {
-        setEventProvider(calendarEventProvider);
+        setDataProvider(calendarEventProvider);
         setCaptionAsHtml(true);
         setWidth("100%");
         setHeight("100%");
-        setFirstVisibleHourOfDay(appConfig.getDayView().getFirstVisibleHourOfDay());
-        setLastVisibleHourOfDay(appConfig.getDayView().getLastVisibleHourOfDay());
+        withVisibleHours(appConfig.getDayView().getFirstVisibleHourOfDay(),
+                appConfig.getDayView().getLastVisibleHourOfDay());
         setHandler(eventClickHandler());
-        setHandler((CalendarComponentEvents.DateClickHandler) event -> {
-        });
+
     }
 
     void switchView(View view) {
@@ -43,10 +42,9 @@ public class CineCalendar extends Calendar {
         setEndDate(view.getEndDate());
     }
 
-
-    private CalendarComponentEvents.EventClickHandler eventClickHandler() {
-        return (CalendarComponentEvents.EventClickHandler) event -> {
-            CinemaEvent calendarEvent = (CinemaEvent) event.getCalendarEvent();
+    private CalendarComponentEvents.ItemClickHandler eventClickHandler() {
+        return (CalendarComponentEvents.ItemClickHandler) event -> {
+            CinemaEvent calendarEvent = (CinemaEvent) event.getCalendarItem();
             UserSession.setSelectedEvent(calendarEvent);
             detailsPanel.update(calendarEvent);
             calendarEventProvider.update();

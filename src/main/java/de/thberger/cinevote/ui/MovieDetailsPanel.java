@@ -1,8 +1,7 @@
 package de.thberger.cinevote.ui;
 
-import com.google.gwt.thirdparty.guava.common.base.Strings;
+import com.vaadin.icons.VaadinIcons;
 import com.vaadin.server.ExternalResource;
-import com.vaadin.server.FontAwesome;
 import com.vaadin.spring.annotation.SpringComponent;
 import com.vaadin.ui.*;
 import de.thberger.cinevote.AppConfig;
@@ -12,8 +11,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.context.annotation.SessionScope;
 
 import javax.annotation.PostConstruct;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.time.ZonedDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Objects;
 
 /**
  * @author thb
@@ -22,7 +22,7 @@ import java.util.Date;
 @SessionScope
 class MovieDetailsPanel extends Panel {
 
-    private SimpleDateFormat dateFormat;
+    private DateTimeFormatter dateFormat;
 
     private TextField movieTitle;
     private TextField movieLocation;
@@ -33,7 +33,7 @@ class MovieDetailsPanel extends Panel {
 
     @Autowired
     public void setAppConfig(AppConfig appConfig) {
-        this.dateFormat = new SimpleDateFormat(appConfig.getDateFormat());
+        this.dateFormat = DateTimeFormatter.ofPattern(appConfig.getDateFormat());
     }
 
     @PostConstruct
@@ -52,24 +52,24 @@ class MovieDetailsPanel extends Panel {
         v.setWidth("100%");
         movieTitle = new TextField("Titel");
         movieTitle.setReadOnly(true);
-        movieTitle.setIcon(FontAwesome.FILM);
+        movieTitle.setIcon(VaadinIcons.FILM);
 
         movieLocation = new TextField("Kino");
         movieLocation.setReadOnly(true);
-        movieLocation.setIcon(FontAwesome.LOCATION_ARROW);
+        movieLocation.setIcon(VaadinIcons.LOCATION_ARROW);
 
         movieStart = new TextField("Filmbeginn");
         movieStart.setReadOnly(true);
-        movieStart.setIcon(FontAwesome.CALENDAR);
+        movieStart.setIcon(VaadinIcons.CALENDAR);
 
         movieEnd = new TextField("Filmende");
         movieEnd.setReadOnly(true);
-        movieEnd.setIcon(FontAwesome.CALENDAR);
+        movieEnd.setIcon(VaadinIcons.CALENDAR);
 
         movieDescription = new TextArea("Beschreibung");
         movieDescription.setRows(10);
         movieDescription.setReadOnly(true);
-        movieDescription.setIcon(FontAwesome.FILE_TEXT_O);
+        movieDescription.setIcon(VaadinIcons.FILE_TEXT_O);
 
         movieUrl = new Link();
         movieUrl.setStyleName("movieUrl");
@@ -94,7 +94,7 @@ class MovieDetailsPanel extends Panel {
 
     private String getDescription(CinemaEvent cinemaEvent) {
         String caption = cinemaEvent.getCaption().toUpperCase() + " ";
-        String description = Strings.nullToEmpty(cinemaEvent.getDescription());
+        String description = Objects.toString(cinemaEvent.getDescription(), "");
         if (description.startsWith(caption)) {
             return description.replaceFirst(caption, "");
         } else {
@@ -102,13 +102,13 @@ class MovieDetailsPanel extends Panel {
         }
     }
 
-    private String formatted(Date date) {
+    private String formatted(ZonedDateTime date) {
         return dateFormat.format(date);
     }
 
     private void setReadOnlyField(AbstractTextField field, String newValue) {
         field.setReadOnly(false);
-        field.setValue(Strings.nullToEmpty(newValue));
+        field.setValue(Objects.toString(newValue, ""));
         field.setReadOnly(true);
     }
 }

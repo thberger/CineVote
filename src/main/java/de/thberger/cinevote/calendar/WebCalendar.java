@@ -18,6 +18,7 @@ import java.io.InputStreamReader;
 import java.net.URL;
 import java.net.URLConnection;
 import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
@@ -86,11 +87,15 @@ public class WebCalendar {
             calendarEvent.setDescription(getValue(comp, "DESCRIPTION"));
 
             DateProperty eventStart = getDateProperty(comp, "DTSTART");
-            calendarEvent.setStart(eventStart.getDate());
+            ZonedDateTime start = ZonedDateTime.ofInstant(eventStart.getDate().toInstant(),
+                    ZoneId.systemDefault());
+            calendarEvent.setStart(start);
             calendarEvent.setTimeZone(getTimeZone(eventStart));
 
             DateProperty eventEnd = getDateProperty(comp, "DTEND");
-            calendarEvent.setEnd(eventEnd.getDate());
+            ZonedDateTime end = ZonedDateTime.ofInstant(eventEnd.getDate().toInstant(),
+                    ZoneId.systemDefault());
+            calendarEvent.setEnd(end);
             calendarEvent.setParent(this);
             calendarEvent.setVisible(getConfig().isVisible());
 

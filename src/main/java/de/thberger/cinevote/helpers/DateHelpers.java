@@ -1,9 +1,14 @@
 package de.thberger.cinevote.helpers;
 
+import java.time.ZonedDateTime;
+import java.time.temporal.TemporalField;
+import java.time.temporal.WeekFields;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 
-import static java.util.Calendar.*;
+import static java.util.Calendar.DAY_OF_WEEK;
+import static java.util.Calendar.MONTH;
 
 /**
  * @author thb

@@ -1,7 +1,7 @@
 package de.thberger.cinevote.ui;
 
-import com.vaadin.data.Property;
 import com.vaadin.spring.annotation.SpringComponent;
+import com.vaadin.ui.Button;
 import com.vaadin.ui.CheckBox;
 import com.vaadin.ui.HorizontalLayout;
 import com.vaadin.ui.Label;
@@ -25,12 +25,28 @@ public class SelectionBar extends HorizontalLayout {
 
     private WebCalendarEventProvider eventProvider;
 
+    private CineCalendar calendar;
+
     @PostConstruct
     private void init() {
         setSpacing(true);
         setStyleName("selectionBar");
-        addComponent(new Label("Angezeigte Kinos:"));
+        addComponent(new Label("Wochenansicht:"));
+        addViewButtons();
+        addComponent(new Label("Filtere Kinos:"));
         addBoxes();
+    }
+
+    private void addViewButtons() {
+        Button thisWeek = createViewButton(View.This_Week);
+        Button nextWeeks = createViewButton(View.Next_Weeks);
+        addComponents(thisWeek, nextWeeks);
+    }
+
+    private Button createViewButton(final View view) {
+        Button button = new Button(view.getTitle());
+        button.addClickListener((Button.ClickListener) event -> calendar.switchView(view));
+        return button;
     }
 
     private void addBoxes() {
@@ -39,22 +55,12 @@ public class SelectionBar extends HorizontalLayout {
             CheckBox checkBox = new CheckBox(calendarConfig.getShortName());
             checkBox.setStyleName(calendar.getConfig().getStyle());
             checkBox.setValue(calendarConfig.isVisible());
-            checkBox.addValueChangeListener(new CheckboxChangeListener(calendar));
+            checkBox.addValueChangeListener(event -> {
+                boolean visible = event.getValue();
+                calendar.getConfig().setVisible(visible);
+                eventProvider.setVisibility(calendar, visible);
+            });
             addComponent(checkBox);
-        }
-    }
-
-
-    @AllArgsConstructor
-    private class CheckboxChangeListener implements Property.ValueChangeListener {
-
-        private WebCalendar calendar;
-
-        @Override
-        public void valueChange(Property.ValueChangeEvent event) {
-            boolean visible = (boolean) event.getProperty().getValue();
-            calendar.getConfig().setVisible(visible);
-            eventProvider.setVisibility(calendar, visible);
         }
     }
 }

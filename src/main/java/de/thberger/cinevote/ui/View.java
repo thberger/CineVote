@@ -3,10 +3,9 @@ package de.thberger.cinevote.ui;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-import java.util.Date;
+import java.time.ZonedDateTime;
 
-import static de.thberger.cinevote.helpers.DateHelpers.getDayInWeeks;
-import static de.thberger.cinevote.helpers.DateHelpers.getFirstDayOfWeek;
+import static de.thberger.cinevote.helpers.DateHelpers.*;
 
 /**
  * @author thb
@@ -14,11 +13,12 @@ import static de.thberger.cinevote.helpers.DateHelpers.getFirstDayOfWeek;
 @Getter
 @AllArgsConstructor
 public enum View {
-    Next_Weeks("Nächste Wochen", getFirstDayOfWeek(), getDayInWeeks(3));
+    Next_Weeks("Nächste Wochen", getFirstDayOfWeek(), getDayInWeeks(3)),
+    This_Week("Diese Woche", getFirstDayOfWeek(), getLastDayOfWeek());
 
     private String title;
-    private Date startDate;
-    private Date endDate;
+    private ZonedDateTime startDate;
+    private ZonedDateTime endDate;
 
 
 }

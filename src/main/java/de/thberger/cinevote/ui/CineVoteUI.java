@@ -1,6 +1,7 @@
 package de.thberger.cinevote.ui;
 
 import com.vaadin.annotations.Theme;
+import com.vaadin.server.Responsive;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.spring.annotation.SpringUI;
 import com.vaadin.ui.HorizontalLayout;
@@ -33,6 +34,7 @@ public class CineVoteUI extends UI {
     @Override
     protected void init(VaadinRequest request) {
         this.setLocale(Locale.GERMANY);
+        Responsive.makeResponsive(this);
         setupUiComponents();
         setView(View.Next_Weeks);
     }
