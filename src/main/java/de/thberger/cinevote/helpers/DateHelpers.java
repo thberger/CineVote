@@ -16,40 +16,43 @@ import static java.util.Calendar.MONTH;
 public class DateHelpers {
 
     public static Date getDayInFourWeeks() {
-        Calendar cal = Calendar.getInstance();
+        Calendar cal = now();
         cal.add(DAY_OF_WEEK, 27);
         return cal.getTime();
     }
 
-    public static Date getDayInWeeks(int numberOfWeeks) {
-        Calendar cal = Calendar.getInstance();
-        cal.add(WEEK_OF_MONTH, numberOfWeeks);
-        return cal.getTime();
+    public static ZonedDateTime getDayInWeeks(int numberOfWeeks) {
+        ZonedDateTime dateTime = ZonedDateTime.now();
+        dateTime.plusWeeks(numberOfWeeks);
+        return dateTime;
     }
 
     public static Date getDayInOneMonth() {
-        Calendar cal = Calendar.getInstance();
+        Calendar cal = now();
         cal.add(MONTH, 1);
         return cal.getTime();
     }
 
-    static Date getLastDayOfWeek() {
-        Calendar cal = Calendar.getInstance();
-        cal.set(DAY_OF_WEEK, cal.getFirstDayOfWeek());
-        cal.add(DAY_OF_YEAR, 6);
-        return cal.getTime();
+    public static ZonedDateTime getLastDayOfWeek() {
+        ZonedDateTime now = ZonedDateTime.now();
+        TemporalField fieldISO = WeekFields.of(Locale.GERMANY).dayOfWeek();
+        return now.with(fieldISO, 6);
     }
 
-    public static Date getFirstDayOfWeek() {
-        Calendar cal = Calendar.getInstance();
-        cal.set(DAY_OF_WEEK, cal.getFirstDayOfWeek());
-        return cal.getTime();
+    public static ZonedDateTime getFirstDayOfWeek() {
+        ZonedDateTime now = ZonedDateTime.now();
+        TemporalField fieldISO = WeekFields.of(Locale.GERMANY).dayOfWeek();
+        return now.with(fieldISO, 1);
     }
 
     public static Date getNowPlusDays(int amount) {
-        Calendar cal = Calendar.getInstance();
+        Calendar cal = now();
         cal.add(DAY_OF_WEEK, amount);
         return cal.getTime();
+    }
+
+    private static Calendar now() {
+        return Calendar.getInstance();
     }
 
 }
