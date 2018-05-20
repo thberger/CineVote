@@ -9,7 +9,7 @@ It imports the calender events from multiple remote iCal streams.
 ![Screenshot](docs/screenshot.png?raw=true "Screenshot")
 
 ## Prerequisites
-- Install Java JDK 1.7+
+- Install Java JDK 1.8
 - Install maven https://maven.apache.org/install.html
     
 
@@ -47,6 +47,12 @@ the event entries in the calendar. Have a look into `src/main/webapp/VAADIN/them
     
 ## FAQ
 
+### Why is the calendar not correctly styled?
+
+The application has recently been updated to Vaadin 8 with the beta version of the Calendar add-on.
+The styling of the calendar items broke due to API changes but
+will be fixed very soon.
+
 ### My IDE has compile errors
 
 The application uses Project [Lombok](https://projectlombok.org/) to automatically add Getters, Setters, Equals and others methods
@@ -55,9 +61,7 @@ The application uses Project [Lombok](https://projectlombok.org/) to automatical
  
 For Maven you don't have to do anything. The project should compile out of the box.
 
-### Why is this still Vaadin 7
 
-The Vaadin Calender component is not available in Vaadin 8 yet.
 
 ### I can't find the voting function
 
